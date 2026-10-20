@@ -1,163 +1,185 @@
-# Stock Screener IDX & US (Dividen + Growth)
+# Stock Screener IDX & US (Dividend + Growth)
 
-Screener saham dividen yang memindai **seluruh emiten Bursa Efek Indonesia** dan **seluruh saham
-+ ETF Amerika** (NYSE, Nasdaq, NYSE American, NYSE Arca), dalam Bahasa Indonesia dan Inggris.
-Ada dua mode yang bisa dipilih di header: **Dividen** dan **Growth**. Masing-masing punya
-Top 10, preset, dan filter sendiri, dan setiap kartu emiten menampilkan kedua analisa.
+A daily-updated stock screener that scans **every stock on the Indonesia Stock Exchange (IDX)** and
+**every US stock and ETF** (NYSE, Nasdaq, NYSE American, NYSE Arca), with an interface in English
+and Indonesian.
 
-### Mode Growth
-- **Teknikal:** MA50/150/200, trend template Mark Minervini (8 syarat), RS rating 1–99 ala
-  Investor's Business Daily, RSI 14, MACD 12/26/9, posisi di rentang 52 minggu.
-- **Histori 5 tahun:** CAGR 3 & 5 tahun, return per tahun, jumlah tahun naik, max drawdown,
-  volatilitas, grafik harga bulanan 5 tahun.
-- **Fundamental pertumbuhan:** pertumbuhan pendapatan & laba (YoY dan CAGR 3 tahun dari laporan
-  tahunan), tren margin usaha, ROE, Rule of 40.
-- **Valuasi growth:** PEG, PER ke depan, Price/Sales, target harga rata-rata analis.
-- **Kesehatan keuangan:** Piotroski F-Score, DER, arus kas bebas, current ratio.
-- **Skor:** fundamental 35, teknikal 25, histori 15, valuasi 15, kesehatan 10 → rekomendasi
-  Layak beli bertahap / Bagus, tunggu koreksi / Pantau / Hindari dulu, lengkap dengan area beli,
-  batas rugi 8%, dan target analis.
-- Preset: Seimbang, Momentum (CAN SLIM/Minervini), Growth wajar (GARP ala Peter Lynch).
+**Live site:** https://vickarzz.github.io/stock-screener/
 
-### Mode Dividen
-Hasilnya diurutkan menjadi **Top 10 rekomendasi** dari data closing terakhir. Setiap saham mendapat:
+| View | Link |
+|---|---|
+| Indonesia · Dividend | [/#idx](https://vickarzz.github.io/stock-screener/#idx) |
+| Indonesia · Growth | [/#idx-growth](https://vickarzz.github.io/stock-screener/#idx-growth) |
+| United States · Dividend | [/#us](https://vickarzz.github.io/stock-screener/#us) |
+| United States · Growth | [/#us-growth](https://vickarzz.github.io/stock-screener/#us-growth) |
 
-1. **Valuasi** Dividend Growth + Margin of Safety: DDM single & double stage → filter MoS →
-   kategori yield → harga masuk final (dibulatkan ke fraksi harga bursa).
-2. **Skor fundamental** 0–100 (saham: ROE, margin, utang, pertumbuhan, payout, dividen,
-   likuiditas, PER; ETF: biaya tahunan, dana kelolaan, return 3/5 th, dividen).
-3. **Berita terbaru** 30 hari dari Google News dengan tanda ▲ kabar baik / ▼ kabar buruk.
-4. **Ringkasan & rekomendasi** dalam bahasa awam: Layak dicicil, Murah cek dulu,
-   Watchlist, Hindari dulu, atau Di luar kriteria.
+The header has two modes, **Dividend** and **Growth**. Each mode has its own Top 10, presets and
+filters, and every stock card shows both analyses.
 
-Ringkasan dibuat otomatis oleh aturan yang tertulis di halaman, bukan oleh analis manusia.
+### Growth mode
+- **Technicals:** 50/150/200-day moving averages, Mark Minervini's trend template (8 conditions),
+  an Investor's Business Daily-style RS rating (1–99), RSI 14, MACD 12/26/9, position within the
+  52-week range.
+- **5-year history:** 3- and 5-year CAGR, return by calendar year, number of up years, max
+  drawdown, volatility, and a 5-year monthly price chart.
+- **Growth fundamentals:** revenue and earnings growth (year over year and 3-year CAGR from annual
+  reports), operating margin trend, ROE, Rule of 40.
+- **Growth valuation:** PEG, forward P/E, price/sales, average analyst price target.
+- **Financial health:** Piotroski F-Score, debt-to-equity, free cash flow, current ratio.
+- **Score:** fundamentals 35, technicals 25, history 15, valuation 15, health 10 → a recommendation
+  (Buy gradually / Strong, wait for a dip / Watch / Avoid for now) with a buy zone, an 8% stop loss
+  and the analyst target.
+- **Presets:** Balanced, Momentum (CAN SLIM / Minervini), Growth at a reasonable price (Peter Lynch).
+
+### Dividend mode
+Results are ranked into a **Top 10** from the latest close. Every stock gets:
+
+1. **Valuation** with a Dividend Growth + Margin of Safety framework: single- and two-stage DDM →
+   margin-of-safety filter → yield category → final entry price (rounded down to the exchange tick).
+2. **Fundamental score** 0–100 (stocks: ROE, margin, debt, growth, payout, dividend record,
+   liquidity, P/E; ETFs: expense ratio, assets under management, 3/5-year return, dividends).
+3. **Latest news** from the past 30 days via Google News, marked ▲ good news / ▼ bad news.
+4. **Plain-language summary and recommendation:** Accumulate, Cheap but check first, Watchlist,
+   Avoid for now, or Outside criteria.
+
+Summaries are generated automatically by the rules documented on the site, not by a human analyst.
+
+## How it works
 
 ```
-GitHub Actions (cron hari bursa)
-  1. universe.py   daftar SEMUA ticker   IDX: Yahoo screener JKT / API idx.co.id
-                                          US : NasdaqTrader (saham + ETF) / mirror GitHub
-  2. scan semua    harga closing, likuiditas, dividen 6 th (yf.download massal)
-  3. kandidat      valuation.py: lolos MoS → kategori yield → MoS terbesar (+ favorit)
-  4. analisa       fundamental (Yahoo) + berita (Google News) untuk kandidat
-        └─► docs/data/<pasar>.json ─► GitHub Pages: docs/index.html (Top 10, filter, kartu)
+GitHub Actions (cron on trading days)
+  1. universe.py   list EVERY ticker      IDX: Yahoo screener (JKT) / idx.co.id API
+                                          US : NasdaqTrader (stocks + ETFs) / GitHub mirror
+  2. scan all      6 years of daily prices + dividends (bulk yf.download) →
+                   dividend valuation, technicals, 5-year history, RS rating
+  3. candidates    dividend: passes MoS → yield category → largest MoS
+                   growth:   RS rating, trend template, 3-year CAGR, momentum   (+ favourites)
+  4. deep dive     fundamentals (Yahoo) + news (Google News) for candidates;
+                   annual reports (CAGR, margins, Piotroski) for growth candidates
+        └─► docs/data/<market>.json ─► GitHub Pages: docs/index.html (Top 10, filters, cards)
 ```
 
-| Pasar | Dipindai | Disimpan | Analisa lengkap |
+| Market | Scanned | Stored | Full analysis |
 |---|---|---|---|
-| IDX | semua emiten BEI (± 950) | yang cukup likuid (≥ Rp50 jt/hari) | 200 dividen + 200 growth + favorit |
-| US | ± 11.700 saham & ETF | yang cukup likuid (≥ $100 rb/hari) | 200+100 dividen, 250+50 growth, + favorit |
+| IDX | every listed stock (~950) | liquid enough (≥ IDR 50M/day) | 200 dividend + 200 growth + favourites |
+| US | ~11,700 stocks & ETFs | liquid enough (≥ $100K/day) | 200+100 dividend, 250+50 growth, + favourites |
 
-Indikator teknikal & histori 5 tahun dihitung untuk SEMUA ticker yang disimpan. Laporan keuangan
-tahunan (untuk CAGR, margin, Piotroski) hanya diambil untuk kandidat growth.
+Technicals and 5-year history are computed for every stored ticker. Annual financial statements
+(for CAGR, margins and Piotroski) are fetched only for growth candidates.
 
-Top 10 hanya diambil dari yang sudah dianalisa lengkap, lolos filter aktif, dan yield-nya wajar
-(≤25%). Skor gabungan: valuasi (MoS) 40, fundamental 30, kategori yield 20, berita 10.
+The Top 10 only includes fully analysed names that pass the active filters and have a plausible
+yield (≤25%). Dividend score: valuation (MoS) 40, fundamentals 30, yield category 20, news 10.
+Growth ETFs only enter the growth Top 10 when the type filter is set to ETF.
 
-## Pasang
+## Setup
 
-1. Buat repo baru di GitHub, misalnya `vickarzz/stock-screener`, lalu push isi folder ini:
+1. Create a public repository on GitHub, e.g. `vickarzz/stock-screener`, then push this folder:
    ```bash
-   cd stock-screener
-   git init && git add . && git commit -m "Screener dividen IDX & US"
+   cd ~/Documents/stock-screener && pwd   # make sure this is the project folder
+   git init && git add . && git commit -m "Stock Screener IDX & US"
    git branch -M main
    git remote add origin https://github.com/vickarzz/stock-screener.git
    git push -u origin main
    ```
-2. **Settings → Pages** → *Deploy from a branch* → `main`, folder `/docs` → Save.
-3. **Settings → Actions → General → Workflow permissions** → *Read and write permissions*.
-4. **Actions → Update data Indonesia (IDX) → Run workflow**, lalu
+2. **Settings → Actions → General → Workflow permissions** → *Read and write permissions* → Save.
+3. **Settings → Pages** → *Deploy from a branch* → `main`, folder `/docs` → Save.
+4. **Actions → Update data Indonesia (IDX) → Run workflow**, then
    **Update data Amerika (NYSE/Nasdaq) → Run workflow**.
-5. Buka `https://vickarzz.github.io/stock-screener/` (tambahkan `#us` untuk langsung ke pasar AS).
+5. Open `https://vickarzz.github.io/stock-screener/`.
 
-Sebelum langkah 4 selesai, halaman menampilkan **data contoh** dengan banner kuning.
+Until step 4 finishes, the site shows **sample data** with a yellow banner.
 
-## Jadwal otomatis
+## Daily schedule
 
-| Pasar | Jalan | Isi | Lama run (perkiraan) |
+| Market | Runs | Contents | Typical duration |
 |---|---|---|---|
-| IDX | Senin–Jumat 17:17 WIB | closing BEI hari itu | 25–45 menit |
-| US | Senin–Jumat 22:13 UTC (± 05:13 WIB besoknya) | closing NYSE/Nasdaq hari itu | 60–120 menit |
+| IDX | Mon–Fri 17:17 WIB (10:17 UTC) | that day's IDX close | 25–45 min |
+| US | Mon–Fri 22:13 UTC | that day's NYSE/Nasdaq close | 60–120 min |
 
-Repo publik mendapat menit GitHub Actions gratis tanpa batas. Untuk repo privat, run US harian
-bisa menghabiskan kuota gratis 2.000 menit/bulan.
+Public repositories get unlimited free GitHub Actions minutes. For a private repository, the daily
+US run can use up the free 2,000 minutes per month.
 
-Hari libur bursa tidak menghasilkan commit. Kalau ada run gagal, GitHub mengirim email.
+Market holidays produce no commit. Failed runs trigger an email (see below).
 
-## Mengatur
+## Customising
 
-| Mau apa | Ubah |
+| To change | Edit |
 |---|---|
-| Favorit (selalu dianalisa lengkap) | `tickers_idx.txt`, `tickers_us.txt` |
-| Jumlah kandidat analisa lengkap | `MARKETS[...]["detail"]` di `fetch_data.py` |
-| Batas likuiditas & yield wajar kandidat | `valuation.py` |
-| Jam update | baris `cron` di `.github/workflows/update-*.yml` (UTC) |
-| Preset & ambang yield | `PRESETS` di `docs/js/app.js` |
-| Rumus valuasi | `docs/js/calc.js` |
-| Aturan fundamental & rekomendasi dividen | `docs/js/analysis.js` |
-| Aturan & bobot analisa growth | `docs/js/growth.js` |
-| Indikator teknikal, Piotroski | `technicals.py` |
-| Kamus kata berita | `sentiment.py` |
-| Teks ID/EN | `docs/js/i18n.js` |
+| Favourites (always fully analysed) | `tickers_idx.txt`, `tickers_us.txt` |
+| Number of fully analysed candidates | `MARKETS[...]["detail"]` and `["growth"]` in `fetch_data.py` |
+| Candidate liquidity & plausible-yield limits | `valuation.py` |
+| Update time | the `cron` line in `.github/workflows/update-*.yml` (UTC) |
+| Presets & yield thresholds | `PRESETS` / `GPRESETS` in `docs/js/app.js` |
+| Valuation formulas | `docs/js/calc.js` |
+| Dividend fundamentals & recommendation rules | `docs/js/analysis.js` |
+| Growth rules & weights | `docs/js/growth.js` |
+| Technical indicators, Piotroski | `technicals.py` |
+| News word list | `sentiment.py` |
+| Interface text (EN/ID) | `docs/js/i18n.js` |
 
-## Jalankan lokal
+## Run locally
 
 ```bash
 pip install -r requirements.txt
-python fetch_data.py idx                 # seluruh BEI
-python fetch_data.py us                  # seluruh saham & ETF AS (lama)
-python fetch_data.py us --limit 300      # uji cepat 300 ticker pertama
+python fetch_data.py idx                 # whole IDX
+python fetch_data.py us                  # all US stocks & ETFs (slow)
+python fetch_data.py us --limit 300      # quick test on the first 300 tickers
 python fetch_data.py idx --detail 50 --no-news
-python -m http.server -d docs 8000   # buka http://localhost:8000
+python -m http.server -d docs 8000       # open http://localhost:8000
 python tests/test_fetch.py && python tests/test_technicals.py
 node tests/test_calc.js && node tests/test_growth.js
 ```
 
-## Rumus
+## Formulas
 
-| Langkah | Rumus |
+| Step | Formula |
 |---|---|
-| DDM single | `DPS × (1+g) ÷ (r − g)` |
-| DDM double | `Σ DPS×(1+g1)^t ÷ (1+r)^t` (t = 1..n) `+ [D_n×(1+g2) ÷ (r − g2)] ÷ (1+r)^n` |
-| Nilai wajar | `MIN(single, double)` (bisa diganti) |
-| Batas beli | `(1 − MoS) × nilai wajar` |
-| Kategori yield | IDX 6/8/10/12%, AS 3/4/5/6% (bisa diubah) |
-| Harga masuk | `MIN(DPS ÷ yield target, batas beli)`, dibulatkan ke bawah ke fraksi (BEI Rp1–25, AS $0,01) |
-| Skor fundamental | rata-rata cek: bagus 1, sedang 0,5, lemah 0 → Kuat ≥70, Cukup ≥45 |
-| Sentimen berita | kamus kata keuangan ID/EN pada judul; ≤7 hari bobot 1, lebih lama 0,5 |
-| Rekomendasi | Layak dicicil = murah + fundamental tidak lemah + berita tidak negatif |
+| Single-stage DDM | `DPS × (1+g) ÷ (r − g)` |
+| Two-stage DDM | `Σ DPS×(1+g1)^t ÷ (1+r)^t` (t = 1..n) `+ [D_n×(1+g2) ÷ (r − g2)] ÷ (1+r)^n` |
+| Fair value | `MIN(single, two-stage)` (configurable) |
+| Max buy price | `(1 − MoS) × fair value` |
+| Yield categories | IDX 6/8/10/12%, US 3/4/5/6% (configurable) |
+| Entry price | `MIN(DPS ÷ target yield, max buy price)`, rounded down to the tick (IDX Rp1–25, US $0.01) |
+| Fundamental score | average of checks: good 1, fair 0.5, weak 0 → Strong ≥70, Fair ≥45 |
+| RS rating | 40% 3-month + 20% each 6/9/12-month return, percentile-ranked 1–99 within the market |
+| CAGR | `(end price ÷ start price)^(1/n) − 1` |
+| PEG | `P/E ÷ earnings growth` |
+| Rule of 40 | `revenue growth + free-cash-flow margin ≥ 40%` |
+| News sentiment | finance word list (EN/ID) on headlines; ≤7 days weight 1, older 0.5 |
 
-## Batasan
+## Limitations
 
-- Daftar emiten IDX diambil dari screener Yahoo atau API idx.co.id. Kalau keduanya gagal,
-  dipakai `data/universe_idx.csv` dari run sukses terakhir. Run pertama butuh salah satunya berhasil.
-- Saham di luar kandidat hanya punya valuasi; fundamental dan beritanya tidak diambil (label
-  "belum dianalisa"). Kalau kamu mengubah preset jauh dari default, tambah jumlah kandidat.
-- Yahoo bisa membatasi permintaan (rate limit) saat scan ribuan ticker; batch yang gagal dicoba
-  ulang dan sisanya dilewati, jadi sesekali beberapa ticker bisa hilang dari satu run.
-- Yahoo Finance tidak resmi. Harga biasanya akurat, tapi dividen bisa terlambat masuk dan
-  KPI fundamental sering kosong untuk saham IDX kecil.
-- Label berita dibaca dari kata-kata judul saja. Judul seperti "laba turun tapi dividen naik"
-  bisa dinilai netral. Selalu baca artikelnya.
-- DDM konservatif membuat banyak blue chip AS (misalnya KO, PG) terlihat mahal. Itu sifat
-  metodenya, bukan error.
-- Untuk REIT (misalnya O), payout di atas 100% dari laba bersih itu normal karena mereka
-  membagi dari arus kas (FFO), bukan laba akuntansi.
-- Bukan rekomendasi investasi.
+- The IDX ticker list comes from Yahoo's screener or the idx.co.id API. If both fail, the run falls
+  back to `data/universe_idx.csv` from the last successful run, so the first run needs one of them.
+- Names outside the candidate lists only get valuation and technicals; their fundamentals and news
+  aren't fetched (shown as "not analysed"). If you move presets far from the defaults, raise the
+  candidate counts.
+- Yahoo may rate-limit a scan of thousands of tickers; failed batches are retried and then skipped,
+  so a few tickers can occasionally be missing from a run.
+- Yahoo Finance is unofficial. Prices are usually accurate, but dividends can arrive late and
+  fundamental KPIs are often missing for small IDX stocks. Piotroski is often blank for banks.
+- News labels are read from headline words only. A headline like "profit falls but dividend rises"
+  may score as neutral. Always read the article.
+- A conservative DDM makes many US blue chips (e.g. KO, PG) look expensive. That is how the method
+  behaves, not a bug.
+- For REITs (e.g. O), a payout above 100% of net income is normal because they pay from cash flow
+  (FFO), not accounting profit.
+- Not investment advice.
 
-## Notifikasi email saat gagal
+## Email alerts on failure
 
-Workflow mengirim email kalau ada langkah yang gagal. Isi tiga secret di
+Workflows send an email when a step fails. Add three secrets under
 **Settings → Secrets and variables → Actions → New repository secret**:
 
-| Nama | Isi |
+| Name | Value |
 |---|---|
-| `MAIL_TO` | alamat penerima, misalnya a.zulfikar.r@gmail.com |
-| `MAIL_USERNAME` | alamat Gmail pengirim (boleh sama dengan penerima) |
-| `MAIL_PASSWORD` | App Password Gmail 16 karakter (bukan password biasa) |
+| `MAIL_TO` | recipient address |
+| `MAIL_USERNAME` | sending Gmail address (can be the same as the recipient) |
+| `MAIL_PASSWORD` | 16-character Gmail App Password (not your normal password) |
 
-App Password dibuat di myaccount.google.com/apppasswords (Verifikasi 2 Langkah harus aktif).
-Alamat disimpan sebagai secret supaya tidak terlihat publik di repo.
+Create the App Password at myaccount.google.com/apppasswords (2-Step Verification must be on).
+Addresses are stored as secrets so they stay out of the public repository.
 
 ---
 
-© 2026 Ahmad Zulfikar Rafsanjani. Hak cipta dilindungi.
+© 2026 Ahmad Zulfikar Rafsanjani. All rights reserved.
