@@ -1,0 +1,842 @@
+ticker,name,type
+AADI,PT Adaro Andalan Indonesia Tbk,stock
+AALI,PT Astra Agro Lestari Tbk,stock
+ABDA,PT Asuransi Bina Dana Arta Tbk,stock
+ABMM,PT ABM Investama Tbk,stock
+ACES,PT Aspirasi Hidup Indonesia Tbk,stock
+ACRO,PT Samcro Hyosung Adilestari Tbk,stock
+ACST,PT Acset Indonusa Tbk,stock
+ADES,PT Akasha Wira International Tbk,stock
+ADMF,PT Adira Dinamika Multi Finance Tbk,stock
+ADMG,PT. Polychem Indonesia Tbk,stock
+ADMR,PT Alamtri Minerals Indonesia Tbk,stock
+ADRO,PT Alamtri Resources Indonesia Tbk,stock
+AEGS,PT. Anugerah Spareparts Sejahtera Tbk,stock
+AGAR,PT Asia Sejahtera Mina Tbk,stock
+AGII,PT Samator Indo Gas Tbk,stock
+AGRO,PT Bank Raya Indonesia Tbk,stock
+AGRS,PT Bank IBK Indonesia Tbk,stock
+AHAP,PT Asuransi Harta Aman Pratama Tbk,stock
+AIMS,PT Artha Mahiya Investama Tbk,stock
+AISA,PT FKS Food Sejahtera Tbk,stock
+AKKU,PT Anugerah Kagum Karya Utama Tbk,stock
+AKPI,PT Argha Karya Prima Industry Tbk,stock
+AKRA,PT AKR Corporindo Tbk,stock
+AKSI,PT Mineral Sumberdaya Mandiri Tbk,stock
+ALDO,PT Alkindo Naratama Tbk,stock
+ALII,PT Ancara Logistics Indonesia Tbk,stock
+ALKA,PT Alakasa Industrindo Tbk,stock
+AMAG,PT Asuransi Multi Artha Guna Tbk,stock
+AMAN,PT Makmur Berkah Amanda Tbk,stock
+AMAR,PT Bank Amar Indonesia Tbk,stock
+AMFG,PT Asahimas Flat Glass Tbk,stock
+AMIN,PT Ateliers Mecaniques D'Indonesie Tbk,stock
+AMMN,PT Amman Mineral Internasional Tbk,stock
+AMMS,PT Agung Menjangan Mas Tbk,stock
+AMOR,PT Ashmore Asset Management Indonesia Tbk,stock
+AMRT,PT Sumber Alfaria Trijaya Tbk,stock
+ANDI,"PT Andira Agro, Tbk",stock
+ANJT,PT Austindo Nusantara Jaya Tbk,stock
+ANTM,PT Antam (Persero) Tbk,stock
+APEX,PT Apexindo Pratama Duta Tbk,stock
+APIC,PT Pacific Strategic Financial Tbk,stock
+APII,PT Arita Prima Indonesia Tbk,stock
+APLI,PT Asiaplast Industries Tbk,stock
+APLN,PT Agung Podomoro Land Tbk,stock
+ARCI,PT Archi Indonesia Tbk,stock
+AREA,PT Dunia Virtual Online Tbk,stock
+ARGO,PT Argo Pantes Tbk,stock
+ARII,PT Atlas Resources Tbk,stock
+ARKO,PT Arkora Hydro Tbk,stock
+ARNA,PT Arwana Citramulia Tbk,stock
+ARTA,PT Arthavest Tbk,stock
+ARTO,PT Bank Jago Tbk,stock
+ASBI,PT Asuransi Bintang Tbk,stock
+ASDM,PT Asuransi Dayin Mitra Tbk,stock
+ASGR,PT Astra Graphia Tbk,stock
+ASHA,PT Cilacap Samudera Fishing Industry Tbk,stock
+ASII,PT Astra International Tbk,stock
+ASJT,PT Asuransi Jasa Tania Tbk,stock
+ASLC,PT Autopedia Sukses Lestari Tbk,stock
+ASLI,PT Asri Karya Lestari Tbk,stock
+ASMI,PT Asuransi Maximus Graha Persada Tbk,stock
+ASPI,PT Andalan Sakti Primaindo Tbk,stock
+ASPR,PT Asia Pramulia Tbk,stock
+ASRI,PT Alam Sutera Realty Tbk,stock
+ASRM,PT Asuransi Ramayana Tbk,stock
+ASSA,PT Adi Sarana Armada Tbk,stock
+ATAP,PT Trimitra Prawara Goldland Tbk,stock
+ATIC,PT Anabatic Technologies Tbk,stock
+ATLA,PT Atlantis Subsea Indonesia Tbk,stock
+AUTO,PT Astra Otoparts Tbk,stock
+AVIA,PT Avia Avian Tbk,stock
+AWAN,PT Era Digital Media Tbk,stock
+AXIO,PT Tera Data Indonusa Tbk,stock
+AYAM,PT Janu Putra Sejahtera Tbk.,stock
+AYLS,PT Arkayana Lestari Grup Tbk,stock
+BABP,PT Bank MNC Internasional Tbk,stock
+BABY,PT Multitrend Indo Tbk,stock
+BACA,PT Bank Capital Indonesia Tbk,stock
+BACH,PT Bach Multi Global Tbk.,stock
+BAIK,PT Bersama Mencapai Puncak Tbk,stock
+BAJA,PT Saranacentral Bajatama Tbk,stock
+BALI,PT Bali Towerindo Sentra Tbk,stock
+BANK,PT Bank Aladin Syariah Tbk,stock
+BAPA,PT Bekasi Asri Pemula Tbk,stock
+BAPI,PT Bhakti Agung Propertindo Tbk,stock
+BATR,PT Benteng Api Technic Tbk,stock
+BAUT,PT Mitra Angkasa Sejahtera Tbk,stock
+BAYU,PT Bayu Buana Tbk,stock
+BBCA,PT Bank Central Asia Tbk,stock
+BBHI,PT Allo Bank Indonesia Tbk,stock
+BBKP,PT Bank KB Indonesia Tbk,stock
+BBLD,PT Buana Finance Tbk,stock
+BBMD,PT Bank Mestika Dharma Tbk,stock
+BBNI,PT Bank Negara Indonesia (Persero) Tbk,stock
+BBRI,PT Bank Rakyat Indonesia (Persero) Tbk,stock
+BBRM,PT Pelayaran Nasional Bina Buana Raya Tbk,stock
+BBSI,PT Krom Bank Indonesia Tbk,stock
+BBSS,PT Bumi Benowo Sukses Sejahtera Tbk,stock
+BBTN,PT Bank Tabungan Negara (Persero) Tbk,stock
+BBYB,PT Bank Neo Commerce Tbk,stock
+BCAP,PT MNC Kapital Indonesia Tbk,stock
+BCIC,PT Bank JTrust Indonesia Tbk,stock
+BCIP,PT Bumi Citra Permai Tbk,stock
+BDKR,PT Berdikari Pondasi Perkasa Tbk,stock
+BDMN,PT Bank Danamon Indonesia Tbk,stock
+BEEF,PT Estika Tata Tiara Tbk,stock
+BEER,PT Jobubu Jarum Minahasa Tbk,stock
+BEKS,"PT. Bank Pembangunan Daerah Banten, Tbk",stock
+BELI,PT Global Digital Niaga Tbk,stock
+BELL,PT Trisula Textile Industries Tbk,stock
+BESS,PT Batulicin Nusantara Maritim Tbk,stock
+BEST,PT Bekasi Fajar Industrial Estate Tbk,stock
+BFIN,PT BFI Finance Indonesia Tbk,stock
+BGTG,PT Bank Ganesha Tbk,stock
+BHIT,PT MNC Asia Holding Tbk,stock
+BIKE,PT Bhineka Inovasi Ketahanan Energi Tbk,stock
+BINA,PT Bank Ina Perdana Tbk,stock
+BINO,PT Perma Plasindo Tbk,stock
+BIPI,PT Astrindo Nusantara Infrastruktur Tbk,stock
+BIPP,PT Bhuwanatala Indah Permai Tbk,stock
+BIRD,PT Blue Bird Tbk,stock
+BISI,PT BISI International Tbk,stock
+BJBR,PT Bank Pembangunan Daerah Jawa Barat dan Banten Tbk,stock
+BJTM,PT Bank Pembangunan Daerah Jawa Timur Tbk,stock
+BKDP,PT Bukit Darmo Property Tbk,stock
+BKSL,PT Sentul City Tbk,stock
+BKSW,PT Bank QNB Indonesia Tbk,stock
+BLES,PT Superior Prima Sukses Tbk,stock
+BLOG,PT Trimitra Trans Persada Tbk,stock
+BLTA,PT Berlian Laju Tanker Tbk,stock
+BLTZ,PT Graha Layar Prima Tbk,stock
+BLUE,PT Berkah Prima Perkasa Tbk,stock
+BMAS,PT Bank Kasikorn Indonesia Tbk,stock
+BMBL,PT Lavender Bina Cendikia Tbk,stock
+BMHS,PT Bundamedik Tbk,stock
+BMRI,PT Bank Mandiri (Persero) Tbk,stock
+BMSR,PT Bintang Mitra Semestaraya Tbk,stock
+BMTR,PT Global Mediacom Tbk,stock
+BNBA,PT Bank Bumi Arta Tbk,stock
+BNBR,PT Bakrie & Brothers Tbk,stock
+BNGA,PT Bank CIMB Niaga Tbk,stock
+BNII,PT Bank Maybank Indonesia Tbk,stock
+BNLI,PT Bank Permata Tbk,stock
+BOAT,PT Newport Marine Services TBK,stock
+BOBA,PT Formosa Ingredient Factory Tbk,stock
+BOGA,PT Apollo Global Interactive Tbk,stock
+BOLA,PT Bali Bintang Sejahtera Tbk,stock
+BOLT,PT Garuda Metalindo Tbk,stock
+BPFI,PT Woori Finance Indonesia Tbk,stock
+BPII,PT Batavia Prosperindo Internasional Tbk,stock
+BPTR,PT Batavia Prosperindo Trans Tbk,stock
+BRAM,PT Indo Kordsa Tbk,stock
+BREN,PT Barito Renewables Energy Tbk,stock
+BRIS,PT Bank Syariah Indonesia Tbk,stock
+BRMS,PT Bumi Resources Minerals Tbk,stock
+BRNA,PT Berlina Tbk,stock
+BRPT,PT Barito Pacific Tbk,stock
+BRRC,PT Raja Roti Cemerlang Tbk,stock
+BSBK,PT Wulandari Bangun Laksana Tbk,stock
+BSDE,PT Bumi Serpong Damai Tbk,stock
+BSIM,PT Bank Sinarmas Tbk,stock
+BSML,PT Bintang Samudera Mandiri Lines Tbk,stock
+BSSR,PT Baramulti Suksessarana Tbk,stock
+BSWD,PT Bank of India Indonesia Tbk,stock
+BTEK,PT Bumi Teknokultura Unggul Tbk,stock
+BTON,PT Betonjaya Manunggal Tbk,stock
+BTPN,PT Bank SMBC Indonesia Tbk,stock
+BTPS,PT Bank BTPN Syariah Tbk,stock
+BUAH,PT Segar Kumala Indonesia Tbk,stock
+BUDI,PT Budi Starch & Sweetener Tbk,stock
+BUKA,PT Bukalapak.com Tbk.,stock
+BUKK,PT Bukaka Teknik Utama Tbk.,stock
+BULL,PT Buana Lintas Lautan Tbk,stock
+BUMI,PT Bumi Resources Tbk,stock
+BUVA,PT Bukit Uluwatu Villa Tbk,stock
+BVIC,PT Bank Victoria International Tbk,stock
+BWPT,PT Eagle High Plantations Tbk,stock
+BYAN,PT Bayan Resources Tbk.,stock
+CAKK,PT Cahayaputra Asa Keramik Tbk,stock
+CAMP,"PT Campina Ice Cream Industry, Tbk.",stock
+CARE,PT Metro Healthcare Indonesia Tbk,stock
+CARS,PT Industri dan Perdagangan Bintraco Dharma Tbk,stock
+CASA,PT Capital Financial Indonesia Tbk,stock
+CASH,PT Cashlez Worldwide Indonesia Tbk,stock
+CASS,PT Cahaya Aero Services Tbk,stock
+CBDK,PT Bangun Kosambi Sukses Tbk,stock
+CBPE,PT Citra Buana Prasida Tbk,stock
+CBRE,PT Cakra Buana Resources Energi Tbk,stock
+CBUT,PT Citra Borneo Utama Tbk,stock
+CCSI,PT Communication Cable Systems Indonesia Tbk,stock
+CDIA,PT Chandra Daya Investasi TBK.,stock
+CEKA,PT Wilmar Cahaya Indonesia Tbk.,stock
+CENT,PT Centratama Telekomunikasi Indonesia Tbk,stock
+CFIN,PT. Clipan Finance Indonesia Tbk,stock
+CGAS,PT Citra Nusantara Gemilang Tbk,stock
+CHEK,PT Diastika Biotekindo Tbk,stock
+CHEM,PT Chemstar Indonesia Tbk,stock
+CHIP,PT Pelita Teknologi Global Tbk,stock
+CINT,PT Chitose Internasional Tbk,stock
+CITA,PT Cita Mineral Investindo Tbk,stock
+CITY,PT Natura City Developments Tbk,stock
+CLAY,PT Citra Putra Realty Tbk,stock
+CLEO,PT Sariguna Primatirta Tbk,stock
+CLPI,PT Colorpak Indonesia Tbk,stock
+CMNP,PT Citra Marga Nusaphala Persada Tbk,stock
+CMNT,PT Cemindo Gemilang Tbk,stock
+CMRY,PT Cisarua Mountain Dairy Tbk,stock
+CNMA,PT Nusantara Sejahtera Raya Tbk,stock
+COCO,PT Wahana Interfood Nusantara Tbk,stock
+COIN,PT Indokripto Koin Semesta Tbk,stock
+CPIN,PT Charoen Pokphand Indonesia Tbk,stock
+CPRO,PT Central Proteina Prima Tbk,stock
+CRAB,PT Toba Surimi Industries Tbk,stock
+CRSN,PT Carsurin Tbk,stock
+CSAP,PT Catur Sentosa Adiprana Tbk,stock
+CSIS,PT Cahayasakti Investindo Sukses Tbk,stock
+CSRA,PT Cisadane Sawit Raya Tbk,stock
+CTBN,PT Citra Tubindo Tbk,stock
+CTRA,PT Ciputra Development Tbk,stock
+CTTH,PT Citatah Tbk,stock
+CUAN,PT Petrindo Jaya Kreasi Tbk,stock
+CYBR,PT ITSEC Asia Tbk,stock
+DAAZ,PT Daaz Bara Lestari Tbk,stock
+DADA,PT Diamond Citra Propertindo Tbk,stock
+DART,PT Duta Anggada Realty Tbk.,stock
+DATA,PT Remala Abadi Tbk,stock
+DAYA,PT Duta Intidaya Tbk,stock
+DCII,PT DCI Indonesia Tbk,stock
+DEFI,PT Danasupra Erapacific Tbk,stock
+DEPO,PT Caturkarda Depo Bangunan Tbk,stock
+DEWA,PT Darma Henwa Tbk,stock
+DEWI,PT Dewi Shri Farmindo Tbk.,stock
+DFAM,PT Dafam Property Indonesia Tbk,stock
+DGIK,PT Nusa Konstruksi Enjiniring Tbk,stock
+DGNS,PT Diagnos Laboratorium Utama Tbk,stock
+DGWG,PT Delta Giri Wacana Tbk,stock
+DILD,PT Intiland Development Tbk,stock
+DIVA,PT Distribusi Voucher Nusantara Tbk,stock
+DKFT,PT Central Omega Resources Tbk,stock
+DKHH,PT Cipta Sarana Medika Tbk,stock
+DLTA,PT Delta Djakarta Tbk,stock
+DMAS,PT Puradelta Lestari Tbk,stock
+DMMX,PT Digital Mediatama Maxima Tbk,stock
+DMND,PT Diamond Food Indonesia Tbk,stock
+DNAR,PT Bank Oke Indonesia Tbk,stock
+DNET,PT Indoritel Makmur Internasional Tbk.,stock
+DOID,PT Buma Internasional Grup Tbk,stock
+DOOH,PT Era Media Sejahtera Tbk,stock
+DOSS,PT Global Sukses Digital Tbk,stock
+DPUM,PT Dua Putra Utama Makmur Tbk,stock
+DRMA,PT Dharma Polimetal Tbk,stock
+DSFI,PT Dharma Samudera Fishing Industries Tbk,stock
+DSNG,PT Dharma Satya Nusantara Tbk,stock
+DSSA,PT Dian Swastatika Sentosa Tbk,stock
+DUTI,PT Duta Pertiwi Tbk,stock
+DVLA,PT Darya-Varia Laboratoria Tbk,stock
+DWGL,PT Dwi Guna Laksana Tbk,stock
+DYAN,PT Dyandra Media International Tbk,stock
+EAST,PT Eastparc Hotel Tbk,stock
+ECII,PT Electronic City Indonesia Tbk,stock
+EKAD,PT Ekadharma International Tbk,stock
+ELIT,PT Data Sinergitama Jaya Tbk,stock
+ELPI,PT Pelayaran Nasional Ekalya Purnamasari Tbk,stock
+ELSA,PT Elnusa Tbk,stock
+ELTY,PT Bakrieland Development Tbk,stock
+EMAS,PT Merdeka Gold Resources Tbk,stock
+EMDE,PT Megapolitan Developments Tbk,stock
+EMMI,PT Esa Medika Mandiri Tbk,stock
+EMTK,PT Elang Mahkota Teknologi Tbk,stock
+ENAK,PT Champ Resto Indonesia Tbk,stock
+ENRG,PT Energi Mega Persada Tbk,stock
+ENZO,PT Morenzo Abadi Perkasa Tbk,stock
+EPAC,PT Megalestari Epack Sentosaraya Tbk,stock
+EPMT,PT Enseval Putera Megatrading Tbk.,stock
+ERAA,PT Erajaya Swasembada Tbk,stock
+ERAL,PT Sinar Eka Selaras Tbk,stock
+ERTX,PT Eratex Djaja Tbk,stock
+ESIP,PT Sinergi Inti Plastindo Tbk,stock
+ESSA,PT ESSA Industries Indonesia Tbk.,stock
+ESTA,PT Esta Multi Usaha Tbk,stock
+ESTI,PT Ever Shine Tex Tbk,stock
+EURO,PT Estee Gold Feet Tbk,stock
+EXCL,PT XLSMART Telecom Sejahtera Tbk,stock
+FAPA,PT FAP Agri Tbk,stock
+FAST,PT Fast Food Indonesia Tbk,stock
+FILM,PT.MD Entertainment Tbk,stock
+FIRE,PT Alfa Energi Investama Tbk,stock
+FISH,PT FKS Multi Agro Tbk,stock
+FITT,PT Fortune Resources Investment Tbk,stock
+FLMC,PT Falmaco Nonwoven Industri Tbk,stock
+FMII,PT Fortune Mate Indonesia Tbk,stock
+FOLK,PT Multi Garam Utama Tbk,stock
+FORE,PT Fore Kopi Indonesia Tbk,stock
+FORU,PT Fortune Indonesia Tbk,stock
+FPNI,PT Lotte Chemical Titan Tbk,stock
+FUJI,PT Fuji Finance Indonesia Tbk,stock
+FUTR,PT Futura Energi Global Tbk,stock
+FWCT,PT Wijaya Cahaya Timber Tbk,stock
+GDST,PT Gunawan Dianjaya Steel Tbk,stock
+GDYR,PT Goodyear Indonesia Tbk,stock
+GEMA,PT Gema Grahasarana Tbk,stock
+GEMS,PT Golden Energy Mines Tbk,stock
+GGRM,PT Gudang Garam Tbk,stock
+GGRP,PT Gunung Raja Paksi Tbk,stock
+GHON,PT Gihon Telekomunikasi Indonesia Tbk,stock
+GIAA,PT. Garuda Indonesia (Persero) Tbk,stock
+GJTL,PT. Gajah Tunggal Tbk,stock
+GLVA,PT Galva Technologies Tbk,stock
+GMFI,PT Garuda Maintenance Facility Aero Asia Tbk,stock
+GMTD,PT Gowa Makassar Tourism Development Tbk,stock
+GOLD,PT Visi Telekomunikasi Infrastruktur Tbk,stock
+GOLF,PT Intra Golflink Resorts Tbk,stock
+GOOD,PT Garudafood Putra Putri Jaya Tbk,stock
+GOTO,PT GoTo Gojek Tokopedia Tbk,stock
+GPRA,PT Perdana Gapuraprima Tbk,stock
+GPSO,PT Geoprima Solusi Tbk,stock
+GRIA,PT Ingria Pratama Capitalindo Tbk,stock
+GRPH,PT Griptha Putra Persada Tbk,stock
+GRPM,PT Graha Prima Mentari Tbk,stock
+GSMF,PT Equity Development Investment Tbk,stock
+GTBO,PT Garda Tujuh Buana Tbk,stock
+GTRA,PT Grahaprima Suksesmandiri Tbk,stock
+GTSI,PT GTS Internasional Tbk,stock
+GULA,PT Aman Agrindo Tbk,stock
+GUNA,PT Gunanusa Eramandiri Tbk,stock
+GWSA,PT Greenwood Sejahtera Tbk,stock
+GZCO,PT Gozco Plantations Tbk,stock
+HADE,PT Himalaya Energi Perkasa Tbk,stock
+HAIS,PT Hasnur Internasional Shipping Tbk,stock
+HAJJ,PT Arsy Buana Travelindo Tbk,stock
+HALO,PT Haloni Jane Tbk,stock
+HATM,PT Habco Trans Maritima Tbk,stock
+HBAT,PT Minahasa Membangun Hebat Tbk,stock
+HDFA,PT Radana Bhaskara Finance Tbk,stock
+HDIT,PT Hensel Davest Indonesia Tbk,stock
+HEAL,PT Medikaloka Hermina Tbk,stock
+HELI,PT Jaya Trishindo Tbk,stock
+HERO,PT DFI Retail Nusantara Tbk,stock
+HEXA,PT Hexindo Adiperkasa Tbk,stock
+HGII,PT Hero Global Investment Tbk,stock
+HMSP,PT Hanjaya Mandala Sampoerna Tbk,stock
+HOKI,PT Buyung Poetra Sembada Tbk,stock
+HOMI,PT Grand House Mulia Tbk,stock
+HOPE,PT Harapan Duta Pertiwi Tbk,stock
+HRME,PT Menteng Heritage Realty Tbk,stock
+HRTA,PT Hartadinata Abadi Tbk,stock
+HRUM,PT Harum Energy Tbk,stock
+HUMI,PT Humpuss Maritim Internasional Tbk,stock
+HYGN,PT Ecocare Indo Pasifik Tbk,stock
+IATA,PT MNC Energy Investments Tbk,stock
+IBOS,PT Indo Boga Sukses Tbk,stock
+ICBP,PT Indofood CBP Sukses Makmur Tbk,stock
+ICON,PT Island Concepts Indonesia Tbk,stock
+IDEA,PT Idea Indonesia Akademi Tbk,stock
+IDPR,PT Indonesia Pondasi Raya Tbk,stock
+IFII,PT Indonesia Fibreboard Industry Tbk,stock
+IFSH,PT Ifishdeco Tbk,stock
+IGAR,PT Champion Pacific Indonesia Tbk,stock
+IKAI,PT Intikeramik Alamasri Industri Tbk,stock
+IKAN,PT Era Mandiri Cemerlang Tbk,stock
+IKBI,PT Sumi Indo Kabel Tbk,stock
+IKPM,PT Ikapharmindo Putramas Tbk,stock
+IMAS,PT Indomobil Sukses Internasional Tbk,stock
+IMJS,PT Indomobil Multi Jasa Tbk,stock
+IMPC,PT Impack Pratama Industri Tbk,stock
+INAI,PT Indal Aluminium Industry Tbk,stock
+INCI,PT Intanwijaya Internasional Tbk,stock
+INCO,PT Vale Indonesia Tbk,stock
+INDF,PT Indofood Sukses Makmur Tbk,stock
+INDO,PT Royalindo Investa Wijaya Tbk,stock
+INDR,PT. Indo-Rama Synthetics Tbk,stock
+INDS,PT Indospring Tbk,stock
+INDY,PT. Indika Energy Tbk,stock
+INET,PT Sinergi Inti Andalan Prima Tbk,stock
+INKP,PT Indah Kiat Pulp & Paper Tbk,stock
+INOV,PT Inocycle Technology Group Tbk,stock
+INPC,PT Bank Artha Graha Internasional Tbk,stock
+INPP,PT Indonesian Paradise Property Tbk,stock
+INTD,PT Inter Delta Tbk,stock
+INTP,PT Indocement Tunggal Prakarsa Tbk,stock
+IOTF,PT Sumber Sinergi Makmur Tbk,stock
+IPCC,PT Indonesia Kendaraan Terminal Tbk,stock
+IPCM,PT Jasa Armada Indonesia Tbk,stock
+IPOL,PT Indopoly Swakarsa Industry Tbk,stock
+IPTV,PT MNC Vision Networks Tbk,stock
+IRRA,PT Itama Ranoraya Tbk,stock
+IRSX,PT Folago Global Nusantara Tbk,stock
+ISAP,PT Isra Presisi Indonesia Tbk,stock
+ISAT,PT Indosat Tbk,stock
+ISEA,PT Indo American Seafoods Tbk,stock
+ISSP,PT Steel Pipe Industry of Indonesia Tbk,stock
+ITIC,PT Indonesian Tobacco Tbk,stock
+ITMA,PT Sumber Energi Andalan Tbk,stock
+ITMG,PT Indo Tambangraya Megah Tbk,stock
+JARR,PT Jhonlin Agro Raya Tbk,stock
+JAST,PT. Jasnita Telekomindo Tbk,stock
+JATI,PT Informasi Teknologi Indonesia Tbk,stock
+JAWA,PT Jaya Agra Wattie Tbk,stock
+JAYA,PT Armada Berjaya Trans Tbk,stock
+JECC,PT Jembo Cable Company Tbk,stock
+JECX,PT Nitrasanata Dharma,stock
+JELI,PT Niramas Utama Tbk.,stock
+JGLE,PT Graha Andrasentra Propertindo Tbk,stock
+JIHD,PT Jakarta International Hotels & Development Tbk,stock
+JKON,PT Jaya Konstruksi Manggala Pratama Tbk,stock
+JPFA,PT Japfa Comfeed Indonesia Tbk,stock
+JRPT,"PT Jaya Real Property, Tbk.",stock
+JSMR,PT Jasa Marga (Persero) Tbk,stock
+JSPT,PT Jakarta Setiabudi Internasional Tbk,stock
+JTPE,PT Jasuindo Tiga Perkasa Tbk,stock
+KAEF,PT Kimia Farma Tbk,stock
+KAQI,PT Jantra Grupo Indonesia Tbk,stock
+KBAG,PT Karya Bersama Anugerah Tbk,stock
+KBLI,PT KMI Wire and Cable Tbk,stock
+KBLM,PT Kabelindo Murni Tbk,stock
+KBLV,PT First Media Tbk,stock
+KDSI,PT Kedawung Setia Industrial Tbk,stock
+KDTN,PT Puri Sentul Permai Tbk,stock
+KEEN,PT Kencana Energi Lestari Tbk,stock
+KEJU,PT Mulia Boga Raya Tbk,stock
+KETR,PT Ketrosden Triasmitra,stock
+KICI,PT Kedaung Indah Can Tbk,stock
+KIJA,PT Kawasan Industri Jababeka Tbk,stock
+KING,PT Hoffmen Cleanindo Tbk,stock
+KINO,PT Kino Indonesia Tbk,stock
+KIOS,PT Kioson Komersial Indonesia Tbk,stock
+KJEN,PT Krida Jaringan Nusantara Tbk,stock
+KKES,PT Kusuma Kemindo Sentosa Tbk,stock
+KKGI,PT Resource Alam Indonesia Tbk,stock
+KLAS,PT Pelayaran Kurnia Lautan Semesta Tbk,stock
+KLBF,PT Kalbe Farma Tbk.,stock
+KLIN,PT Klinko Karya Imaji Tbk,stock
+KMDS,"PT Kurniamitra Duta Sentosa, Tbk",stock
+KMTR,PT Kirana Megatara Tbk,stock
+KOBX,PT Kobexindo Tractors Tbk,stock
+KOCI,PT Kokoh Exa Nusantara Tbk,stock
+KOKA,PT Koka Indonesia Tbk,stock
+KONI,PT Perdana Bangun Pusaka Tbk,stock
+KOPI,PT Mitra Energi Persada Tbk,stock
+KOTA,PT DMS Propertindo Tbk,stock
+KPIG,PT MNC Tourism Indonesia Tbk,stock
+KRAS,PT Krakatau Steel (Persero) Tbk,stock
+KREN,PT Quantum Clovera Investama Tbk,stock
+KRYA,PT Bangun Karya Perkasa Jaya Tbk,stock
+KSIX,PT Kentanix Supra International Tbk,stock
+KUAS,PT Ace Oldfields Tbk,stock
+LABA,PT Green Power Group Tbk,stock
+LABS,PT UBC Medical Indonesia Tbk,stock
+LAJU,PT Jasa Berdikari Logistics Tbk,stock
+LAND,PT Trimitra Propertindo Tbk,stock
+LAPD,PT Leyand International Tbk,stock
+LEAD,PT Logindo Samudramakmur Tbk.,stock
+LFLO,PT Imago Mulia Persada Tbk,stock
+LIFE,PT MSIG Life Insurance Indonesia Tbk,stock
+LINK,PT Link Net Tbk,stock
+LION,PT Lion Metal Works Tbk,stock
+LIVE,PT Homeco Victoria Makmur Tbk,stock
+LMAX,PT Lupromax Pelumas Indonesia Tbk,stock
+LMPI,PT Langgeng Makmur Industri Tbk,stock
+LOPI,PT Logisticsplus International Tbk,stock
+LPCK,PT Lippo Cikarang Tbk,stock
+LPGI,PT Lippo General Insurance Tbk,stock
+LPIN,PT Multi Prima Sejahtera Tbk,stock
+LPKR,PT Lippo Karawaci Tbk,stock
+LPLI,PT Star Pacific Tbk,stock
+LPPF,PT MDS Retailing Tbk,stock
+LPPS,PT Lenox Pasifik Investama Tbk,stock
+LRNA,PT Eka Sari Lorena Transport Tbk,stock
+LSIP,PT Perusahaan Perkebunan London Sumatra Indonesia Tbk,stock
+LTLS,PT Lautan Luas Tbk,stock
+LUCK,PT Sentral Mitra Informatika Tbk,stock
+LUCY,PT Lima Dua Lima Tiga Tbk,stock
+MAHA,PT Mandiri Herindo Adiperkasa Tbk,stock
+MAIN,PT Malindo Feedmill Tbk,stock
+MANG,PT Manggung Polahraya Tbk,stock
+MAPA,PT Map Aktif Adiperkasa Tbk,stock
+MAPB,PT Map Boga Adiperkasa Tbk,stock
+MAPI,PT. Mitra Adiperkasa Tbk,stock
+MARK,PT Mark Dynamics Indonesia Tbk,stock
+MASB,PT Bank Multiarta Sentosa Tbk,stock
+MAXI,PT Maxindo Karya Anugerah Tbk,stock
+MAYA,PT Bank Mayapada Internasional Tbk,stock
+MBAP,PT Mitrabara Adiperdana Tbk,stock
+MBMA,PT Merdeka Battery Materials Tbk.,stock
+MBSS,PT Mitrabahtera Segara Sejati Tbk,stock
+MBTO,PT Martina Berto Tbk,stock
+MCAS,PT M Cash Integrasi Tbk,stock
+MCOL,PT Prima Andalan Mandiri Tbk,stock
+MCOR,PT Bank China Construction Bank Indonesia Tbk,stock
+MDIA,PT Intermedia Capital Tbk,stock
+MDIY,PT Daya Intiguna Yasa Tbk,stock
+MDKA,PT Merdeka Copper Gold Tbk,stock
+MDKI,PT Emdeki Utama Tbk,stock
+MDLA,PT Medela Potentia Tbk,stock
+MDLN,PT Modernland Realty Tbk,stock
+MEDC,PT Medco Energi Internasional Tbk,stock
+MEDS,PT Hetzer Medical Indonesia Tbk,stock
+MEGA,PT Bank Mega Tbk,stock
+MEJA,PT Harta Djaya Karya Tbk,stock
+MERI,PT Merry Riana Edukasi Tbk,stock
+MERK,PT Merck Tbk,stock
+MGLV,PT NexAI Digital Infrastruktur Tbk,stock
+MGNA,PT Magna Investama Mandiri Tbk,stock
+MGRO,PT Mahkota Group Tbk,stock
+MHKI,PT Multi Hanna Kreasindo Tbk,stock
+MICE,PT Multi Indocitra Tbk,stock
+MIDI,PT Midi Utama Indonesia Tbk,stock
+MIKA,PT Mitra Keluarga Karyasehat Tbk,stock
+MINA,PT Sanurhasta Mitra Tbk,stock
+MINE,PT SINAR TERANG MANDIRI Tbk,stock
+MIRA,PT Mitra International Resources Tbk,stock
+MITI,PT Mitra Investindo Tbk,stock
+MKAP,PT Multikarya Asia Pasifik Raya Tbk,stock
+MKNT,PT Mitra Komunikasi Nusantara Tbk,stock
+MKPI,PT Metropolitan Kentjana Tbk,stock
+MKTR,PT Menthobi Karyatama Raya Tbk,stock
+MLBI,PT Multi Bintang Indonesia Tbk,stock
+MLIA,PT Mulia Industrindo Tbk,stock
+MLPL,PT Multipolar Tbk,stock
+MLPT,PT Multipolar Technology Tbk,stock
+MMIX,PT Multi Medika Internasional Tbk,stock
+MMLP,PT Mega Manunggal Property Tbk,stock
+MNCN,PT. Media Nusantara Citra Tbk,stock
+MOLI,PT Madusari Murni Indah Tbk,stock
+MORA,PT Mora Telematika Indonesia Tbk,stock
+MPIX,PT Mitra Pedagang Indonesia Tbk,stock
+MPMX,PT Mitra Pinasthika Mustika Tbk,stock
+MPOW,PT Megapower Makmur Tbk,stock
+MPPA,PT Matahari Putra Prima Tbk,stock
+MPRO,PT Maha Properti Indonesia Tbk,stock
+MPXL,PT MPX Logistics International Tbk,stock
+MRAT,PT Mustika Ratu Tbk,stock
+MSIE,PT Multisarana Intan Eduka Tbk,stock
+MSIN,PT MNC Digital Entertainment Tbk,stock
+MSJA,PT Multi Spunindo Jaya Tbk,stock
+MSKY,PT MNC Sky Vision Tbk,stock
+MSTI,PT Mastersystem Infotama Tbk,stock
+MTDL,PT Metrodata Electronics Tbk,stock
+MTEL,PT Dayamitra Telekomunikasi Tbk.,stock
+MTLA,PT Metropolitan Land Tbk,stock
+MTMH,PT Murni Sadar Tbk,stock
+MTWI,PT Malacca Trust Wuwungan Insurance Tbk,stock
+MUTU,PT Mutuagung Lestari Tbk,stock
+MYOH,PT Samindo Resources Tbk,stock
+MYOR,PT Mayora Indah Tbk,stock
+NAIK,PT Adiwarna Anugerah Abadi Tbk,stock
+NANO,PT Nanotech Indonesia Global Tbk,stock
+NASA,PT Andalan Perkasa Abadi Tbk,stock
+NASI,PT Wahana Inti Makmur Tbk,stock
+NATO,PT Olympus Strategic Indonesia Tbk,stock
+NAYZ,PT Hassana Boga Sejahtera Tbk,stock
+NCKL,PT Trimegah Bangun Persada Tbk,stock
+NELY,PT Pelayaran Nelly Dwi Putri Tbk,stock
+NEST,PT Esta Indonesia Tbk,stock
+NETV,PT MDTV Media Technologies Tbk,stock
+NFCX,PT NFC Indonesia Tbk,stock
+NICE,PT Adhi Kartiko Pratama Tbk,stock
+NICK,PT Charnic Capital Tbk,stock
+NICL,PT PAM Mineral Tbk,stock
+NIKL,PT Pelat Timah Nusantara Tbk,stock
+NINE,PT Techno9 Indonesia Tbk,stock
+NIRO,PT City Retail Developments Tbk,stock
+NISP,PT Bank OCBC NISP Tbk,stock
+NOBU,PT Bank Nationalnobu Tbk,stock
+NPGF,PT Nusa Palapa Gemilang Tbk,stock
+NRCA,PT Nusa Raya Cipta Tbk,stock
+NSSS,PT Nusantara Sawit Sejahtera Tbk,stock
+NTBK,PT Nusatama Berkah Tbk,stock
+NZIA,PT Nusantara Almazia Tbk,stock
+OASA,PT Maharaksa Biru Energi Tbk,stock
+OBAT,PT Brigit Biofarmaka Technologi Tbk,stock
+OBMD,PT OBM Drilchem Tbk,stock
+OILS,PT Indo Oil Perkasa Tbk,stock
+OKAS,PT Ancora Indonesia Resources Tbk,stock
+OLIV,PT Atlas Nexus Group Tbk,stock
+OMED,PT Jayamas Medica Industri Tbk,stock
+OMRE,PT Indonesia Prima Property Tbk,stock
+OPMS,PT Optima Prima Metal Sinergi Tbk,stock
+PACK,PT Abadi Nusantara Hijau Investama Tbk,stock
+PADA,PT Personel Alih Daya Tbk,stock
+PADI,PT Minna Padi Investama Sekuritas Tbk,stock
+PALM,PT Provident Investasi Bersama Tbk,stock
+PAMG,PT Bima Sakti Pertiwi Tbk,stock
+PANI,PT Pantai Indah Kapuk Dua Tbk,stock
+PANR,PT Panorama Sentrawisata Tbk,stock
+PANS,PT Panin Sekuritas Tbk,stock
+PART,PT Cipta Perdana Lancar Tbk,stock
+PBID,PT Panca Budi Idaman Tbk,stock
+PBRX,PT Pan Brothers Tbk,stock
+PBSA,PT Paramita Bangun Sarana Tbk,stock
+PCAR,PT Prima Cakrawala Abadi Tbk,stock
+PDES,PT Destinasi Tirta Nusantara Tbk,stock
+PDPP,PT Primadaya Plastisindo Tbk,stock
+PEGE,PT Panca Global Kapital Tbk,stock
+PEHA,PT Phapros Tbk,stock
+PEVE,PT. Penta Valent Tbk,stock
+PGAS,PT Perusahaan Gas Negara (Persero) Tbk,stock
+PGEO,PT Pertamina Geothermal Energy Tbk,stock
+PGJO,PT Bahtera Bumi Raya Tbk,stock
+PGLI,PT Pembangunan Graha Lestari Indah Tbk,stock
+PGUN,PT Pradiksi Gunatama Tbk,stock
+PICO,PT Pelangi Indah Canindo Tbk,stock
+PIPA,PT Oxala Energy International Tbk,stock
+PJAA,PT Pembangunan Jaya Ancol Tbk,stock
+PJHB,PT Pelayaran Jaya Hidup Baru TBK,stock
+PKPK,PT Paragon Karya Perkasa Tbk,stock
+PLAN,PT Planet Properindo Jaya Tbk,stock
+PMJS,PT Putra Mandiri Jembar Tbk,stock
+PMUI,PT Prima Multi Usaha Indonesia Tbk,stock
+PNBN,PT Bank Pan Indonesia Tbk,stock
+PNBS,PT Bank Panin Dubai Syariah Tbk,stock
+PNGO,PT AEP Pinago Plantations Tbk,stock
+PNIN,PT Paninvest Tbk,stock
+PNLF,PT Panin Financial Tbk,stock
+PNSE,PT Pudjiadi and Sons Tbk,stock
+POLA,PT Pool Advista Finance Tbk,stock
+POLI,PT Pollux Hotels Group Tbk,stock
+POLU,PT Golden Flower Tbk,stock
+PORT,PT Nusantara Pelabuhan Handal Tbk,stock
+POWR,PT Cikarang Listrindo Tbk,stock
+PPRE,PT PP Presisi Tbk,stock
+PPRI,PT Paperocks Indonesia Tbk,stock
+PPRO,PT Pembangunan Perumahan Properti Tbk,stock
+PRAY,PT Famon Awal Bros Sedaya Tbk,stock
+PRDA,PT Prodia Widyahusada Tbk,stock
+PRDL,PT Prodia Diagnostic Line Tbk,stock
+PRIM,PT Royal Prima Tbk,stock
+PSAB,PT J Resources Asia Pasifik Tbk,stock
+PSAT,PT Pancaran Samudera Transport Tbk,stock
+PSDN,PT Prasidha Aneka Niaga Tbk,stock
+PSGO,PT Palma Serasih Tbk,stock
+PSKT,PT Red Planet Indonesia Tbk,stock
+PSSI,PT IMC Pelita Logistik Tbk,stock
+PTBA,PT Bukit Asam (Persero) Tbk,stock
+PTIS,PT Indo Straits Tbk,stock
+PTMP,PT Mitra Pack Tbk,stock
+PTPS,PT Pulau Subur Tbk,stock
+PTPW,PT Pratama Widya Tbk,stock
+PTRO,PT Petrosea Tbk,stock
+PTSN,PT Sat Nusapersada Tbk,stock
+PTSP,PT Pioneerindo Gourmet International Tbk,stock
+PUDP,PT Pudjiadi Prestige Tbk,stock
+PURA,PT Putra Rajawali Kencana Tbk,stock
+PURI,PT Puri Global Sukses Tbk,stock
+PWON,PT Pakuwon Jati Tbk,stock
+PYFA,PT Pyridam Farma Tbk,stock
+PZZA,PT Sarimelati Kencana Tbk,stock
+RAAM,PT Tripar Multivision Plus Tbk,stock
+RAJA,PT Rukun Raharja Tbk,stock
+RALS,PT Ramayana Lestari Sentosa Tbk,stock
+RANC,PT Supra Boga Lestari Tbk,stock
+RANS,PT Rans Entertainmen Indonesia Tbk,stock
+RATU,PT Raharja Energi Cepu Tbk,stock
+RBMS,PT Ristia Bintang Mahkotasejati Tbk,stock
+RCCC,PT Utama Radar Cahaya Tbk,stock
+RDTX,PT Roda Vivatex Tbk,stock
+REAL,PT Repower Asia Indonesia Tbk,stock
+RELF,PT Graha Mitra Asia Tbk,stock
+RELI,PT Reliance Sekuritas Indonesia Tbk,stock
+RGAS,PT Kian Santang Muliatama Tbk,stock
+RICY,PT Ricky Putra Globalindo Tbk,stock
+RIGS,PT Rig Tenders Indonesia Tbk,stock
+RISE,PT Jaya Sukses Makmur Sentosa Tbk,stock
+RLCO,PT Abadi Lestari Indonesia Tbk,stock
+RMKE,PT RMK Energy Tbk,stock
+RMKO,PT Royaltama Mulia Kontraktorindo Tbk,stock
+ROCK,PT Rockfields Properti Indonesia Tbk.,stock
+RODA,PT Pikko Land Development Tbk,stock
+RONY,PT Aesler Grup Internasional Tbk,stock
+ROTI,PT Nippon Indosari Corpindo Tbk,stock
+RSCH,PT Charlie Hospital Semarang Tbk,stock
+RSGK,PT Kedoya Adyaraya Tbk,stock
+RUIS,PT Radiant Utama Interinsco Tbk,stock
+RUNS,PT Global Sukses Solusi Tbk,stock
+SAFE,PT Steady Safe Tbk,stock
+SAGE,PT Saptausaha Gemilangindah Tbk,stock
+SAME,PT Sarana Meditama Metropolitan Tbk,stock
+SAMF,"PT Saraswanti Anugerah Makmur, Tbk",stock
+SAPX,PT Satria Antaran Prima Tbk,stock
+SATU,PT Kota Satu Properti Tbk,stock
+SBMA,PT Surya Biru Murni Acetylene Tbk,stock
+SCCO,PT Supreme Cable Manufacturing & Commerce Tbk,stock
+SCMA,PT Surya Citra Media Tbk,stock
+SCNP,PT Selaras Citra Nusantara Perkasa Tbk,stock
+SDMU,PT Sidomulyo Selaras Tbk,stock
+SDPC,PT Millennium Pharmacon International Tbk,stock
+SDRA,PT Bank Woori Saudara Indonesia 1906 Tbk,stock
+SEMA,PT Semacom Integrated Tbk,stock
+SFAN,PT Surya Fajar Capital Tbk,stock
+SGER,PT Sumber Global Energy Tbk,stock
+SGRO,PT Prime Agri Resources Tbk,stock
+SHID,PT Hotel Sahid Jaya International Tbk,stock
+SHIP,PT Sillo Maritime Perdana Tbk,stock
+SICO,PT Sigma Energy Compressindo Tbk,stock
+SIDO,PT Industri Jamu dan Farmasi Sido Muncul Tbk,stock
+SILO,PT Siloam International Hospitals Tbk,stock
+SIMP,PT Salim Ivomas Pratama Tbk,stock
+SINI,PT Singaraja Putra Tbk,stock
+SIPD,PT Sreeya Sewu Indonesia Tbk,stock
+SKBM,PT Sekar Bumi Tbk,stock
+SKLT,PT Sekar Laut Tbk,stock
+SKRN,PT Superkrane Mitra Utama Tbk,stock
+SLIS,PT Gaya Abadi Sempurna Tbk,stock
+SMAR,PT Sinar Mas Agro Resources and Technology Tbk,stock
+SMBR,PT Semen Baturaja (Persero) Tbk,stock
+SMDM,PT Suryamas Dutamakmur Tbk,stock
+SMDR,PT Samudera Indonesia Tbk,stock
+SMGA,PT Sumber Mineral Global Abadi Tbk,stock
+SMGR,PT Semen Indonesia (Persero) Tbk,stock
+SMIL,PT Sarana Mitra Luas Tbk,stock
+SMKL,PT Satyamitra Kemas Lestari Tbk,stock
+SMKM,PT Sumber Mas Konstruksi Tbk,stock
+SMLE,PT Sinergi Multi Lestarindo Tbk,stock
+SMMA,PT Sinar Mas Multiartha Tbk,stock
+SMMT,PT Golden Eagle Energy Tbk,stock
+SMRA,PT Summarecon Agung Tbk,stock
+SMSM,PT Selamat Sempurna Tbk,stock
+SNLK,PT Sunter Lakeside Hotel Tbk,stock
+SOCI,PT Soechi Lines Tbk,stock
+SOFA,PT Solusi Environment Asia Tbk,stock
+SOHO,PT Soho Global Health Tbk,stock
+SOLA,PT Xolare RCR Energy TBK,stock
+SONA,PT Sona Topas Tourism Industry Tbk,stock
+SOSS,PT Alsok Indonesia Services Tbk,stock
+SOTS,PT Satria Mega Kencana Tbk,stock
+SPMA,PT Suparma Tbk,stock
+SPRE,PT Soraya Berjaya Indonesia Tbk,stock
+SPTO,PT Surya Pertiwi Tbk,stock
+SQMI,PT Wilton Makmur Indonesia Tbk.,stock
+SRAJ,PT Sejahteraraya Anugrahjaya Tbk,stock
+SRSN,PT Indo Acidatama Tbk,stock
+SRTG,PT Saratoga Investama Sedaya Tbk,stock
+SSIA,PT Surya Semesta Internusa Tbk,stock
+SSMS,PT Sawit Sumbermas Sarana Tbk.,stock
+SSTM,PT Sunson Textile Manufacturer Tbk,stock
+STAA,PT Sumber Tani Agung Resources Tbk,stock
+STAR,PT Calculus Global Ventures Tbk,stock
+STRK,PT Lovina Beach Brewery Tbk,stock
+STTP,PT Siantar Top Tbk,stock
+SULI,PT SLJ Global Tbk,stock
+SUNI,PT Sunindo Pratama Tbk,stock
+SUPA,PT Super Bank Indonesia Tbk,stock
+SURE,PT Super Energy Tbk,stock
+SURI,PT Maja Agung Latexindo Tbk,stock
+SWID,PT Saraswanti Indoland Development Tbk,stock
+TALF,PT Tunas Alfin Tbk,stock
+TAMA,PT Lancartama Sejati Tbk,stock
+TAMU,PT Pelayaran Tamarin Samudra Tbk,stock
+TAPG,PT Triputra Agro Persada Tbk,stock
+TARA,PT Agung Semesta Sejahtera Tbk,stock
+TAXI,PT Express Transindo Utama Tbk,stock
+TBIG,PT Tower Bersama Infrastructure Tbk,stock
+TBLA,PT Tunas Baru Lampung Tbk,stock
+TBMS,PT Tembaga Mulia Semanan Tbk,stock
+TCID,PT. Mandom Indonesia Tbk,stock
+TCPI,PT Transcoal Pacific Tbk,stock
+TEBE,PT Dana Brata Luhur Tbk,stock
+TFAS,PT Telefast Indonesia Tbk,stock
+TFCO,PT Tifico Fiber Indonesia Tbk,stock
+TGKA,PT Tigaraksa Satria Tbk,stock
+TGUK,PT Platinum Wahab Nusantara Tbk,stock
+TIFA,PT KDB Tifa Finance Tbk,stock
+TINS,PT TIMAH Tbk,stock
+TIRA,PT Tira Austenite Tbk,stock
+TKIM,PT Pabrik Kertas Tjiwi Kimia Tbk,stock
+TLDN,PT Teladan Prima Agro Tbk,stock
+TLKM,Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk,stock
+TMAS,PT Temas Tbk.,stock
+TMPO,PT Tempo Inti Media Tbk,stock
+TNCA,PT Trimuda Nuansa Citra Tbk,stock
+TOBA,PT TBS Energi Utama Tbk,stock
+TOOL,PT Rohartindo Nusantara Luas Tbk,stock
+TOSK,PT Topindo Solusi Komunika Tbk,stock
+TOTL,PT Total Bangun Persada Tbk,stock
+TOTO,PT Surya Toto Indonesia Tbk,stock
+TOWR,PT Sarana Menara Nusantara Tbk.,stock
+TPIA,PT Chandra Asri Pacific Tbk,stock
+TPMA,PT Trans Power Marine Tbk,stock
+TRGU,PT Cerestar Indonesia Tbk,stock
+TRIM,PT Trimegah Sekuritas Indonesia Tbk,stock
+TRIN,PT Perintis Triniti Properti Tbk,stock
+TRIS,PT Trisula International Tbk,stock
+TRJA,PT Transkon Jaya Tbk,stock
+TRON,PT Teknologi Karya Digital Nusa Tbk,stock
+TRST,PT Trias Sentosa Tbk,stock
+TRUE,PT Triniti Dinamik Tbk,stock
+TRUK,PT Guna Timur Raya Tbk,stock
+TRUS,PT Trust Finance Indonesia Tbk,stock
+TSPC,PT Tempo Scan Pacific Tbk,stock
+TUGU,PT Asuransi Tugu Pratama Indonesia Tbk,stock
+TYRE,PT King Tire Indonesia Tbk,stock
+UANG,PT Pakuan Tbk,stock
+UCID,PT Uni-Charm Indonesia Tbk,stock
+UDNG,PT Agro Bahari Nusantara Tbk,stock
+UFOE,PT Damai Sejahtera Abadi Tbk,stock
+ULTJ,PT Ultrajaya Milk Industry & Trading Company Tbk,stock
+UNIC,PT Unggul Indah Cahaya Tbk,stock
+UNIQ,PT Ulima Nitra Tbk,stock
+UNSP,PT Bakrie Sumatera Plantations Tbk,stock
+UNTD,PT Terang Dunia Internusa Tbk,stock
+UNTR,PT United Tractors Tbk,stock
+UNVR,PT Unilever Indonesia Tbk,stock
+URBN,PT Urban Jakarta Propertindo Tbk.,stock
+UVCR,PT Trimegah Karya Pratama Tbk,stock
+VAST,PT Vastland Indonesia Tbk,stock
+VERN,PT Verona Indah Pictures Tbk,stock
+VICI,PT Victoria Care Indonesia Tbk,stock
+VICO,PT Victoria Investama Tbk,stock
+VINS,PT Victoria Insurance Tbk,stock
+VISI,PT Satu Visi Putra Tbk,stock
+VIVA,PT Visi Media Asia Tbk,stock
+VKTR,PT VKTR Teknologi Mobilitas Tbk,stock
+VOKS,PT Voksel Electric Tbk,stock
+VRNA,PT Mizuho Leasing Indonesia Tbk,stock
+VTNY,PT Venteny Fortuna International Tbk,stock
+WAPO,PT Wahana Pronatural Tbk,stock
+WBSA,PT BSA Logistics Indonesia Tbk,stock
+WEGE,PT Wijaya Karya Bangunan Gedung Tbk,stock
+WEHA,PT WEHA Transportasi Indonesia Tbk,stock
+WGSH,PT Wira Global Solusi Tbk,stock
+WIDI,PT Widiant Jaya Krenindo Tbk,stock
+WIFI,PT Solusi Sinergi Digital Tbk,stock
+WIIM,PT Wismilak Inti Makmur Tbk,stock
+WINE,PT HATTEN BALI Tbk,stock
+WINR,PT Winner Nusantara Jaya Tbk,stock
+WINS,PT Wintermar Offshore Marine Tbk,stock
+WIRG,PT WIR ASIA Tbk,stock
+WMPP,PT Widodo Makmur Perkasa Tbk,stock
+WMUU,PT Widodo Makmur Unggas Tbk,stock
+WOMF,PT Wahana Ottomitra Multiartha Tbk,stock
+WOOD,PT Integra Indocabinet Tbk,stock
+WOWS,PT Ginting Jaya Energi Tbk,stock
+WTON,PT Wijaya Karya Beton Tbk,stock
+YELO,PT Yelooo Integra Datanet Tbk,stock
+YOII,PT Asuransi Digital Bersama TBK,stock
+YPAS,PT Yanaprima Hastapersada Tbk,stock
+YULE,PT Yulie Sekuritas Indonesia Tbk,stock
+YUPI,PT Yupi Indo Jelly Gum Tbk,stock
+ZATA,PT Bersama Zatta Jaya Tbk,stock
+ZONE,PT Mega Perintis Tbk,stock
+ZYRX,PT Zyrexindo Mandiri Buana Tbk,stock
