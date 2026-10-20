@@ -1,0 +1,73 @@
+# Favorit: ticker di sini SELALU dianalisa lengkap (fundamental + berita).
+# Seluruh saham & ETF AS tetap dipindai otomatis. Baris diawali # diabaikan.
+
+# --- Dividend aristocrats & konsumer ---
+KO
+PEP
+PG
+JNJ
+CL
+KMB
+GIS
+MCD
+HD
+TGT
+
+# --- Kesehatan ---
+ABBV
+MRK
+PFE
+AMGN
+
+# --- Teknologi pembagi dividen ---
+MSFT
+AAPL
+AVGO
+TXN
+CSCO
+IBM
+
+# --- Keuangan ---
+JPM
+BAC
+USB
+BLK
+
+# --- Energi & utilitas ---
+XOM
+CVX
+DUK
+SO
+NEE
+EPD
+ENB
+
+# --- Telko, tembakau, REIT, BDC ---
+VZ
+T
+MO
+PM
+O
+MAIN
+
+# --- ETF dividen ---
+SCHD
+VYM
+VIG
+DGRO
+HDV
+DVY
+SDY
+NOBL
+SPYD
+JEPI
+JEPQ
+DIVO
+
+# --- ETF indeks & sektor ---
+SPY
+VOO
+VTI
+QQQ
+VNQ
+XLU

@@ -1,0 +1,444 @@
+<meta charset="utf-8">
+<title>Stock Screener IDX & US</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="author" content="Ahmad Zulfikar Rafsanjani">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: header band → filter panel (left on wide, collapsible on phone) → stock cards with a price ruler each */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --sunk:#e8edeb; --line:#d3dbd8;
+  --fg:#15211d; --muted:#5b6b66; --accent:#0e6b4f; --accent-fg:#ffffff; --accent-soft:#d7ece4;
+  --hold:#b42d2d; --hold-soft:#f7dede;
+  --t6:#2f7d3a; --t6-soft:#dcefdc;
+  --t8:#8a6a00; --t8-soft:#f6ecc5;
+  --t10:#b55a0c; --t10-soft:#f9e1cc;
+  --t12:#b3245e; --t12-soft:#f8dbe7;
+  --none:#6b7572; --none-soft:#e6eae9;
+  --zone:#bfe0d2;
+  --info:#2a5f9e; --info-soft:#dbe7f5;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --f-num:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1513; --surface:#17201d; --sunk:#1f2a26; --line:#2c3a35;
+  --fg:#e5ece9; --muted:#9aaba5; --accent:#46b88e; --accent-fg:#06140f; --accent-soft:#163a2d;
+  --hold:#f07a7a; --hold-soft:#3b1d1d; --t6:#7cc987; --t6-soft:#1b3320;
+  --t8:#e2c14e; --t8-soft:#3a3115; --t10:#f19a52; --t10-soft:#3d2614;
+  --t12:#ef7fae; --t12-soft:#3d1a29; --none:#9aa5a1; --none-soft:#252e2b; --zone:#1f4a3a; --info:#7fb0ea; --info-soft:#1a2b40;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1513; --surface:#17201d; --sunk:#1f2a26; --line:#2c3a35;
+  --fg:#e5ece9; --muted:#9aaba5; --accent:#46b88e; --accent-fg:#06140f; --accent-soft:#163a2d;
+  --hold:#f07a7a; --hold-soft:#3b1d1d; --t6:#7cc987; --t6-soft:#1b3320;
+  --t8:#e2c14e; --t8-soft:#3a3115; --t10:#f19a52; --t10-soft:#3d2614;
+  --t12:#ef7fae; --t12-soft:#3d1a29; --none:#9aa5a1; --none-soft:#252e2b; --zone:#1f4a3a; --info:#7fb0ea; --info-soft:#1a2b40;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.45}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+.num{font-family:var(--f-num);font-variant-numeric:tabular-nums}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* header */
+header.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;padding-bottom:16px;border-bottom:2px solid var(--fg)}
+header.top h1{font-size:clamp(28px,6vw,44px);font-weight:800;letter-spacing:-.02em;line-height:1}
+header.top .sub{color:var(--muted);margin:6px 0 0;max-width:60ch}
+.hright{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.asof{font-family:var(--f-num);font-size:13px;text-align:right;color:var(--muted)}
+.asof b{display:block;font-size:20px;color:var(--fg);font-weight:600}
+.switches{display:flex;flex-wrap:wrap;gap:8px}
+.mode,.market,.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--sunk)}
+.mode button,.market button,.lang button{border:0;background:transparent;padding:5px 12px;font-size:13px;font-weight:700;letter-spacing:.06em;cursor:pointer}
+.mode button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
+.market button[aria-pressed="true"],.lang button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+@media (max-width:600px){.hright{align-items:flex-start}.asof{text-align:left}}
+.banner{margin-top:14px;padding:10px 14px;border-radius:8px;background:var(--t8-soft);color:var(--fg);border:1px solid var(--t8);font-size:14px}
+.banner b{color:var(--t8)}
+
+/* layout */
+.grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:20px}
+@media (min-width:900px){.grid{grid-template-columns:320px minmax(0,1fr)} aside{position:sticky;top:12px;align-self:start;max-height:calc(100vh - 24px);overflow:auto}}
+
+/* filter panel */
+aside{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:18px}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.seg button{border:1px solid var(--line);background:var(--sunk);padding:6px 12px;border-radius:999px;cursor:pointer;font-size:14px;font-weight:600}
+.seg button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.presetnote{font-size:13px;color:var(--muted);margin-top:6px}
+.field{display:grid;grid-template-columns:minmax(0,1fr) 128px;gap:8px;align-items:center}
+.field label{font-size:15px}
+.field .hint{grid-column:1/-1;font-size:12.5px;color:var(--muted);margin-top:-4px}
+select,input[type=number],input[type=search]{width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+.group{display:flex;flex-direction:column;gap:12px}
+.stack{display:flex;flex-direction:column;gap:18px}
+.check{display:flex;gap:8px;align-items:flex-start;font-size:15px}
+.check input{margin-top:4px;accent-color:var(--accent)}
+details.adv>summary{cursor:pointer;font-weight:700;font-size:15px}
+details.adv[open]>summary{margin-bottom:12px}
+
+/* results */
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.counts{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:13px;padding:4px 10px;border-radius:999px;background:var(--sunk);font-weight:600}
+.chip.ok{background:var(--accent-soft);color:var(--accent)}
+.chip.bad{background:var(--hold-soft);color:var(--hold)}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+.tools select{width:auto}
+.btn{border:1px solid var(--line);background:var(--surface);padding:7px 12px;border-radius:6px;cursor:pointer;font-weight:600;font-size:14px}
+.btn:hover{border-color:var(--accent)}
+.search{margin-top:12px}
+
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:14px;margin-top:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card.dim{opacity:.62}
+.chead{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.tick{font-family:var(--f-display);font-weight:800;font-size:22px;letter-spacing:.01em;line-height:1}
+.name{font-size:13px;color:var(--muted);margin-top:3px}
+.pill{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;white-space:nowrap}
+.c-hold{background:var(--hold-soft);color:var(--hold)} .c-6{background:var(--t6-soft);color:var(--t6)}
+.c-8{background:var(--t8-soft);color:var(--t8)} .c-10{background:var(--t10-soft);color:var(--t10)}
+.c-12{background:var(--t12-soft);color:var(--t12)} .c-none{background:var(--none-soft);color:var(--none)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 8px}
+.stat .k{font-size:12px;color:var(--muted)}
+.stat .v{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:15px;font-weight:600}
+.v.pos,.pos{color:var(--accent)} .v.neg,.neg{color:var(--hold)}
+
+/* price ruler */
+.ruler{position:relative;height:30px;margin:6px 0 2px}
+.ruler .track{position:absolute;left:0;right:0;top:12px;height:6px;border-radius:3px;background:var(--sunk)}
+.ruler .zone{position:absolute;left:0;top:12px;height:6px;border-radius:3px;background:var(--zone)}
+.ruler .fv{position:absolute;top:6px;width:2px;height:18px;background:var(--fg)}
+.ruler .px{position:absolute;top:8px;width:14px;height:14px;margin-left:-7px;border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--fg)}
+.ruler .px.in{background:var(--accent)} .ruler .px.out{background:var(--hold)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+
+details.more>summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--accent)}
+.more-body{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:5px 6px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.num{font-family:var(--f-num)}
+tr.hit td{background:var(--accent-soft)}
+.reasons{margin:0;padding-left:18px;font-size:13.5px;color:var(--hold)}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.miss{color:var(--muted);font-style:italic;font-weight:400}
+
+.empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:12px}
+
+/* analysis */
+.badge{font-family:var(--f-body);font-size:11px;font-weight:700;letter-spacing:.06em;padding:2px 6px;border-radius:4px;background:var(--info-soft);color:var(--info);vertical-align:3px}
+.rec{font-size:13px;font-weight:700;padding:5px 10px;border-radius:999px;white-space:nowrap}
+.rec-buy{background:var(--accent);color:var(--accent-fg)} .rec-careful{background:var(--t8-soft);color:var(--t8);box-shadow:inset 0 0 0 1px var(--t8)}
+.rec-watch{background:var(--info-soft);color:var(--info)} .rec-avoid{background:var(--hold-soft);color:var(--hold)} .rec-na{background:var(--none-soft);color:var(--none)}
+.summary{background:var(--sunk);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.summary p{margin:0;font-size:14.5px;line-height:1.5}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips .pill{text-transform:none;letter-spacing:0;font-size:12px}
+.g-strong{background:var(--accent-soft);color:var(--accent)} .g-fair{background:var(--t8-soft);color:var(--t8)}
+.g-weak{background:var(--hold-soft);color:var(--hold)} .g-unknown{background:var(--none-soft);color:var(--none)}
+.up{color:var(--accent);font-weight:700} .down{color:var(--hold);font-weight:700}
+.nb{font-family:var(--f-num);font-size:12.5px;margin-left:4px}
+ul.checks,ul.news{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;font-size:14px}
+ul.checks li{display:flex;gap:8px} ul.checks span{width:14px;flex:none;font-weight:700;text-align:center}
+.ck-good span{color:var(--accent)} .ck-ok span{color:var(--muted)} .ck-bad span{color:var(--hold)}
+ul.news li{display:flex;gap:10px;align-items:flex-start;min-width:0}
+ul.news li>div{min-width:0}
+ul.news a{color:var(--fg);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;overflow-wrap:anywhere}
+ul.news a:hover{text-decoration-color:var(--accent)}
+.arr{flex:none;width:22px;height:22px;border-radius:6px;display:grid;place-items:center;font-size:12px;font-weight:700}
+.arr.up{background:var(--accent-soft);color:var(--accent)} .arr.down{background:var(--hold-soft);color:var(--hold)} .arr.flat{background:var(--none-soft);color:var(--none);font-size:9px}
+.meta,.note,.muted{font-size:12.5px;color:var(--muted);margin:0}
+input[aria-invalid="true"]{border-color:var(--hold)}
+
+/* top 10 */
+.top10{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;margin-bottom:22px}
+.top10 h2,.allh{font-size:22px;letter-spacing:-.01em}
+.allh{margin:0 0 10px}
+.top10 ol{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column}
+.top10 li{border-top:1px solid var(--line)}
+.top10 li:first-child{border-top:0}
+.top10 li>details>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:4px 10px;align-items:center;padding:10px 2px}
+.top10 li>details>summary::-webkit-details-marker{display:none}
+.top10 li>details>summary:hover .tn b{color:var(--accent)}
+.rk{font-family:var(--f-display);font-weight:800;font-size:22px;color:var(--muted);text-align:center;grid-row:span 2}
+.tn{min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 6px}
+.tn b{font-family:var(--f-display);font-size:18px}
+.tn small{flex-basis:100%;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tm{grid-column:2/-1;display:flex;flex-wrap:wrap;gap:4px 16px}
+.tm span{display:flex;flex-direction:column}
+.tm small{font-size:11px;color:var(--muted)}
+.tm b{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:14px}
+.top-card{padding:0 0 12px}
+.top-card .card{border-color:var(--accent-soft)}
+.more-box{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:16px}
+
+/* growth */
+.pills{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.rec2{font-size:11.5px;color:var(--muted);white-space:nowrap}
+.rec2.inline{font-weight:600;margin-left:6px}
+.grec-buy{background:var(--accent);color:var(--accent-fg)} .grec-wait{background:var(--info-soft);color:var(--info);box-shadow:inset 0 0 0 1px var(--info)}
+.grec-watch{background:var(--t8-soft);color:var(--t8)} .grec-avoid{background:var(--hold-soft);color:var(--hold)} .grec-na{background:var(--none-soft);color:var(--none)}
+.tr-up{background:var(--accent-soft);color:var(--accent)} .tr-down{background:var(--hold-soft);color:var(--hold)}
+.tr-side,.tr-unknown{background:var(--none-soft);color:var(--none)}
+.spark{margin:0;display:flex;flex-direction:column;gap:4px}
+.spark figcaption{font-size:12px;color:var(--muted)}
+.spark-box{position:relative;height:64px}
+.spark svg{display:block;width:100%;height:100%;overflow:visible}
+.spark .line{fill:none;stroke-width:2;stroke-linejoin:round}
+.spark.up .line{stroke:var(--accent)} .spark.down .line{stroke:var(--hold)}
+.spark.up .area{fill:var(--accent-soft)} .spark.down .area{fill:var(--hold-soft)}
+.spark .area{opacity:.7}
+.spark .dot{position:absolute;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;border:2px solid var(--surface)}
+.spark.up .dot{background:var(--accent)} .spark.down .dot{background:var(--hold)}
+.spark-x{display:flex;justify-content:space-between;font-family:var(--f-num);font-size:11px;color:var(--muted)}
+.range{position:relative;height:30px;margin:6px 0 2px}
+.range .track{position:absolute;left:0;right:0;top:12px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--hold-soft),var(--sunk) 50%,var(--accent-soft))}
+.range .ma50,.range .ma200{position:absolute;top:7px;width:2px;height:16px;margin-left:-1px}
+.range .ma50{background:var(--info)} .range .ma200{background:var(--t10)}
+.range .px{position:absolute;top:8px;width:14px;height:14px;margin-left:-7px;border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--fg)}
+.range .px.in{background:var(--accent)} .range .px.out{background:var(--hold)}
+.lg-ma50{background:var(--info);width:2px!important} .lg-ma200{background:var(--t10);width:2px!important}
+.plan{border:1px solid var(--accent-soft);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:6px}
+.plan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,110px),1fr));gap:8px}
+.plan-grid small{display:block;font-size:11.5px;color:var(--muted)}
+.plan-grid b{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:14px}
+.gsec{display:flex;flex-direction:column;gap:6px}
+.gsec+.gsec{border-top:1px solid var(--line);padding-top:10px}
+.gsec h4{margin:0;font-size:14px;font-family:var(--f-body)}
+.years{display:flex;flex-wrap:wrap;gap:4px 10px;font-family:var(--f-num);font-size:12.5px;align-items:baseline}
+.years small{font-family:var(--f-body);color:var(--muted);flex-basis:100%}
+
+/* footer */
+.foot{margin-top:28px;padding-top:14px;border-top:2px solid var(--fg);display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:space-between;font-size:13px;color:var(--muted)}
+.foot span:first-child{color:var(--fg);font-weight:600}
+
+/* method */
+section.how{margin-top:36px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px}
+section.how h2{font-size:22px}
+.how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;margin-top:12px}
+.how-grid h3{font-size:16px;margin-bottom:4px}
+.how-grid p{margin:0;font-size:14.5px;color:var(--muted);max-width:62ch}
+code.f{display:block;margin:6px 0;padding:8px 10px;background:var(--sunk);border-radius:6px;font-family:var(--f-num);font-size:13px;overflow-x:auto;white-space:nowrap;color:var(--fg)}
+.disclaimer{margin-top:18px;font-size:13px;color:var(--muted);max-width:75ch}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:14px}
+@media (max-width:420px){.stats,.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (prefers-reduced-motion:no-preference){.card{transition:opacity .15s}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1 id="h1">Stock Screener</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="hright">
+      <div class="switches">
+        <div class="mode" role="group" data-i18n-aria="modeAria">
+          <button type="button" data-mode="div" data-i18n="md_div"></button>
+          <button type="button" data-mode="growth" data-i18n="md_growth"></button>
+        </div>
+        <div class="market" role="group" data-i18n-aria="marketAria">
+          <button type="button" data-m="idx" data-i18n="mk_idx"></button>
+          <button type="button" data-m="us" data-i18n="mk_us"></button>
+        </div>
+        <div class="lang" role="group" aria-label="Bahasa / Language">
+          <button type="button" data-lang="id" lang="id">ID</button>
+          <button type="button" data-lang="en" lang="en">EN</button>
+        </div>
+      </div>
+      <div class="asof"><span data-i18n="asofLbl"></span><b id="asofDate">–</b><span id="asofMeta"></span></div>
+    </div>
+  </header>
+  <div class="banner" id="demoBanner" hidden></div>
+
+  <div class="grid">
+    <aside data-i18n-aria="filterAria">
+      <div>
+        <div class="lbl" data-i18n="styleLbl"></div>
+        <div class="seg" id="presets"></div>
+        <div class="presetnote" id="presetNote"></div>
+      </div>
+
+      <details class="adv" id="filterBox" open>
+      <summary data-i18n="filterBox"></summary>
+      <div class="stack">
+      <div class="group">
+        <div class="lbl" data-i18n="commonLbl"></div>
+        <div class="field" id="kindField"><label for="kind" data-i18n="kindLbl"></label>
+          <select id="kind"><option value="all" data-i18n="kAll"></option><option value="stock" data-i18n="kStock"></option><option value="etf" data-i18n="kEtf"></option></select></div>
+        <div class="field"><label for="minLiq" data-i18n="liqLbl"></label>
+          <select id="minLiq"></select>
+          <div class="hint" data-i18n="liqHint"></div></div>
+        <div class="field"><label for="newsF" data-i18n="newsFLbl"></label>
+          <select id="newsF"><option value="all" data-i18n="all"></option><option value="notNeg" data-i18n="nNotNeg"></option><option value="pos" data-i18n="nPos"></option></select></div>
+      </div>
+
+      <div class="group" data-only="growth">
+        <div class="lbl" data-i18n="gg_quality"></div>
+        <div class="field"><label for="gMinScore" data-i18n="gMinScore"></label>
+          <select id="gMinScore"><option value="" data-i18n="any"></option><option value="50">≥ 50</option><option value="60">≥ 60</option><option value="70">≥ 70</option></select></div>
+        <div class="field"><label for="gMinRev" data-i18n="gMinRev"></label>
+          <select id="gMinRev"><option value="" data-i18n="any"></option><option value="0.1">≥ 10%</option><option value="0.2">≥ 20%</option><option value="0.3">≥ 30%</option></select></div>
+        <div class="field"><label for="gMinEps" data-i18n="gMinEps"></label>
+          <select id="gMinEps"><option value="" data-i18n="any"></option><option value="0.1">≥ 10%</option><option value="0.2">≥ 20%</option><option value="0.3">≥ 30%</option></select></div>
+        <div class="field"><label for="gMaxPeg" data-i18n="gMaxPeg"></label>
+          <select id="gMaxPeg"><option value="" data-i18n="any"></option><option value="1">≤ 1</option><option value="1.5">≤ 1.5</option><option value="2">≤ 2</option></select>
+          <div class="hint" data-i18n="gPegHint"></div></div>
+        <div class="field"><label for="gMinF" data-i18n="gMinF"></label>
+          <select id="gMinF"><option value="" data-i18n="any"></option><option value="5">≥ 5</option><option value="7">≥ 7</option></select>
+          <div class="hint" data-i18n="gFHint"></div></div>
+      </div>
+
+      <div class="group" data-only="growth">
+        <div class="lbl" data-i18n="gg_tech"></div>
+        <div class="field"><label for="gMinRs" data-i18n="gMinRs"></label>
+          <select id="gMinRs"><option value="" data-i18n="any"></option><option value="70">≥ 70</option><option value="80">≥ 80</option><option value="90">≥ 90</option></select>
+          <div class="hint" data-i18n="gRsHint"></div></div>
+        <label class="check"><input type="checkbox" id="gUptrend"> <span data-i18n="gUptrend"></span></label>
+        <label class="check"><input type="checkbox" id="gHideHot"> <span data-i18n="gHideHot"></span></label>
+      </div>
+
+      <div class="group" data-only="div">
+        <div class="lbl" data-i18n="s1"></div>
+        <label class="check"><input type="checkbox" id="onlyPass"> <span data-i18n="onlyPass"></span></label>
+        <div class="field"><label for="mos" data-i18n="mosLbl"></label>
+          <select id="mos"><option value="0.1">10%</option><option value="0.15">15%</option><option value="0.2">20%</option><option value="0.25">25%</option><option value="0.3">30%</option><option value="0.4">40%</option></select>
+          <div class="hint" data-i18n="mosHint"></div></div>
+      </div>
+
+      <div class="group" data-only="div">
+        <div class="lbl" data-i18n="s2"></div>
+        <div class="field"><label for="minCat" data-i18n="minCatLbl"></label>
+          <select id="minCat"></select>
+          <div class="hint" data-i18n="yieldHint"></div></div>
+      </div>
+
+      <div class="group" data-only="div">
+        <div class="lbl" data-i18n="fnLbl"></div>
+        <div class="field"><label for="minFund" data-i18n="minFundLbl"></label>
+          <select id="minFund"><option value="" data-i18n="any"></option><option value="fair" data-i18n="fFair"></option><option value="strong" data-i18n="fStrong"></option></select></div>
+        <label class="check"><input type="checkbox" id="hideOdd"> <span data-i18n="hideOdd"></span></label>
+      </div>
+
+      <div class="group" data-only="div">
+        <div class="lbl" data-i18n="quality"></div>
+        <div class="field"><label for="minRoe" data-i18n="roeLbl"></label>
+          <select id="minRoe"><option value="" data-i18n="any"></option><option value="0.1">10%</option><option value="0.15">15%</option><option value="0.2">20%</option></select>
+          <div class="hint" data-i18n="roeHint"></div></div>
+        <div class="field"><label for="maxDer" data-i18n="derLbl"></label>
+          <select id="maxDer"><option value="" data-i18n="any"></option><option value="0.5">0.5×</option><option value="1">1×</option><option value="2">2×</option></select>
+          <div class="hint" data-i18n="derHint"></div></div>
+        <div class="field"><label for="maxPayout" data-i18n="payoutLbl"></label>
+          <select id="maxPayout"><option value="" data-i18n="any"></option><option value="0.6">60%</option><option value="0.8">80%</option><option value="1">100%</option></select>
+          <div class="hint" data-i18n="payoutHint"></div></div>
+        <div class="field"><label for="minYears" data-i18n="yearsLbl"></label>
+          <select id="minYears"><option value="" data-i18n="any"></option><option value="3" data-i18n="y3"></option><option value="4" data-i18n="y4"></option><option value="5" data-i18n="y5"></option></select></div>
+        <div class="field"><label for="minGrowth" data-i18n="growthLbl"></label>
+          <select id="minGrowth"><option value="" data-i18n="any"></option><option value="0" data-i18n="gr0"></option><option value="0.05" data-i18n="gr5"></option><option value="0.1" data-i18n="gr10"></option></select></div>
+        <div class="field"><label for="maxPe" data-i18n="peLbl"></label>
+          <select id="maxPe"></select></div>
+        <label class="check"><input type="checkbox" id="dropMissing"> <span data-i18n="dropMissing"></span></label>
+      </div>
+      </div>
+      </details>
+
+      <details class="adv" id="advBox" data-only="div">
+        <summary data-i18n="adv"></summary>
+        <div class="group">
+          <div class="field"><label for="r" data-i18n="rLbl"></label><input type="number" id="r" step="0.5" min="1" max="40"><div class="hint" data-i18n="rHint"></div></div>
+          <div class="field"><label for="g" data-i18n="gLbl"></label><input type="number" id="g" step="0.5" min="0" max="20"></div>
+          <div class="field"><label for="g1" data-i18n="g1Lbl"></label><input type="number" id="g1" step="0.5" min="-20" max="40"></div>
+          <div class="field"><label for="n" data-i18n="nLbl"></label><input type="number" id="n" step="1" min="1" max="15"></div>
+          <div class="field"><label for="g2" data-i18n="g2Lbl"></label><input type="number" id="g2" step="0.5" min="0" max="20"></div>
+          <div class="field"><label for="tierStr" data-i18n="tiersLbl"></label><input type="text" id="tierStr" inputmode="decimal" autocomplete="off"><div class="hint" id="tiersHint"></div></div>
+          <div class="field"><label for="dpsBasis" data-i18n="dpsLbl"></label>
+            <select id="dpsBasis"><option value="ttm" data-i18n="dTtm"></option><option value="lastfy" data-i18n="dFy"></option><option value="avg3" data-i18n="dAvg"></option><option value="min" data-i18n="dMin"></option></select></div>
+          <div class="field"><label for="fvMethod" data-i18n="fvLbl"></label>
+            <select id="fvMethod"><option value="min">MIN(single, double)</option><option value="single">DDM single</option><option value="double">DDM double</option><option value="avg" data-i18n="fvAvg"></option></select></div>
+        </div>
+      </details>
+    </aside>
+
+    <main>
+      <section class="top10" aria-labelledby="top10H">
+        <h2 id="top10H"></h2>
+        <p class="muted" id="top10Sub"></p>
+        <ol id="top10List"></ol>
+        <p class="note" id="top10Note" hidden></p>
+      </section>
+      <h2 class="allh" data-i18n="allH"></h2>
+      <div class="toolbar">
+        <div class="counts" id="counts"></div>
+        <div class="tools">
+          <label class="check" style="align-items:center"><input type="checkbox" id="showAll"> <span data-i18n="showAll"></span></label>
+          <select id="sort" data-i18n-aria="sortAria">
+            <option value="rec" data-i18n="sRec"></option>
+            <option value="mos" data-i18n="sMos"></option>
+            <option value="yield" data-i18n="sYield"></option>
+            <option value="fund" data-i18n="sFund"></option>
+            <option value="gap" data-i18n="sGap"></option>
+            <option value="ticker" data-i18n="sTicker"></option>
+          </select>
+          <button class="btn" id="copyCsv" type="button" data-i18n="copyCsv"></button>
+        </div>
+      </div>
+      <input type="search" class="search" id="q">
+      <div class="list" id="list"></div>
+      <div class="more-box" id="moreBox" hidden><button class="btn" id="moreBtn" type="button"></button><span class="muted" id="moreLeft"></span></div>
+    </main>
+  </div>
+
+  <section class="how" aria-labelledby="ghowH" data-only="growth">
+    <h2 id="ghowH" data-i18n="ghowH"></h2>
+    <div class="how-grid">
+      <div><h3 data-i18n="gh1"></h3><code class="f" data-i18n="gf1"></code><p data-i18n="gp1"></p></div>
+      <div><h3 data-i18n="gh2"></h3><code class="f" data-i18n="gf2"></code><p data-i18n="gp2"></p></div>
+      <div><h3 data-i18n="gh3"></h3><code class="f" data-i18n="gf3"></code><p data-i18n="gp3"></p></div>
+      <div><h3 data-i18n="gh4"></h3><code class="f" data-i18n="gf4"></code><p data-i18n="gp4"></p></div>
+      <div><h3 data-i18n="gh5"></h3><code class="f" data-i18n="gf5"></code><p data-i18n="gp5"></p></div>
+      <div><h3 data-i18n="gh6"></h3><code class="f" data-i18n="gf6"></code><p data-i18n="gp6"></p></div>
+      <div><h3 data-i18n="h6"></h3><code class="f" data-i18n="f6"></code><p data-i18n="p6"></p></div>
+    </div>
+    <p class="disclaimer" data-i18n="disclaimer"></p>
+  </section>
+
+  <section class="how" aria-labelledby="howH" data-only="div">
+    <h2 id="howH" data-i18n="howH"></h2>
+    <div class="how-grid">
+      <div><h3 data-i18n="h1"></h3>
+        <code class="f">Single: DPS×(1+g) ÷ (r−g)</code>
+        <code class="f">Double: Σ DPS×(1+g1)^t ÷ (1+r)^t + TV ÷ (1+r)^n</code>
+        <p data-i18n="p1"></p></div>
+      <div><h3 data-i18n="h2"></h3><code class="f" data-i18n="f2"></code><p data-i18n="p2"></p></div>
+      <div><h3 data-i18n="h3"></h3><code class="f" data-i18n="f3"></code><p data-i18n="p3"></p></div>
+      <div><h3 data-i18n="h4"></h3><code class="f" data-i18n="f4"></code><p data-i18n="p4"></p></div>
+      <div><h3 data-i18n="h5"></h3><code class="f" data-i18n="f5"></code><p data-i18n="p5"></p></div>
+      <div><h3 data-i18n="h6"></h3><code class="f" data-i18n="f6"></code><p data-i18n="p6"></p></div>
+      <div><h3 data-i18n="h7"></h3><code class="f" data-i18n="f7"></code><p data-i18n="p7"></p></div>
+      <div><h3 data-i18n="h8"></h3><code class="f" data-i18n="f8"></code><p data-i18n="p8"></p></div>
+    </div>
+    <p class="disclaimer" data-i18n="disclaimer"></p>
+  </section>
+  <footer class="foot">
+    <span>© <span id="copyYear">2026</span> Ahmad Zulfikar Rafsanjani</span>
+    <span data-i18n="rights"></span>
+  </footer>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script charset="utf-8" src="js/i18n.js"></script>
+<script charset="utf-8" src="js/demo.js"></script>
+<script charset="utf-8" src="js/calc.js"></script>
+<script charset="utf-8" src="js/analysis.js"></script>
+<script charset="utf-8" src="js/growth.js"></script>
+<script charset="utf-8" src="js/app.js"></script>

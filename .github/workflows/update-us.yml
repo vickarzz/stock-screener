@@ -1,0 +1,74 @@
+name: Update data Amerika (NYSE/Nasdaq)
+
+on:
+  schedule:
+    # Senin–Jumat 22:13 UTC = 18:13 ET (musim panas) / 17:13 ET (musim dingin), setelah bursa AS tutup 16:00 ET
+    - cron: "13 22 * * 1-5"
+  workflow_dispatch: {}   # tombol "Run workflow" untuk update manual
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data      # IDX & AS bergantian, tidak bentrok saat commit
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Tes logika
+        run: |
+          python tests/test_fetch.py
+          python tests/test_technicals.py
+          node tests/test_calc.js
+          node tests/test_growth.js
+
+      - name: Ambil data closing, fundamental & berita
+        run: python fetch_data.py us
+
+      - name: Commit kalau ada perubahan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/us.json data/universe_us.csv
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan (mungkin hari libur bursa)."
+          else
+            git commit -m "data(us): closing $(date -u +%Y-%m-%d)"
+            git pull --rebase origin ${GITHUB_REF_NAME}
+            git push
+          fi
+
+      # Email ke alamat di secret MAIL_TO kalau ada langkah yang gagal.
+      # Butuh 3 secret: MAIL_USERNAME (Gmail pengirim), MAIL_PASSWORD (App Password Gmail), MAIL_TO.
+      # Kalau secret belum diisi, langkah ini dilewati tanpa error.
+      - name: Kirim email kalau gagal
+        if: failure() && env.MAIL_USERNAME != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Stock Screener <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: "Stock Screener gagal: ${{ github.workflow }}"
+          body: |
+            Workflow "${{ github.workflow }}" gagal pada ${{ github.event_name }} run #${{ github.run_number }}.
+            Halaman tetap menampilkan data terakhir yang berhasil.
+
+            Lihat log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

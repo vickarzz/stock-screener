@@ -1,0 +1,62 @@
+# Favorit: ticker di sini SELALU dianalisa lengkap (fundamental + berita),
+# walau tidak masuk kandidat teratas. Seluruh emiten BEI tetap dipindai otomatis.
+# Kode BEI tanpa .JK, satu per baris. Baris diawali # diabaikan.
+# --- 6 saham dari infografis ---
+SMSM
+PBID
+CLPI
+MSTI
+AUTO
+POWR
+
+# --- Perbankan ---
+BBRI
+BBCA
+BMRI
+BBNI
+BJBR
+BJTM
+
+# --- Telko & infrastruktur ---
+TLKM
+ISAT
+MTDL
+
+# --- Otomotif & alat berat ---
+ASII
+UNTR
+MPMX
+HEXA
+DRMA
+
+# --- Energi & tambang ---
+ITMG
+PTBA
+ADRO
+BSSR
+
+# --- Konsumer ---
+ICBP
+INDF
+MYOR
+KLBF
+SIDO
+UNVR
+HMSP
+CMRY
+
+# --- Agri & pakan ---
+CPIN
+JPFA
+AALI
+LSIP
+TAPG
+
+# --- Ritel, konstruksi, properti, transportasi ---
+ACES
+ERAA
+TOTL
+DMAS
+IPCC
+BIRD
+SMGR
