@@ -136,7 +136,9 @@ AGZD,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,etf
 AHCO,AdaptHealth Corp.,stock
 AHD,GraniteShares Autocallable HOOD ETF,etf
 AHG,Akso Health Group,stock
+AHIC,Allspring Short-Term High Income Fund ETF,etf
 AHMA,Ambitions Enterprise Management Co. L.L.C,stock
+AHYM,Allspring High Yield Municipal Bond Fund ETF,etf
 AIA,iShares Asia 50 ETF,etf
 AIAI,AIAI Holdings Corporation,stock
 AIBZ,Bitzero Holdings Inc.,stock
@@ -358,6 +360,7 @@ ASTE,"Astec Industries, Inc.",stock
 ASTH,Astrana Health Inc.,stock
 ASTI,"Ascent Solar Technologies, Inc",stock
 ASTL,Algoma Steel Group Inc.,stock
+ASTM,Allspring Strategic Municipal Bond Fund ETF,etf
 ASTS,"AST SpaceMobile, Inc.",stock
 ASUR,Asure Software Inc,stock
 ASYS,"Amtech Systems, Inc.",stock
@@ -694,7 +697,6 @@ BTCS,BTCS Inc.,stock
 BTCT,BTC Digital Ltd.,stock
 BTDL,GraniteShares 2x Long BTDR Daily ETF,etf
 BTDR,Bitdeer Technologies Group,stock
-BTF,CoinShares Bitcoin and Ether ETF,etf
 BTGD,STKd 100% Bitcoin & 100% Gold ETF,etf
 BTLN,"Brightline Interactive, Inc.",stock
 BTMD,Biote Corp.,stock
@@ -1161,7 +1163,6 @@ DGXX,Digi Power X Inc.,stock
 DH,Definitive Healthcare Corp.,stock
 DHC,Diversified Healthcare Trust,stock
 DIBS,"1stdibs.com, Inc.",stock
-DIME,CoinShares Altcoins ETF,etf
 DINE,Simplify Tax Aware Diversified Income Strategy ETF,etf
 DIOD,Diodes Incorporated,stock
 DIVD,Altrius Global Dividend ETF,etf
@@ -4113,6 +4114,7 @@ TKNO,"Alpha Teknova, Inc.",stock
 TKNS,21Shares Active Crypto ETF,etf
 TLA,GraniteShares Autocallable TSLA ETF,etf
 TLAC,Three Lions Acquisition Corp.,stock
+TLCE,Thrivent Large Cap Stock ETF,etf
 TLF,"Tandy Leather Factory, Inc.",stock
 TLG,Touchstone Large Company Growth ETF,etf
 TLIH,Ten-League International Holdings Limited,stock
@@ -4208,6 +4210,7 @@ TSEE,T. Rowe Price Small Cap ETF,etf
 TSEL,Touchstone Sands Capital US Select Growth ETF,etf
 TSEM,Tower Semiconductor Ltd.,stock
 TSHA,"Taysha Gene Therapies, Inc.",stock
+TSIE,Thrivent Securitized Income ETF,etf
 TSL,GraniteShares 1.25x Long TSLA Daily ETF,etf
 TSLA,"Tesla, Inc.",stock
 TSLG,Leverage Shares 2X Long TSLA Daily ETF,etf
@@ -4806,7 +4809,6 @@ AD,"Array Digital Infrastructure, Inc.",stock
 ADBU,Direxion Daily ADBE Bull 2X ETF,etf
 ADC,Agree Realty Corporation,stock
 ADCT,ADC Therapeutics SA,stock
-ADDS,Hedgeye Index Adds ETF,etf
 ADIG,ADI Global Distribution Inc.,stock
 ADIU,Leverage Shares 2X Long ADI Daily ETF,etf
 ADIV,Guinness Atkinson Asia Pacific Dividend Builder ETF,etf
@@ -5957,7 +5959,6 @@ CPNJ,Calamos Nasdaq,etf
 CPNM,Calamos Nasdaq-100 Structured Alt Protection ETF,etf
 CPNQ,Calamos Nasdaq-100 Structured Alt Protection ETF December,etf
 CPNS,Calamos Nasdaq-100 Structured Alt Protection ETF  September,etf
-CPNX,Tradr 2X Long CPNG Daily ETF,etf
 CPRA,Calamos Russell 2000 Structured Alt Protection ETF,etf
 CPRI,Capri Holdings Limited,stock
 CPRJ,Calamos Russell 2000 Structured Alt Protection ETF  July,etf
@@ -7327,6 +7328,7 @@ GMED,"Globus Medical, Inc.",stock
 GMEU,T-REX 2X Long GME Daily Target ETF,etf
 GMEY,YieldMax GME Option Income Strategy ETF,etf
 GMF,State Street SPDR S&P Emerging Asia Pacific ETF,etf
+GMIE,"GMO International Equity Fund, ETF Class",etf
 GMMA,GammaRoad Market Navigation ETF,etf
 GMMF,iShares Government Money Market ETF,etf
 GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,etf
@@ -7520,7 +7522,6 @@ HEGD,Swan Hedged Equity US Large Cap ETF,etf
 HEI,Heico Corporation,stock
 HEI-A,Heico Corporation,stock
 HELO,JPMorgan Hedged Equity Laddered Overlay ETF,etf
-HELS,Hedgeye 130/30 Equity ETF,etf
 HELX,Franklin Genomic Advancements ETF,etf
 HEMI,Hartford Equity Premium Income ETF,etf
 HEQ,John Hancock Diversified Income Fund,stock
@@ -7587,7 +7588,6 @@ HOLA,JPMorgan International Hedged Equity Laddered Overlay ETF,etf
 HOLD,Harbor Alpha Layering ETF,etf
 HOMB,"Home BancShares, Inc.",stock
 HOMZ,Hoya Capital Housing ETF,etf
-HONG,Leverage Shares 2X Long HON Daily ETF,etf
 HOOC,Corgi HOOD 2x Daily ETF,etf
 HOOW,Roundhill HOOD WeeklyPay ETF,etf
 HOOY,YieldMax HOOD Option Income Strategy ETF,etf
@@ -8793,6 +8793,8 @@ MSFW,Roundhill MSFT WeeklyPay ETF,etf
 MSFX,T-Rex 2X Long Microsoft Daily Target ETF,etf
 MSFY,Kurv Yield Premium Strategy Microsoft (MSFT) ETF,etf
 MSGE,Madison Square Garden Entertainment Corp.,stock
+MSGK-V,Madison Square Garden Sports Corp.,stock
+MSGR-V,MSG Rangers Corp.,stock
 MSGS,Madison Square Garden Sports Corp.,stock
 MSI,"Motorola Solutions, Inc.",stock
 MSIF,"MSC Income Fund, Inc.",stock
@@ -8861,7 +8863,6 @@ MUNY,Vanguard New York Tax-Exempt Bond ETF,etf
 MUR,Murphy Oil Corporation,stock
 MUSA,Murphy USA Inc.,stock
 MUSE,TCW Multisector Credit Income ETF,etf
-MUSQ,MUSQ Global Music Industry Index ETF,etf
 MUST,Columbia Multi-Sector Municipal Income ETF,etf
 MUX,McEwen Inc.,stock
 MUZ,Defiance Daily Target 2X Short MU ETF,etf
@@ -9139,7 +9140,6 @@ NXE,Nexgen Energy Ltd.,stock
 NXG,NXG NextGen Infrastructure Income Fund,stock
 NXP,Nuveen Select Tax Free Income Portfolio,stock
 NXPG,Leverage Shares 2X Long NXPI Daily ETF,etf
-NXPX,Tradr 2X Long NXPI Daily ETF,etf
 NXRT,"NexPoint Residential Trust, Inc.",stock
 NXTE,AXS Green Alpha ETF,etf
 NXTI,Simplify Next Intangible Core Index ETF,etf
@@ -9524,7 +9524,7 @@ PNW,Pinnacle West Capital Corporation,stock
 POAS,Phaos Technology Holdings (Cayman) Limited,stock
 POCT,Innovator U.S. Equity Power Buffer ETF,etf
 POEL,Defiance Daily Target 2X Long POET ETF,etf
-PONX,Tradr 2X Long PONY Daily ETF,etf
+POMG,PRIMECAP Odyssey Discovery ETF,etf
 POR,Portland General Electric Co,stock
 POST,"Post Holdings, Inc.",stock
 POW,VistaShares Electrification Supercycle ETF,etf
@@ -9778,6 +9778,7 @@ RBLU,T-REX 2X Long RBLX Daily Target ETF,etf
 RBLX,Roblox Corporation,stock
 RBLY,YieldMax RBLX Option Income Strategy ETF,etf
 RBRK,"Rubrik, Inc.",stock
+RBTX,iShares Future Robotics and Related Technologies Active ETF,etf
 RBUF,Innovator U.S. Small Cap 10 Buffer ETF,etf
 RC,Ready Capital Corporation,stock
 RCG,"RENN Fund, Inc",stock
@@ -10075,6 +10076,7 @@ SCHX,Schwab U.S. Large-Cap ETF,etf
 SCHY,Schwab International Dividend Equity ETF,etf
 SCHZ,Schwab US Aggregate Bond ETF,etf
 SCI,Service Corporation International,stock
+SCIN,Schwab International Bond ETF,etf
 SCIO,First Trust Structured Credit Income Opportunities ETF,etf
 SCJ,iShares MSCI Japan Sm Cap,etf
 SCJL,Corgi U.S. Small-Cap 15% Structured Buffer ETF,etf
@@ -10309,7 +10311,6 @@ SMTJ,Synera Funds Takumi+ ETF,etf
 SMU,Tradr 2X Long SMR Daily ETF,etf
 SMUP,T-REX 2X Long SMR Daily Target ETF,etf
 SMWB,Similarweb Ltd.,stock
-SMZ,Tradr 2X Short SMR Daily ETF,etf
 SN,"SharkNinja, Inc.",stock
 SNA,Snap-On Incorporated,stock
 SNAP,Snap Inc.,stock
@@ -10851,7 +10852,6 @@ TSEC,Touchstone Securitized Income ETF,etf
 TSEG,Leverage Shares 2X Long TSEM Daily ETF,etf
 TSEP,FT Vest Emerging Market Buffer ETF,etf
 TSES,Truth Social American Energy Security ETF,etf
-TSEU,Tradr 2X Long TSEM Daily ETF,etf
 TSI,"TCW Strategic Income Fund, Inc.",stock
 TSIB,Direxion TSLA Defined Income Boost ETF,etf
 TSIC,Truth Social American Icons ETF,etf
