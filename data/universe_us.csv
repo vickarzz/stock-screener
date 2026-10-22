@@ -373,7 +373,6 @@ ATEX,Anterix Inc.,stock
 ATGL,Alpha Technology Group Limited,stock
 ATHE,Alterity Therapeutics Limited,stock
 ATHR,"Aether Holdings, Inc.",stock
-ATII,Archimedes Tech SPAC Partners II Co.,stock
 ATLC,Atlanticus Holdings Corporation,stock
 ATLO,Ames National Corporation,stock
 ATLQ,JAB Acquisition Corp I,stock
@@ -1124,6 +1123,7 @@ DAPP,VanEck Digital Transformation ETF,etf
 DARE,"Dare Bioscience, Inc.",stock
 DASH,"DoorDash, Inc.",stock
 DAVE,Dave Inc.,stock
+DAVI,Davion Healthcare Plc,stock
 DAX,Global X DAX Germany ETF,etf
 DBCA,D. Boral Acquisition I Corp.,stock
 DBGI,"Digital Brands Group, Inc.",stock
@@ -1321,6 +1321,7 @@ ELVA,Electrovaya Inc.,stock
 ELVN,"Enliven Therapeutics, Inc.",stock
 ELVR,Elevra Lithium Limited,stock
 ELWT,"Elauwit Connection, Inc.",stock
+EMAG,Emerging Markets AI Mag 3 ETF,etf
 EMAT,Evolution Metals & Technologies Corp.,stock
 EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,etf
 EMBC,Embecta Corp.,stock
@@ -2812,6 +2813,7 @@ NAKA,Nakamoto Inc.,stock
 NAMI,Jinxin Technology Holding Company,stock
 NAMM,Namib Minerals,stock
 NAMS,NewAmsterdam Pharma Company N.V.,stock
+NANO,Forge Nano Holdings Inc.,stock
 NATH,"Nathan's Famous, Inc.",stock
 NATO,Themes Transatlantic Defense ETF,etf
 NATR,"Nature's Sunshine Products, Inc.",stock
@@ -6920,6 +6922,7 @@ FIAX,Nicholas Fixed Income Alternative ETF,etf
 FICO,Fair Isaac Corporation,stock
 FIDI,Fidelity International High Dividend ETF,etf
 FIDU,Fidelity MSCI Industrials Index ETF,etf
+FIFT,HCM Select 50 ETF,etf
 FIG,"Figma, Inc.",stock
 FIGB,Fidelity Investment Grade Bond ETF,etf
 FIGS,"FIGS, Inc.",stock
@@ -7746,6 +7749,7 @@ ICE,Intercontinental Exchange Inc.,stock
 ICF,iShares Select U.S. REIT ETF,etf
 ICL,ICL Group Ltd.,stock
 ICLO,Invesco AAA CLO Floating Rate Note ETF,etf
+ICOM,Tema Commodity Income ETF,etf
 ICOW,Pacer Developed Markets International Cash Cows 100 ETF,etf
 ICPI,iShares 0-1 Year TIPS Bond ETF,etf
 ICPY,"Tweedy, Browne International Insider + Value ETF",etf
@@ -10694,6 +10698,7 @@ THO,"Thor Industries, Inc.",stock
 THOR,Thornburg Premium Income Builder ETF,etf
 THQ,abrdn Healthcare Opportunities Fund,stock
 THRO,iShares U.S. Thematic Rotation Active ETF,etf
+THRU,Tema Commodity Infrastructure ETF,etf
 THTA,SoFi Enhanced Yield ETF,etf
 THW,abrdn World Healthcare Fund,stock
 THY,Toews Agility Shares Dynamic Tactical Income ETF,etf
