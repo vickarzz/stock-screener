@@ -299,6 +299,7 @@ APRE,"Aprea Therapeutics, Inc.",stock
 APUR,Aperture AC,stock
 APVO,Aptevo Therapeutics Inc.,stock
 APWC,Asia Pacific Wire & Cable Corporation Limited,stock
+APXC,Apex Critical Metals Corp.,stock
 APXT,Apex Treasury Corporation,stock
 APYX,Apyx Medical Corporation,stock
 AQB,"AquaBounty Technologies, Inc.",stock
@@ -2544,6 +2545,7 @@ LX,LexinFintech Holdings Ltd.,stock
 LXEH,"Lixiang Education Holding Co., Ltd.",stock
 LXEO,"Lexeo Therapeutics, Inc.",stock
 LXRX,"Lexicon Pharmaceuticals, Inc.",stock
+LYCA,"Lycia Therapeutics, Inc.",stock
 LYEL,"Lyell Immunopharma, Inc.",stock
 LYFT,"Lyft, Inc.",stock
 LYTS,LSI Industries Inc.,stock
@@ -3148,6 +3150,7 @@ PATN,Pacer Nasdaq International Patent Leaders ETF,etf
 PAVM,PAVmed Inc.,stock
 PAVS,Paranovus Entertainment Technology Ltd.,stock
 PAX,Patria Investments Limited,stock
+PAXG,Pine Tree Acquisition Corp.,stock
 PAYO,Payoneer Global Inc.,stock
 PAYP,PayPay Corporation,stock
 PAYS,"Paysign, Inc.",stock
@@ -3720,7 +3723,6 @@ SDGR,"Schrodinger, Inc.",stock
 SDHI,Siddhi Acquisition Corp,stock
 SDOT,Sadot Group Inc.,stock
 SDSI,American Century Short Duration Strategic Income ETF,etf
-SDST,Stardust Power Inc.,stock
 SDTY,YieldMax S&P 500 0DTE Covered Call Strategy ETF,etf
 SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,etf
 SEAT,Vivid Seats Inc.,stock
@@ -3845,6 +3847,7 @@ SMHC,VanEck China Semiconductor ETF,etf
 SMHX,VanEck Fabless Semiconductor ETF,etf
 SMID,Smith-Midland Corporation,stock
 SMMT,Summit Therapeutics Inc.,stock
+SMNG,xETFs Samsung Group ETF,etf
 SMOM,Symmetry Panoramic Sector Momentum ETF,etf
 SMPL,The Simply Good Foods Company,stock
 SMRI,Bushido Capital US Equity ETF,etf
@@ -8116,7 +8119,7 @@ JIG,JPMorgan International Growth ETF,etf
 JIII,Janus Henderson Income ETF,etf
 JILL,"J. Jill, Inc.",stock
 JIRE,JPMorgan International Research Enhanced Equity ETF,etf
-JKS,JinkoSolar Holding Company Limited American Depositary Shares (each representing 4,stock
+JKS,Jinko Holdings Limited American Depositary Shares (each representing 4 Ordinary Shares),stock
 JLCO,John Hancock Large Cap Opportunities ETF,etf
 JLL,Jones Lang LaSalle Incorporated,stock
 JLQD,Janus Henderson Corporate Bond ETF,etf
@@ -8501,7 +8504,7 @@ LTL,ProShares Ultra Communication Services,etf
 LTM,"LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",stock
 LTPZ,Pimco 15  Year U.S. TIPS Index Exchange-Traded Fund,etf
 LTTI,FT Vest 20+ Year Treasury & Target Income ETF,etf
-LU,"Lufax Holding Ltd American Depositary Shares, each representing two (2)",stock
+LU,Lufax Holding Ltd American Depositary Shares (each representing twenty (20) Ordinary Shares),stock
 LUCK,Lucky Strike Entertainment Corporation,stock
 LUD,Luda Technology Group Limited,stock
 LUMA,KraneShares Photonic and Optical ETF,etf
@@ -9288,6 +9291,7 @@ OVF,Overlay Shares Foreign Equity ETF,etf
 OVL,Overlay Shares Large Cap Equity ETF,etf
 OVLH,Overlay Shares Hedged Large Cap Equity ETF,etf
 OVM,Overlay Shares Municipal Bond ETF,etf
+OVQ,Overlay Shares Nasdaq 100 Income ETF,etf
 OVS,Overlay Shares Small Cap Equity ETF,etf
 OVT,Overlay Shares Short Term Bond ETF,etf
 OVV,Ovintiv Inc. (DE),stock
@@ -9401,7 +9405,6 @@ PEMX,Putnam Emerging Markets ex-China ETF,etf
 PEN,"Penumbra, Inc.",stock
 PENU,T-REX 2X Long PENG Daily Target ETF,etf
 PEO,"Adams Natural Resources Fund, Inc.",stock
-PERF,Perfect Corp.,stock
 PEVC,Pacer PE/VC ETF,etf
 PEW,GrabAGun Digital Holdings Inc.,stock
 PEX,ProShares Global Listed Private Equity ETF,etf
@@ -9721,6 +9724,7 @@ QNTU,Tradr 2X Long QNT Daily ETF,etf
 QPX,AdvisorShares Q Dynamic Growth ETF,etf
 QQAU,Corgi Growth & Technology 15% Structured Buffer ETF,etf
 QQBF,FT Vest Nasdaq-100 Quarterly 15 Buffer ETF,etf
+QQDH,Tuttle Capital Innovation 100 Income & Hedge ETF,etf
 QQH,HCM Defender 100 Index ETF,etf
 QQJL,Corgi Growth & Technology 15% Structured Buffer ETF,etf
 QQJN,Corgi Growth & Technology 15% Structured Buffer ETF,etf
