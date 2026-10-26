@@ -106,6 +106,7 @@ AENT,Alliance Entertainment Holding Corporation,stock
 AEP,"American Electric Power Company, Inc.",stock
 AERT,"Aeries Technology, Inc.",stock
 AESP,Aeon Acquisition I Corp.,stock
+AETR,Aetherion Technologies Inc.,stock
 AEVA,"Aeva Technologies, Inc.",stock
 AEYE,"AudioEye, Inc.",stock
 AFCG,Advanced Flower Capital Inc.,stock
@@ -1463,6 +1464,7 @@ FCAL,First Trust California Municipal High income ETF,etf
 FCAP,"First Capital, Inc.",stock
 FCBC,"First Community Bankshares, Inc.",stock
 FCCO,First Community Corporation,stock
+FCDH,Forcendra Holding Limited,stock
 FCEF,First Trust Income Opportunities ETF,etf
 FCEL,"FuelCell Energy, Inc.",stock
 FCFS,"FirstCash Holdings, Inc.",stock
@@ -1729,7 +1731,6 @@ GEVG,Leverage Shares 2X Long GEV Daily ETF,etf
 GEVO,"Gevo, Inc.",stock
 GEW,Cambria Global EW ETF,etf
 GFAI,"Guardforce AI Co., Limited",stock
-GFGF,Guru Favorite Stocks ETF,etf
 GFLW,VictoryShares Free Cash Flow Growth ETF,etf
 GFS,GlobalFoundries Inc.,stock
 GFUZ,General Fusion Group Ltd.,stock
@@ -3496,6 +3497,7 @@ QYLG,Global X Nasdaq 100 Covered Call & Growth ETF,etf
 RAA,SMI 3Fourteen REAL Asset Allocation ETF,etf
 RACC,Research Alliance Corporation III,stock
 RACD,Research Alliance Corporation IV,stock
+RADD,AB US Research Advanced ETF,etf
 RADX,Radiopharm Theranostics Limited,stock
 RAIL,"Freightcar America, Inc.",stock
 RAIN,"Rain Enhancement Technologies Holdco, Inc.",stock
@@ -4475,7 +4477,6 @@ VSA,VisionSys AI Inc.,stock
 VSAT,"ViaSat, Inc.",stock
 VSDA,VictoryShares Dividend Accelerator ETF,etf
 VSEC,VSE Corporation,stock
-VSME,VS Media Holdings Limited,stock
 VSMV,VictoryShares US Multi-Factor Minimum Volatility ETF,etf
 VSNT,"Versant Media Group, Inc.",stock
 VSOL,VanEck Solana ETF,etf
@@ -4561,7 +4562,6 @@ WOK,WORK Medical Technology Group LTD,stock
 WOOD,iShares Global Timber & Forestry ETF,etf
 WOOF,"Petco Health and Wellness Company, Inc.",stock
 WORX,SCWorx Corp.,stock
-WPRT,Westport Fuel Systems Inc,stock
 WQEY,WISeQey Corp,stock
 WRAP,"Wrap Technologies, Inc.",stock
 WRD,WeRide Inc.,stock
@@ -4767,7 +4767,6 @@ ABT,Abbott Laboratories,stock
 ABUF,Aptus Laddered Buffer ETF,etf
 ABX,"Abacus Global Management, Inc.",stock
 ABXB,Abacus Flexible Bond Leaders ETF,etf
-ACA,"Arcosa, Inc.",stock
 ACCO,Acco Brands Corporation,stock
 ACCS,ACCESS Newswire Inc.,stock
 ACEI,Innovator Equity Autocallable Income Strategy ETF,etf
@@ -4781,6 +4780,7 @@ ACHX,Corgi ACHR 2x Daily ETF,etf
 ACI,"Albertsons Companies, Inc.",stock
 ACIG,Hartford Alpha Capture International Growth ETF,etf
 ACII,Innovator Index Autocallable Income Strategy ETF,etf
+ACIN,Hartford Alpha Capture International Equity ETF,etf
 ACIO,Aptus Collared Investment Opportunity ETF,etf
 ACIV,Hartford Alpha Capture International Value ETF,etf
 ACKY,VistaShares Target 15 ACKtivist Distribution ETF,etf
@@ -5692,6 +5692,7 @@ CATO,Cato Corporation (The),stock
 CATX,"Perspective Therapeutics, Inc.",stock
 CAUG,Corgi U.S. Equities 15% Structured Buffer ETF,etf
 CAVA,"CAVA Group, Inc.",stock
+CAYN,Calamos Least-Of Autocallable Income ETF,etf
 CB,Chubb Limited,stock
 CBAN,"Colony Bankcorp, Inc.",stock
 CBIL,Corgi 3-12 Month T-Bill ETF,etf
@@ -5743,7 +5744,6 @@ CCU,"Compania Cervecerias Unidas, S.A.",stock
 CCUP,T-REX 2X Long CRCL Daily Target ETF,etf
 CCZ,Comcast Holdings ZONES,stock
 CDE,"Coeur Mining, Inc.",stock
-CDEI,"Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF",etf
 CDLR,Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares),stock
 CDNG,Leverage Shares 2X Long CDNS Daily ETF,etf
 CDP,COPT Defense Properties,stock
@@ -6565,7 +6565,6 @@ ELF,"e.l.f. Beauty, Inc.",stock
 ELLO,Ellomay Capital Ltd Ordinary Shares (Israel),stock
 ELM,Elm Market Navigator ETF,etf
 ELMD,"Electromed, Inc.",stock
-ELME,Elme Communities,stock
 ELPC,Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4),stock
 ELS,"Equity Lifestyle Properties, Inc.",stock
 ELV,"Elevance Health, Inc.",stock
@@ -7449,6 +7448,7 @@ GTOS,Invesco Short Duration Total Return Bond ETF,etf
 GTY,Getty Realty Corporation,stock
 GUG,Guggenheim Active Allocation Fund,stock
 GUMI,Goldman Sachs Ultra Short Municipal Income ETF,etf
+GUNN,Gunnison Copper Corp. American Depositary Shares (each representing thirty (30),stock
 GUNR,Northern Trust Morningstar Global Upstream Natural Resources ETF,etf
 GURU,Global X Guru Index ETF,etf
 GUSA,Goldman Sachs MarketBeta U.S. 1000 Equity ETF,etf
@@ -9319,7 +9319,6 @@ PALL,abrdn Physical Palladium Shares ETF,etf
 PAM,Pampa Energia S.A.,stock
 PAMC,Pacer Lunt MidCap Multi-Factor Alternator ETF,etf
 PAPI,Parametric Equity Premium Income ETF,etf
-PAPL,Pineapple Financial Inc.,stock
 PAPR,Innovator U.S. Equity Power Buffer ETF,etf
 PAR,PAR Technology Corporation,stock
 PARR,"Par Pacific Holdings, Inc.",stock
@@ -9622,6 +9621,7 @@ PTBD,Pacer Trendpilot US Bond ETF,etf
 PTEU,Pacer TrendpilotTM European Index ETF,etf
 PTHS,Pelthos Therapeutics Inc.,stock
 PTIN,Pacer Trendpilot International ETF,etf
+PTIV,Pineapple Financial Inc.,stock
 PTL,Inspire 500 ETF,etf
 PTLC,Pacer Trendpilot US Large Cap ETF,etf
 PTMC,Pacer Trendpilot US Mid Cap ETF,etf
@@ -11316,7 +11316,6 @@ WDS,"Woodside Energy Group Limited American Depositary Shares, each representing
 WDTE,Defiance S&P 500 Weekly Distribution ETF,etf
 WEA,Western Asset Bond Fund Share of Beneficial Interest,stock
 WEAT,Teucrium Wheat Fund ETV,etf
-WEAV,"Weave Communications, Inc.",stock
 WEBL,Direxion Daily Dow Jones Internet Bull 3X ETF,etf
 WEBS,Direxion Daily Dow Jones Internet Bear 3X ETF,etf
 WEBX,Corgi Chinese Internet 2x Daily ETF,etf
