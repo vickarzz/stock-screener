@@ -2308,8 +2308,6 @@ KARD,"Kardigan, Inc.",stock
 KARO,Karooooo Ltd.,stock
 KAT,Scharf ETF,etf
 KAZR,Skyline Builders Group Holding Limited,stock
-KBAB,KraneShares 2x Long BABA Daily ETF,etf
-KBDU,KraneShares 2x Long BIDU Daily ETF,etf
 KBON,Karbon Capital Partners Corp.,stock
 KBSX,FST Corp.,stock
 KBWB,Invesco KBW Bank ETF,etf
@@ -2336,7 +2334,6 @@ KIDZ,KIDZ AI Inc.,stock
 KINS,"Kingstone Companies, Inc",stock
 KIQQ,KraneShares InspereX Nasdaq Dynamic Buffered High Income Index ETF,etf
 KITT,"Nauticus Robotics, Inc.",stock
-KJD,KraneShares 2x Long JD Daily ETF,etf
 KLAC,KLA Corporation,stock
 KLAG,Leverage Shares 2x Long KLAC Daily ETF,etf
 KLIC,"Kulicke and Soffa Industries, Inc.",stock
@@ -2346,7 +2343,6 @@ KLTR,"Kaltura, Inc.",stock
 KLXE,"KLX Energy Services Holdings, Inc.",stock
 KMB,Kimberly-Clark Corporation,stock
 KMDA,Kamada Ltd.,stock
-KMLI,KraneShares 2x Long MELI Daily ETF,etf
 KMRK,K-Tech Solutions Company Limited,stock
 KMTS,"Kestra Medical Technologies, Ltd.",stock
 KNDI,"Kandi Technologies Group, Inc.",stock
@@ -2357,7 +2353,6 @@ KOID,KraneShares Global Humanoid Robotics and Physical AI Index ETF,etf
 KOPN,Kopin Corporation,stock
 KOSS,Koss Corporation,stock
 KOYN,CSLM Digital Asset Acquisition Corp III,stock
-KPDD,KraneShares 2x Long PDD Daily ETF,etf
 KPLT,"Katapult Holdings, Inc.",stock
 KPRX,"Kiora Pharmaceuticals, Inc.",stock
 KPTI,Karyopharm Therapeutics Inc.,stock
@@ -2817,7 +2812,6 @@ NAMI,Jinxin Technology Holding Company,stock
 NAMM,Namib Minerals,stock
 NAMS,NewAmsterdam Pharma Company N.V.,stock
 NANO,Forge Nano Holdings Inc.,stock
-NATH,"Nathan's Famous, Inc.",stock
 NATO,Themes Transatlantic Defense ETF,etf
 NATR,"Nature's Sunshine Products, Inc.",stock
 NAUT,"Nautilus Biotechnology, Inc.",stock
@@ -3142,7 +3136,7 @@ PAMT,PAMT CORP,stock
 PANG,Leverage Shares 2X Long PANW Daily ETF,etf
 PANL,Pangaea Logistics Solutions Ltd.,stock
 PANW,"Palo Alto Networks, Inc.",stock
-PARA,"Banzai International, Inc.",stock
+PARA,"Parabolic Technologies, Inc.",stock
 PARK,"Park Dental Partners, Inc.",stock
 PASG,"Passage Bio, Inc.",stock
 PASW,"Ping An Biomedical Co., Ltd.",stock
@@ -4685,6 +4679,7 @@ YQQQ,YieldMax Short N100 Option Income Strategy ETF,etf
 YRAM,YieldMax Memory and Storage Portfolio Option Income ETF,etf
 YSAG,Y'all Street Physical Silver ETF,etf
 YSAU,Y'all Street Physical Gold ETF,etf
+YSKH,YieldMax SKHY Option Income Strategy ETF,etf
 YSPY,GraniteShares YieldBOOST SPY ETF,etf
 YSWY,"Yesway, Inc.",stock
 YSXT,"YSX Tech. Co., Ltd",stock
@@ -8221,7 +8216,6 @@ KBFR,Innovator U.S. Small Cap Managed 10 Buffer ETF,etf
 KBH,KB Home,stock
 KBR,"KBR, Inc.",stock
 KBUF,KraneShares 90% KWEB Defined Outcome January 2027 ETF,etf
-KCAI,KraneShares China Alpha Index ETF,etf
 KCCA,KraneShares California Carbon Allowance Strategy ETF,etf
 KCE,State Street SPDR S&P Capital Markets ETF,etf
 KCHP,KICK Korea Semiconductor Index ETF,etf
@@ -8253,7 +8247,6 @@ KGRN,KraneShares MSCI China Clean Technology Index ETF,etf
 KGS,"Kodiak Gas Services, Inc.",stock
 KHC,The Kraft Heinz Company,stock
 KHPI,Kensington Hedged Premium Income ETF,etf
-KHYB,KraneShares Asia Pacific High Income USD Bond ETF,etf
 KIE,State Street SPDR S&P Insurance ETF,etf
 KIM,Kimco Realty Corporation (HC),stock
 KIO,KKR Income Opportunities Fund,stock
@@ -8800,9 +8793,8 @@ MSFW,Roundhill MSFT WeeklyPay ETF,etf
 MSFX,T-Rex 2X Long Microsoft Daily Target ETF,etf
 MSFY,Kurv Yield Premium Strategy Microsoft (MSFT) ETF,etf
 MSGE,Madison Square Garden Entertainment Corp.,stock
-MSGK-V,Madison Square Garden Sports Corp.,stock
-MSGR-V,MSG Rangers Corp.,stock
-MSGS,Madison Square Garden Sports Corp.,stock
+MSGK,MSG Knickerbockers Corp.,stock
+MSGR,MSG Rangers Corp.,stock
 MSI,"Motorola Solutions, Inc.",stock
 MSIF,"MSC Income Fund, Inc.",stock
 MSIX,Corgi MSI 2x Daily ETF,etf
@@ -10799,7 +10791,6 @@ TOPT,iShares Top 20 U.S. Stocks ETF,etf
 TOPW,Roundhill Top WeeklyPay ETF,etf
 TOS,Twin Oak Strategic Solutions ETF,etf
 TOST,"Toast, Inc.",stock
-TOT,LionShares U.S. Equity Total Return ETF,etf
 TOTL,State Street DoubleLine Total Return Tactical ETF,etf
 TOTR,T. Rowe Price Total Return ETF,etf
 TOUS,T. Rowe Price International Equity ETF,etf
@@ -11292,6 +11283,7 @@ WBIF,WBI BullBear Value 3000 ETF,etf
 WBIG,WBI BullBear Yield 3000 ETF,etf
 WBIL,WBI BullBear Quality 3000 ETF,etf
 WBIY,WBI Power Factor High Dividend ETF,etf
+WBMO,VanEck Wealth Builder ETF,etf
 WBX,Wallbox N.V.,stock
 WCAP,WarCap Unconstrained Equity ETF,etf
 WCC,"WESCO International, Inc.",stock
