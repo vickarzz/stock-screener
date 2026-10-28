@@ -1234,7 +1234,6 @@ DUOG,Leverage Shares 2X Long DUOL Daily ETF,etf
 DUOL,"Duolingo, Inc.",stock
 DUOT,"Duos Technologies Group, Inc.",stock
 DUSG,U.S. Small Cap Growth Portfolio: ETF Class Shares,etf
-DVAL,BrandywineGLOBAL-Dynamic US Large Cap Value ETF,etf
 DVGR,DAC 3D Dividend Growth ETF,etf
 DVLT,Datavault AI Inc.,stock
 DVLU,First Trust Dorsey Wright Momentum & Value ETF,etf
@@ -1328,7 +1327,6 @@ EMAT,Evolution Metals & Technologies Corp.,stock
 EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,etf
 EMBC,Embecta Corp.,stock
 EMCB,WisdomTree Emerging Markets Corporate Bond Fund,etf
-EMEM,Sophus Capital Emerging Market ETF,etf
 EMEQ,Nomura Focused Emerging Markets Equity ETF,etf
 EMIF,iShares Emerging Markets Infrastructure ETF,etf
 EMIS,Emmis Acquisition Corp.,stock
@@ -1511,6 +1509,7 @@ FFBC,First Financial Bancorp.,stock
 FFIN,"First Financial Bankshares, Inc.",stock
 FFIV,"F5, Inc.",stock
 FFR,FF EAI Robotics Ecosystem Inc.,stock
+FFTT,Masonglory Limited,stock
 FFUT,Fidelity Managed Futures ETF,etf
 FGBI,"First Guaranty Bancshares, Inc.",stock
 FGC,FG Communities Holdings Inc.,stock
@@ -2734,7 +2733,6 @@ MSFL,GraniteShares 2x Long MSFT Daily ETF,etf
 MSFT,Microsoft Corporation,stock
 MSFU,Direxion Daily MSFT Bull 2X ETF,etf
 MSGM,Motorsport Games Inc.,stock
-MSGY,Masonglory Limited,stock
 MSLE,Satellos Bioscience Inc.,stock
 MSR,GraniteShares Autocallable MSTR ETF,etf
 MSS,Maison Solutions Inc.,stock
@@ -2757,7 +2755,6 @@ MTYY,GraniteShares YieldBOOST MSTR ETF,etf
 MU,"Micron Technology, Inc.",stock
 MUD,Direxion Daily MU Bear 1X ETF,etf
 MULL,GraniteShares 2x Long MU Daily ETF,etf
-MULT,Franklin Multisector Income ETF,etf
 MUU,Direxion Daily MU Bull 2X ETF,etf
 MUY,YieldMax MU Option Income Strategy ETF,etf
 MUYY,GraniteShares YieldBOOST MU ETF,etf
@@ -4330,7 +4327,6 @@ USCL,iShares Climate Conscious & Transition MSCI USA ETF,etf
 USDE,StablecoinX Inc.,stock
 USDX,SGI Enhanced Core ETF,etf
 USEA,United Maritime Corporation,stock
-USFI,BrandywineGLOBAL,etf
 USGG,Leverage Shares 2X Long USAR Daily ETF,etf
 USGO,U.S. GoldMining Inc.,stock
 USIG,iShares Broad USD Investment Grade Corporate Bond ETF,etf
