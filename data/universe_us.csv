@@ -81,7 +81,6 @@ ADBT,"Advasa Holdings, Inc.",stock
 ADEA,Adeia Inc.,stock
 ADGM,"Adagio Medical Holdings, Inc",stock
 ADI,"Analog Devices, Inc.",stock
-ADIL,"Adial Pharmaceuticals, Inc",stock
 ADMA,ADMA Biologics Inc,stock
 ADP,"Automatic Data Processing, Inc.",stock
 ADPT,Adaptive Biotechnologies Corporation,stock
@@ -441,6 +440,7 @@ AYTU,"Aytu BioPharma, Inc.",stock
 AZ,A2Z Cust2Mate Solutions Corp.,stock
 AZI,Autozi Internet Technology (Global) Ltd.,stock
 AZIO,"Azio AI Holdings, Inc.",stock
+AZR,"Azora Therapeutics, Inc.",stock
 AZTA,"Azenta, Inc.",stock
 AZYY,GraniteShares YieldBoost AMZN ETF,etf
 BABU,Direxion Daily BABA Bull 2X ETF,etf
@@ -1447,6 +1447,7 @@ FAST,Fastenal Company,stock
 FATE,"Fate Therapeutics, Inc.",stock
 FATN,"FatPipe, Inc.",stock
 FBDT,First Breach Inc.,stock
+FBEQ,Franklin US Equity Bitcoin Drip Index ETF,etf
 FBGL,FBS Global Limited,stock
 FBIO,"Fortress Biotech, Inc.",stock
 FBIZ,"First Business Financial Services, Inc.",stock
@@ -1521,6 +1522,7 @@ FGSI,FT Vest Growth Strength & Target Income ETF,etf
 FHB,"First Hawaiian, Inc.",stock
 FHTX,Foghorn Therapeutics Inc.,stock
 FIBK,"First Interstate BancSystem, Inc.",stock
+FIBT,Franklin US Innovation Bitcoin DRIP Index ETF,etf
 FICS,First Trust International Developed Capital Strength ETF,etf
 FID,First Trust S&P International Dividend Aristocrats ETF,etf
 FIEE,"FiEE, Inc",stock
@@ -1695,6 +1697,7 @@ GARY,Mango Growth ETF,etf
 GASS,"StealthGas, Inc.",stock
 GAUZ,Gauzy Ltd.,stock
 GAVA,Grayscale Avalanche Staking ETF,etf
+GBC,"Georgia Banking Company, Inc.",stock
 GBDC,"Golub Capital BDC, Inc.",stock
 GBFH,GBank Financial Holdings Inc.,stock
 GBLI,"Global Indemnity Group, LLC",stock
@@ -2812,7 +2815,7 @@ NANO,Forge Nano Holdings Inc.,stock
 NATO,Themes Transatlantic Defense ETF,etf
 NATR,"Nature's Sunshine Products, Inc.",stock
 NAUT,"Nautilus Biotechnology, Inc.",stock
-NAVI,Navient Corporation,stock
+NAVI,"Navient Holdings, Inc.",stock
 NAVN,"Navan, Inc.",stock
 NB,NioCorp Developments Ltd.,stock
 NBBK,"NB Bancorp, Inc.",stock
@@ -3818,7 +3821,7 @@ SLE,"Super League Enterprise, Inc.",stock
 SLGB,Smart Logistics Global Limited,stock
 SLGL,Sol-Gel Technologies Ltd.,stock
 SLM,SLM Corporation,stock
-SLMT,Brera Holdings PLC,stock
+SLMT,Solmate Infrastructure Public Limited Company,stock
 SLN,Silence Therapeutics Plc,stock
 SLNG,"Stabilis Solutions, Inc.",stock
 SLNH,"Soluna Holdings, Inc.",stock
@@ -6550,6 +6553,7 @@ EL,"Estee Lauder Companies, Inc. (The)",stock
 ELA,Envela Corporation,stock
 ELAN,Elanco Animal Health Incorporated,stock
 ELC,"Entergy Louisiana, Inc. Collateral Trust Mortgage Bonds, 4.875 % Series due September 1, 2066",stock
+ELCF,Eventide Large Cap Focus ETF,etf
 ELCV,Strategy Shares Eventide High Dividend ETF,etf
 ELD,WisdomTree Emerging Markets Local Debt Fund,etf
 ELF,"e.l.f. Beauty, Inc.",stock
@@ -6683,6 +6687,7 @@ ESUM,Eventide US Market ETF,etf
 ETB,Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund,stock
 ETCO,Grayscale Ethereum High Income ETF,etf
 ETD,Ethan Allen Interiors Inc.,stock
+ETDG,Eventide Dividend Growth ETF,etf
 ETFT,Fundsmith Equity ETF,etf
 ETG,Eaton Vance Tax-Advantaged Global Dividend Income Fund,stock
 ETH,Grayscale Ethereum Staking Mini ETF Shares,etf
