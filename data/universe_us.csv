@@ -352,6 +352,7 @@ ASMU,Direxion Daily ASML Bull 2X ETF,etf
 ASND,Ascendis Pharma A/S,stock
 ASO,"Academy Sports and Outdoors, Inc.",stock
 ASPC,A SPAC III Acquisition Corp.,stock
+ASPE,"Aspen Neuroscience, Inc.",stock
 ASPI,ASP Isotopes Inc.,stock
 ASPS,Altisource Portfolio Solutions S.A.,stock
 ASRV,AmeriServ Financial Inc.,stock
@@ -472,6 +473,7 @@ BBLG,Bone Biologics Corp,stock
 BBNX,"Beta Bionics, Inc.",stock
 BBOT,"BridgeBio Oncology Therapeutics, Inc.",stock
 BBSI,"Barrett Business Services, Inc.",stock
+BBTX,"Bambusa Therapeutics, Inc.",stock
 BBUL,GraniteShares 2x Long BB Daily ETF,etf
 BBYY,GraniteShares YieldBOOST BABA ETF,etf
 BCAL,California BanCorp,stock
@@ -1256,7 +1258,6 @@ DYAI,"Dyadic International, Inc.",stock
 DYFI,IDX Dynamic Fixed Income ETF,etf
 DYN,"Dyne Therapeutics, Inc.",stock
 DYNB,Hartford Dynamic Bond ETF,etf
-DYNC,Dynamix Corporation,stock
 DYOR,Insight Digital Partners II,stock
 DYTA,SGI Dynamic Tactical ETF,etf
 EART,Global X Rare Earth & Critical Materials ETF,etf
@@ -1707,7 +1708,6 @@ GCGR,General Catalyst Global Resilience Merger Corp.,stock
 GCL,GCL Global Holdings Ltd,stock
 GCMG,GCM Grosvenor Inc.,stock
 GCT,GigaCloud Technology Inc,stock
-GCTK,"GlucoTrack, Inc.",stock
 GDC,GD Culture Group Limited,stock
 GDEV,GDEV Inc.,stock
 GDHG,Golden Heaven Group Holdings Ltd.,stock
@@ -2481,7 +2481,6 @@ LMBS,First Trust Low Duration Opportunities ETF,etf
 LMNR,Limoneira Co,stock
 LMRI,"Lumexa Imaging Holdings, Inc.",stock
 LMTL,Direxion Daily LMT Bull 2X ETF,etf
-LNAI,Lunai Bioworks Inc.,stock
 LNKS,Linkers Industries Limited,stock
 LNSR,"LENSAR, Inc.",stock
 LNT,Alliant Energy Corporation,stock
@@ -2906,6 +2905,7 @@ NNOX,NANO-X IMAGING LTD,stock
 NODK,"NI Holdings, Inc.",stock
 NOEM,CO2 Energy Transition Corp.,stock
 NOMA,NOMADAR Corp.,stock
+NORD,Nordicus Partners Corporation,stock
 NOVT,Novanta Inc.,stock
 NOWL,GraniteShares 2x Long NOW Daily ETF,etf
 NPAC,New Providence Acquisition Corp. III,stock
@@ -4661,7 +4661,6 @@ YDKG,Yueda Digital Holding,stock
 YFOR,YYForce Inc.,stock
 YHC,LQR House Inc.,stock
 YHGJ,Yunhong Green CTI Ltd.,stock
-YHNA,YHN Acquisition I Limited,stock
 YI,"111, Inc.",stock
 YIBO,Planet Image International Limited,stock
 YICC,Yorkville International Capital Corp.,stock
@@ -5871,7 +5870,7 @@ CMCI,VanEck CMCI Commodity Strategy ETF,etf
 CMCL,Caledonia Mining Corporation Plc,stock
 CMCM,"Cheetah Mobile Inc. American Depositary Shares, each representing fifty (50)",stock
 CMDB,Costamare Bulkers Holdings Limited,stock
-CMDT,PIMCO Commodity Strategy Active Exchange-Traded Fund,etf
+CMDT,PIMCO Commodity and Bond Strategy Active Exchange-Traded Fund,etf
 CMDY,iShares Bloomberg Roll Select Commodity Strategy ETF,etf
 CMF,iShares California Muni Bond ETF,etf
 CMG,"Chipotle Mexican Grill, Inc.",stock
@@ -5935,7 +5934,7 @@ COR,"Cencora, Inc.",stock
 CORB,AB Core Bond ETF,etf
 CORD,T-REX 2X Inverse CRWV Daily Target ETF,etf
 CORN,Teucrium Corn Fund ETV,etf
-CORP,PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund,etf
+CORP,PIMCO Investment Grade Corporate Bond Exchange-Traded Fund,etf
 COSO,"CoastalSouth Bancshares, Inc.",stock
 COSW,Roundhill COST WeeklyPay ETF,etf
 COTY,Coty Inc.,stock
@@ -6591,7 +6590,7 @@ EMM,Global X Emerging Markets ex-China ETF,etf
 EMMF,WisdomTree Emerging Markets Multifactor Fund,etf
 EMMY,Corgi Emerging Markets Equities 15% Structured Buffer ETF,etf
 EMN,Eastman Chemical Company,stock
-EMNT,PIMCO Enhanced Short Maturity Active ESG Exchange-Traded Fund,etf
+EMNT,PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund,etf
 EMO,ClearBridge Energy Midstream Opportunity Fund Inc.,stock
 EMOP,AB Emerging Markets Opportunities ETF,etf
 EMOT,First Trust S&P 500 Economic Moat ETF,etf
@@ -7669,7 +7668,7 @@ HYLB,Xtrackers USD High Yield Corporate Bond ETF,etf
 HYLN,Hyliion Holdings Corp.,stock
 HYMB,State Street SPDR Nuveen ICE High Yield Municipal Bond ETF,etf
 HYNX,T-REX 2X Long SKHY Daily Target ETF,etf
-HYS,PIMCO 0-5 Year High Yield Corporat Bond Index Exchange-Traded Fund,etf
+HYS,PIMCO 0-5 Year High Yield Corporate Bond Exchange-Traded Fund,etf
 HYSA,BondBloxx High Yield Income ETF,etf
 HYSD,Columbia Short Duration High Yield ETF,etf
 HYT,"Blackrock Corporate High Yield Fund, Inc.",stock
@@ -8450,7 +8449,7 @@ LOFD,Direxion Daily SpaceX Bear 2X ETF,etf
 LOFF,Direxion Daily SpaceX Bull 2X ETF,etf
 LOHA,Roundhill HALO ETF,etf
 LOMA,Loma Negra Compania Industrial Argentina Sociedad Anonima ADS,stock
-LONZ,PIMCO Senior Loan Active Exchange-Traded Fund,etf
+LONZ,PIMCO Senior Loan and Short-Term Active ETF,etf
 LOPP,Gabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETF,etf
 LOUP,Innovator Deepwater Frontier Tech ETF,etf
 LOW,"Lowe's Companies, Inc.",stock
