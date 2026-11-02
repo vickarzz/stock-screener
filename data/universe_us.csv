@@ -768,6 +768,7 @@ CART,Maplebear Inc.,stock
 CARY,Angel Oak Income ETF,etf
 CARZ,First Trust S-Network Future Vehicles & Technology ETF,etf
 CASH,"Pathward Financial, Inc.",stock
+CASK,"Sempreon, Inc.",stock
 CASS,"Cass Information Systems, Inc",stock
 CAST,"FreeCast, Inc.",stock
 CASY,"Caseys General Stores, Inc.",stock
@@ -1167,7 +1168,6 @@ DGXX,Digi Power X Inc.,stock
 DH,Definitive Healthcare Corp.,stock
 DHC,Diversified Healthcare Trust,stock
 DIBS,"1stdibs.com, Inc.",stock
-DINE,Simplify Tax Aware Diversified Income Strategy ETF,etf
 DIOD,Diodes Incorporated,stock
 DIVD,Altrius Global Dividend ETF,etf
 DJCO,Daily Journal Corp. (S.C.),stock
@@ -2503,7 +2503,6 @@ LPCN,Lipocine Inc.,stock
 LPCV,Launchpad Cadenza Acquisition Corp I,stock
 LPLA,LPL Financial Holdings Inc.,stock
 LPTH,"LightPath Technologies, Inc.",stock
-LQ,Simplify Tax Aware Alternatives ETF,etf
 LQDA,Liquidia Corporation,stock
 LQDT,"Liquidity Services, Inc.",stock
 LRCX,Lam Research Corporation,stock
@@ -2641,7 +2640,6 @@ MGN,Megan Holdings Limited,stock
 MGNI,"Magnite, Inc.",stock
 MGNX,"MacroGenics, Inc.",stock
 MGOL,Leverage Shares MANGOS ETF,etf
-MGPI,"MGP Ingredients, Inc.",stock
 MGRC,McGrath RentCorp,stock
 MGRT,Mega Fortune Company Limited,stock
 MGRX,"Mangoceuticals, Inc.",stock
@@ -2811,6 +2809,7 @@ NAMI,Jinxin Technology Holding Company,stock
 NAMM,Namib Minerals,stock
 NAMS,NewAmsterdam Pharma Company N.V.,stock
 NANO,Forge Nano Holdings Inc.,stock
+NARA,"Narragansett Bancorp, Inc.",stock
 NATO,Themes Transatlantic Defense ETF,etf
 NATR,"Nature's Sunshine Products, Inc.",stock
 NAUT,"Nautilus Biotechnology, Inc.",stock
@@ -3468,7 +3467,7 @@ QSEA,Quartzsea Acquisition Corporation,stock
 QSI,Quantum-Si Incorporated,stock
 QSIX,Pacer Metaurus Nasdaq 100 Dividend Multiplier 600 ETF,etf
 QSML,WisdomTree U.S. SmallCap Quality Growth Fund,etf
-QTEC,First Trust NASDAQ-100-Technology Sector Index Fund,etf
+QTEC,First Trust NASDAQ-100- Technology Index Fund,etf
 QTEX,QTREX Quantum Ltd.,stock
 QTI,"QT Imaging Holdings, Inc.",stock
 QTOP,iShares Nasdaq Top 30 Stocks ETF,etf
@@ -4776,6 +4775,7 @@ ACII,Innovator Index Autocallable Income Strategy ETF,etf
 ACIN,Hartford Alpha Capture International Equity ETF,etf
 ACIO,Aptus Collared Investment Opportunity ETF,etf
 ACIV,Hartford Alpha Capture International Value ETF,etf
+ACJL,"Buffered Bulldog ETF by C.J. Lawrence, a division of Apollon",etf
 ACKY,VistaShares Target 15 ACKtivist Distribution ETF,etf
 ACLC,American Century Large Cap Equity ETF,etf
 ACLO,TCW AAA CLO ETF,etf
@@ -4880,6 +4880,7 @@ AHYB,American Century Select High Yield ETF,etf
 AI,"C3.ai, Inc.",stock
 AIB,AIB Data Centers Inc.,stock
 AIBD,Direxion Daily AI and Big Data Bear 2X ETF,etf
+AIBE,FINQ CORE U.S. Large Cap AI-Managed Equity ETF,etf
 AIBF,iShares Future AI Beneficiaries ETF,etf
 AIBN,Defiance AI Infrastructure Bond ETF,etf
 AIBU,Direxion Daily AI and Big Data Bull 2X ETF,etf
@@ -5718,7 +5719,6 @@ CBXJ,Calamos Bitcoin 90 Series Structured Alt Protection ETF,etf
 CBXL,Calamos Laddered Bitcoin 90 Series Structured Alt Protection ETF,etf
 CBXO,Calamos Bitcoin 90 Series Structured Alt Protection ETF,etf
 CBXY,Calamos Bitcoin 90 Series Structured Alt Protection ETF,etf
-CBZ,"CBIZ, Inc.",stock
 CC,Chemours Company (The),stock
 CCEF,Calamos CEF Income & Arbitrage ETF,etf
 CCEL,"Cryo-Cell International, Inc.",stock
@@ -5896,7 +5896,7 @@ CNO,"CNO Financial Group, Inc.",stock
 CNP,"CenterPoint Energy, Inc (Holding Co)",stock
 CNQ,Canadian Natural Resources Limited,stock
 CNR,"Core Natural Resources, Inc.",stock
-CNRG,State Street SPDR S&P Kensho Clean Power ETF,etf
+CNRG,State Street SPDR S&P Kensho Grid Innovation ETF,etf
 CNS,Cohen & Steers Inc,stock
 CNX,CNX Resources Corporation,stock
 CNXT,VanEck ChiNext Innovators ETF,etf
@@ -6512,7 +6512,7 @@ EFC,Ellington Financial Inc.,stock
 EFFE,Harbor Osmosis Emerging Markets Resource Efficient ETF,etf
 EFFI,Harbor Osmosis International Resource Efficient ETF,etf
 EFG,iShares MSCI EAFE Growth ETF,etf
-EFIV,State Street SPDR S&P 500 ESG ETF,etf
+EFIV,State Street SPDR S&P 500 Scored and Screened ETF,etf
 EFNL,iShares MSCI Finland ETF,etf
 EFO,ProShares Ultra MSCI EAFE,etf
 EFOR,"Everforth, Inc.",stock
@@ -7109,7 +7109,7 @@ FTBI,First Trust Balanced Income ETF,etf
 FTCA,Franklin California Municipal Income ETF,etf
 FTCB,First Trust Core Investment Grade ETF,etf
 FTCE,First Trust New Constructs Core Earnings Leaders ETF,etf
-FTEC,Fidelity MSCI Information Technology Index ETF,etf
+FTEC,ETF,etf
 FTF,Franklin Limited Duration Income Trust,stock
 FTHB,FIS Faith Income ETF,etf
 FTHF,First Trust Emerging Markets Human Flourishing ETF,etf
@@ -7994,7 +7994,7 @@ IVW,iShares S&P 500 Growth ETF,etf
 IVZ,Invesco Ltd,stock
 IWB,iShares Russell 1000 ETF,etf
 IWC,iShares Microcap ETF,etf
-IWD,iShares Russell 1000 Value ETF,etf
+IWD,iShares Russell 1000 Value Index Fund,etf
 IWF,iShares Russell 1000 Growth Fund,etf
 IWFG,NYLIM Winslow Focused Large Cap Growth ETF,etf
 IWL,iShares Russell Top 200 ETF,etf
@@ -8029,7 +8029,7 @@ IYM,iShares U.S. Basic Materials ETF,etf
 IYR,iShares U.S. Real Estate ETF,etf
 IYRI,NEOS Real Estate High Income ETF,etf
 IYT,iShares U.S. Transportation ETF,etf
-IYW,iShares U.S. Technology ETF,etf
+IYW,iShares Dow Jones U.S. Technology Sector Index Fund,etf
 IYY,iShares Dow Jones U.S. ETF,etf
 IYZ,iShares U.S. Telecommunications ETF,etf
 IZRL,ARK Israel Innovative Technology ETF,etf
@@ -8322,7 +8322,6 @@ KTUP,T-REX 2X Long KTOS Daily Target ETF,etf
 KULR,"KULR Technology Group, Inc.",stock
 KURE,KraneShares MSCI All China Health Care Index ETF,etf
 KVLE,KraneShares Value Line Dynamic Dividend Equity Index ETF,etf
-KVUE,Kenvue Inc.,stock
 KVYO,"Klaviyo, Inc. Series A",stock
 KWEB,KraneShares CSI China Internet ETF,etf
 KWH,GMO Power Infrastructure ETF,etf
@@ -8398,7 +8397,6 @@ LFT,"Lument Finance Trust, Inc.",stock
 LGCY,Legacy Education Inc.,stock
 LGDX,Intech S&P Large Cap Diversified Alpha ETF,etf
 LGH,HCM Defender 500 Index ETF,etf
-LGHT,Langar Global HealthTech ETF,etf
 LGI,Lazard Global Total Return and Income Fund,stock
 LGL,"LGL Group, Inc. (The)",stock
 LGLV,State Street SPDR US Large Cap Low Volatility Index ETF,etf
@@ -8512,7 +8510,6 @@ LVWR,"LiveWire Group, Inc.",stock
 LW,"Lamb Weston Holdings, Inc.",stock
 LWLX,Tradr 2X Long LWLG Daily ETF,etf
 LXFR,Luxfer Holdings PLC,stock
-LXP,LXP Industrial Trust Common Stock (Maryland REIT),stock
 LXU,"LSB Industries, Inc.",stock
 LYB,LyondellBasell Industries NV Ordinary Shares Class A (Netherlands),stock
 LYG,Lloyds Banking Group Plc American Depositary Shares,stock
@@ -9141,7 +9138,6 @@ NXP,Nuveen Select Tax Free Income Portfolio,stock
 NXPG,Leverage Shares 2X Long NXPI Daily ETF,etf
 NXRT,"NexPoint Residential Trust, Inc.",stock
 NXTE,AXS Green Alpha ETF,etf
-NXTI,Simplify Next Intangible Core Index ETF,etf
 NXUS,Nuveen International Aggregate Bond ETF,etf
 NYC,American Strategic Investment Co.,stock
 NYF,iShares New York Muni Bond ETF,etf
@@ -9241,6 +9237,7 @@ ONTX,Corgi ONTO 2x Daily ETF,etf
 ONX,Tradr 2X Long ON Daily ETF,etf
 OOMA,"Ooma, Inc.",stock
 OOSP,Obra Opportunistic Structured Products ETF,etf
+OPAY,"OPay Limited American Depositary Shares, each representing ten",stock
 OPER,ETF ClearShares Ultra-Short Maturity ETF,etf
 OPEX,Tradr 2X Long OPEN Daily ETF,etf
 OPFI,OppFi Inc.,stock
@@ -9374,7 +9371,6 @@ PCOV,Principal Equity Premium Income ETF,etf
 PCPC,Porter & Company Property & Casualty Index ETF,etf
 PCPP,Porter & Company Porter Portfolio Index ETF,etf
 PCQ,PIMCO California Municipal Income Fund,stock
-PCR,Simplify VettaFi Private Credit Strategy ETF,etf
 PCS,PGIM Corporate Bond 0-5 Year ETF,etf
 PCSG,Polen 5Perspectives Small-Mid Growth ETF,etf
 PCY,Invesco Emerging Markets Sovereign Debt ETF,etf
@@ -9766,7 +9762,6 @@ RAFE,PIMCO RAFI ESG U.S. ETF,etf
 RAL,Ralliant Corporation,stock
 RAM,Roundhill T-REX 2X Long DRAM Daily Target ETF,etf
 RAML,Leverage Shares 2X Long Memory Daily ETF,etf
-RAMP,"LiveRamp Holdings, Inc.",stock
 RAMZ,T-REX 2X Inverse DRAM Daily Target ETF,etf
 RANK,Defiance KSM TipRanks Analyst ETF,etf
 RAVI,Northern Trust Ultra-Short Fixed Income ETF,etf
@@ -10354,11 +10349,11 @@ SOXL,Direxion Daily Semiconductor Bull 3X ETF,etf
 SOXS,Direxion Daily Semiconductor Bear 3X ETF,etf
 SOXY,YieldMax Target 12 Semiconductor Option Income ETF,etf
 SOYB,Teucrium Soybean Fund ETV,etf
-SPAB,State Street SPDR Portfolio Aggregate Bond ETF,etf
+SPAB,State Street SPDR Portfolio Aggregate Bond Index ETF,etf
 SPAL,GraniteShares 2x Long SpaceX Daily ETF,etf
 SPAX,T-REX 2X Long SPCX Daily Target ETF,etf
 SPB,"Spectrum Brands Holdings, Inc.",stock
-SPBO,State Street SPDR Portfolio Corporate Bond ETF,etf
+SPBO,State Street SPDR Portfolio Corporate Bond Index ETF,etf
 SPBU,AllianzIM Buffer15 Uncapped Allocation ETF,etf
 SPBW,AllianzIM Buffer20 Allocation ETF,etf
 SPBX,AllianzIM 6 Month Buffer10 Allocation ETF,etf
@@ -10390,15 +10385,15 @@ SPHB,Invesco S&P 500 High Beta ETF,etf
 SPHD,Invesco S&P 500 High Dividend Low Volatility ETF,etf
 SPHQ,Invesco S&P 500 Quality ETF,etf
 SPHR,Sphere Entertainment Co.,stock
-SPHY,State Street SPDR Portfolio High Yield Bond ETF,etf
-SPIB,State Street SPDR Portfolio Intermediate Term Corporate Bond ETF,etf
+SPHY,State Street SPDR Portfolio High Yield Bond Index ETF,etf
+SPIB,State Street SPDR Portfolio Intermediate Term Corporate Bond Index ETF,etf
 SPIN,State Street US Equity Premium Income ETF,etf
-SPIP,State Street SPDR Portfolio TIPS ETF,etf
+SPIP,State Street SPDR Portfolio TIPS Index ETF,etf
 SPIR,"Spire Global, Inc.",stock
-SPLB,State Street SPDR Portfolio Long Term Corporate Bond ETF,etf
+SPLB,State Street SPDR Portfolio Long Term Corporate Bond Index ETF,etf
 SPLS,PIMCO US Stocks PLUS Active Bond Exchange-Traded Fund,etf
 SPLV,Invesco S&P 500 Low Volatility ETF,etf
-SPMB,State Street SPDR Portfolio Mortgage Backed Bond ETF,etf
+SPMB,State Street SPDR Portfolio Mortgage Backed Bond Index ETF,etf
 SPMC,"Sound Point Meridian Capital, Inc.",stock
 SPMD,State Street SPDR Portfolio S&P 400 Mid Cap ETF,etf
 SPMO,Invesco S&P 500 Momentum ETF,etf
@@ -10407,16 +10402,16 @@ SPOT,Spotify Technology S.A.,stock
 SPPP,Sprott Physical Platinum and Palladium Trust,etf
 SPRE,SP Funds S&P Global REIT Sharia ETF,etf
 SPRU,Spruce Power Holding Corporation,stock
-SPSB,State Street SPDR Portfolio Short Term Corporate Bond ETF,etf
+SPSB,State Street SPDR Portfolio Short Term Corporate Bond Index ETF,etf
 SPSK,SP Funds Dow Jones Global Sukuk ETF,etf
 SPSM,State Street SPDR Portfolio S&P 600 Small Cap ETF,etf
-SPTB,State Street SPDR Portfolio Treasury ETF,etf
+SPTB,State Street SPDR Portfolio Treasury Index ETF,etf
 SPTE,SP Funds S&P Global Technology ETF,etf
-SPTI,State Street SPDR Portfolio Intermediate Term Treasury ETF,etf
-SPTL,State Street SPDR Portfolio Long Term Treasury ETF,etf
+SPTI,State Street SPDR Portfolio Intermediate Term Treasury Index ETF,etf
+SPTL,State Street SPDR Portfolio Long Term Treasury Index ETF,etf
 SPTM,State Street SPDR Portfolio S&P 1500 Composite Stock Market ETF,etf
-SPTS,State Street SPDR Portfolio Short Term Treasury ETF,etf
-SPTU,State Street SPDR Portfolio Ultra Short T-Bill ETF,etf
+SPTS,State Street SPDR Portfolio Short Term Treasury Index ETF,etf
+SPTU,State Street SPDR Portfolio Ultra Short T-Bill Index ETF,etf
 SPUC,Simplify US Equity Income ETF,etf
 SPUS,SP Funds S&P 500 Sharia Industry Exclusions ETF,etf
 SPUT,Innovator Equity Premium Income,etf
@@ -10651,7 +10646,6 @@ TEO,Telecom Argentina SA,stock
 TEQI,T. Rowe Price Equity Income ETF,etf
 TERC,Corgi TER 2x Daily ETF,etf
 TESC,Corgi TSLA 2x Daily ETF,etf
-TESL,Simplify Volt TSLA Revolution ETF,etf
 TEST,YieldMax TSLA Performance & Distribution Target 25 ETF,etf
 TETH,21Shares Ethereum ETF,etf
 TEUP,T-REX 2X Long TE Daily Target ETF,etf
@@ -11279,9 +11273,9 @@ WATS,Corgi Battery Energy Storage Systems ETF,etf
 WBEM,William Blair Emerging Markets Equity ETF,etf
 WBI,WaterBridge Infrastructure LLC Class A Shares Representing Limited Liability Company Interests,stock
 WBIE,William Blair International Equity ETF,etf
-WBIF,WBI BullBear Value 3000 ETF,etf
-WBIG,WBI BullBear Yield 3000 ETF,etf
-WBIL,WBI BullBear Quality 3000 ETF,etf
+WBIF,WBI Fundamental Factors Hedged ETF,etf
+WBIG,WBI Income Generators Hedged ETF,etf
+WBIL,WBI Trend Leaders Hedged ETF,etf
 WBIY,WBI Power Factor High Dividend ETF,etf
 WBMO,VanEck Wealth Builder ETF,etf
 WBX,Wallbox N.V.,stock
