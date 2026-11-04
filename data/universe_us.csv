@@ -1945,7 +1945,6 @@ HNNA,"Hennessy Advisors, Inc.",stock
 HNRG,Hallador Energy Company,stock
 HNST,"The Honest Company, Inc.",stock
 HNVR,"Hanover Bancorp, Inc.",stock
-HODO,House of Doge Inc.,stock
 HODU,Direxion Daily HOOD Bull 2X ETF,etf
 HOFT,Hooker Furnishings Corporation,stock
 HOLO,MicroCloud Hologram Inc.,stock
@@ -2138,7 +2137,6 @@ INDH,WisdomTree India Hedged Equity Fund,etf
 INDI,"indie Semiconductor, Inc.",stock
 INDP,"Indaptus Therapeutics, Inc.",stock
 INDQ,Pacer ActiveAlpha India Quality ETF,etf
-INDV,"Indivior Pharmaceuticals, Inc.",stock
 INDY,iShares India 50 ETF,etf
 INEO,INNEOVA Holdings Limited,stock
 INGN,"Inogen, Inc",stock
@@ -2665,7 +2663,6 @@ MLAA,Mountain Lake Acquisition Corp. II,stock
 MLAB,"Mesa Laboratories, Inc.",stock
 MLCI,Mount Logan Capital Inc.,stock
 MLCO,Melco Resorts & Entertainment Limited,stock
-MLEC,Moolec Science SA,stock
 MLGO,"MicroAlgo, Inc.",stock
 MLKN,"MillerKnoll, Inc.",stock
 MLTX,MoonLake Immunotherapeutics,stock
@@ -3979,7 +3976,7 @@ SUJA,"Suja Life, Inc.",stock
 SUMA,SUMA Acquisition Corporation,stock
 SUNE,"SUNation Energy, Inc.",stock
 SUNS,"Sunrise Realty Trust, Inc.",stock
-SUPN,"Supernus Pharmaceuticals, Inc.",stock
+SUPN,"Supernus, Inc.",stock
 SUPP,TCW Transform Supply Chain ETF,etf
 SUPX,SuperX AI Technology Limited,stock
 SURG,"SurgePays, Inc.",stock
@@ -6581,6 +6578,7 @@ EMFI,Pictet Emerging Markets Debt ETF,etf
 EMGF,iShares Emerging Markets Equity Factor ETF,etf
 EMHC,State Street SPDR Bloomberg Emerging Markets USD Bond ETF,etf
 EMHY,iShares J.P. Morgan EM High Yield Bond ETF,etf
+EMIL,VanEck EM Focus Inflation Bond ETF,etf
 EMJL,Corgi Emerging Markets Equities 15% Structured Buffer ETF,etf
 EMJN,Corgi Emerging Markets Equities 15% Structured Buffer ETF,etf
 EMKT,Lazard Emerging Markets Opportunities ETF,etf
@@ -10675,6 +10673,7 @@ TGRW,T. Rowe Price Growth Stock ETF,etf
 TGS,Transportadora de Gas del Sur SA TGS,stock
 TGT,Target Corporation,stock
 THC,Tenet Healthcare Corporation,stock
+THCR,THOR Conservative Risk Dynamic ETF,etf
 THD,iShares MSCI Thailand ETF,etf
 THEQ,T. Rowe Price Hedged Equity ETF,etf
 THG,Hanover Insurance Group Inc,stock
@@ -11241,6 +11240,7 @@ VTP,Vanguard Total Inflation-Protected Securities ETF,etf
 VTR,"Ventas, Inc.",stock
 VTS,"Vitesse Energy, Inc.",stock
 VTV,Vanguard Morningstar Value ETF,etf
+VTVX,XFUNDS Value Income ETF,etf
 VUG,Vanguard Morningstar Growth ETF,etf
 VUS,Virtus US Dividend ETF,etf
 VUSB,Vanguard Ultra-Short Bond ETF,etf
