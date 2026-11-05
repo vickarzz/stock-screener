@@ -1788,7 +1788,6 @@ GNMA,iShares GNMA Bond ETF,etf
 GNOM,Global X Genomics & Biotechnology ETF,etf
 GNPX,"Genprex, Inc.",stock
 GNSS,Genasys Inc.,stock
-GNTA,Genenta Science S.p.A.,stock
 GNTX,Gentex Corporation,stock
 GO,Grocery Outlet Holding Corp.,stock
 GOAI,Eva Live Inc.,stock
@@ -2142,6 +2141,7 @@ INEO,INNEOVA Holdings Limited,stock
 INGN,"Inogen, Inc",stock
 INHD,Inno Holdings Inc.,stock
 INIO,INNIO N.V.,stock
+INK,AB Equity Premium Income ETF,etf
 INKT,"MiNK Therapeutics, Inc.",stock
 INLF,INLIF LIMITED,stock
 INM,InMed Pharmaceuticals Inc.,stock
@@ -2393,7 +2393,7 @@ LAKE,"Lakeland Industries, Inc.",stock
 LAMR,Lamar Advertising Company,stock
 LAND,Gladstone Land Corporation,stock
 LARK,Landmark Bancorp Inc.,stock
-LASE,Laser Photonics Corporation,stock
+LASE,LASE Corp.,stock
 LASR,"nLIGHT, Inc.",stock
 LATA,Galata Acquisition Corp. II,stock
 LAUR,"Laureate Education, Inc.",stock
@@ -3667,6 +3667,7 @@ RZLV,Rezolve AI PLC,stock
 SAAQ,Space Asset Acquisition Corp.,stock
 SABR,Sabre Corporation,stock
 SABS,"SAB Biotherapeutics, Inc.",stock
+SAEN,Genenta Science S.p.A.,stock
 SAFT,"Safety Insurance Group, Inc.",stock
 SAFX,"XCF Global, Inc.",stock
 SAGT,SAGTEC GLOBAL LIMITED,stock
@@ -4842,7 +4843,6 @@ AFK,VanEck Africa Index ETF,etf
 AFL,AFLAC Incorporated,stock
 AFLG,First Trust Active Factor Large Cap ETF,etf
 AFMC,First Trust Active Factor Mid Cap ETF,etf
-AFRU,T-REX 2X Long AFRM Daily Target ETF,etf
 AFSM,First Trust Active Factor Small Cap ETF,etf
 AG,First Majestic Silver Corp. Ordinary Shares (Canada),stock
 AGBK,AGI Inc,stock
@@ -5104,7 +5104,6 @@ ASTN,Defiance Daily Target 2X Short ASTS ETF,etf
 ASTT,Corgi ASTS 2x Daily ETF,etf
 ASTX,Tradr 2X Long ASTS Daily ETF,etf
 ASTY,Defiance Daily Target 2X Long ASTS ETF,etf
-ASUP,T-REX 2X Long ASTS Daily Target ETF,etf
 ASX,"ASE Technology Holding Co., Ltd. American Depositary Shares (each representing Two",stock
 AT,Defiance Robotics Actuators ETF,etf
 ATCH,"AtlasClear Holdings, Inc.",stock
@@ -7198,7 +7197,6 @@ GCAD,Gabelli Commercial Aerospace and Defense ETF,etf
 GCAL,Goldman Sachs Dynamic California Municipal Income ETF,etf
 GCB,Corgi FTSE Intermediate Government/Credit Bond ETF,etf
 GCC,WisdomTree EnhancedContinuous Commodity Index Fund,etf
-GCDT,Green Circle Decarbonize Technology Limited,stock
 GCLO,Guggenheim Investment Grade CLO ETF,etf
 GCO,Genesco Inc.,stock
 GCOR,Goldman Sachs Access U.S. Aggregate Bond ETF,etf
@@ -9553,7 +9551,7 @@ PRIZ,Zacks Preferred Income ETF,etf
 PRK,Park National Corporation,stock
 PRKS,United Parks & Resorts Inc.,stock
 PRLB,"Proto Labs, Inc.",stock
-PRM,"Perimeter Solutions, SA",stock
+PRM,Perimeter Group Inc.,stock
 PRMB,Primo Brands Corporation,stock
 PRNT,3D Printing (The) ETF,etf
 PRSD,State Street Short Duration IG Public & Private Credit ETF,etf
@@ -9796,7 +9794,9 @@ RDWU,T-REX 2X Long RDW Daily Target ETF,etf
 RDY,Dr. Reddy's Laboratories Ltd,stock
 RDYY,YieldMax RDDT Option Income Strategy ETF,etf
 REA,"Rare Earths Americas, Inc.",stock
+RECD,Columbia RECS Laddered Deep Buffer ETF,etf
 RECI,Columbia Research Enhanced Core Premium Income ETF,etf
+RECM,Columbia RECS Laddered Moderate Buffer ETF,etf
 RECS,Columbia Research Enhanced Core ETF,etf
 REED,"Reed's, Inc.",stock
 REET,iShares Global REIT ETF,etf
@@ -10036,7 +10036,6 @@ SBR,Sabine Royalty Trust,stock
 SBS,Companhia de saneamento Basico Do Estado De Sao Paulo,stock
 SBSI,"Southside Bancshares, Inc.",stock
 SBSW,D/B/A Sibanye-Stillwater Limited ADS,stock
-SBTU,T-REX 2X Long SBET Daily Target ETF,etf
 SBXE,SilverBox Corp V,stock
 SCAP,Infrastructure Capital Small Cap Income ETF,etf
 SCAU,Corgi U.S. Small-Cap 15% Structured Buffer ETF,etf
@@ -10204,6 +10203,7 @@ SITC,SITE Centers Corp.,stock
 SITE,"SiteOne Landscape Supply, Inc.",stock
 SITX,Tradr 2X Long SITM Daily ETF,etf
 SIVR,abrdn Physical Silver Shares ETF,etf
+SIX,Global X Magnificent Six ETF,etf
 SIXA,ETC 6 Meridian Mega Cap Equity ETF,etf
 SIXD,AllianzIM U.S. Large Cap 6 Month Buffer10 Jun/Dec ETF,etf
 SIXF,AllianzIM U.S. Large Cap 6 Month Buffer10 Feb/Aug ETF,etf
@@ -10646,7 +10646,6 @@ TERC,Corgi TER 2x Daily ETF,etf
 TESC,Corgi TSLA 2x Daily ETF,etf
 TEST,YieldMax TSLA Performance & Distribution Target 25 ETF,etf
 TETH,21Shares Ethereum ETF,etf
-TEUP,T-REX 2X Long TE Daily Target ETF,etf
 TEVA,Teva Pharmaceutical Industries Limited,stock
 TEX,Terex Corporation,stock
 TEXU,Direxion Daily Energy Top 5 Bull 2X ETF,etf
