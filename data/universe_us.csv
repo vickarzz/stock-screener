@@ -44,6 +44,7 @@ ACBH,Pacer Metaurus High Income Autocallable ETF,etf
 ACCL,Acco Group Holdings Limited,stock
 ACCV,Accelevation Holdings Corp.,stock
 ACDC,ProFrac Holding Corp.,stock
+ACEM,American Century Emerging Markets Insights ETF,etf
 ACEP,ARS Core Equity Portfolio ETF,etf
 ACET,"Adicet Bio, Inc.",stock
 ACFN,"Acorn Energy, Inc.",stock
@@ -123,6 +124,7 @@ AGEN,Agenus Inc.,stock
 AGGA,EA Astoria Beacon Dynamic Core US Fixed Income ETF,etf
 AGIO,"Agios Pharmaceuticals, Inc.",stock
 AGIX,KraneShares Public-Private AI & Technology ETF,etf
+AGLT,"Agility Robotics, Inc.",stock
 AGMB,AgomAb Therapeutics NV,stock
 AGMH,AGM Group Holdings Inc.,stock
 AGMI,Themes Silver Miners ETF,etf
@@ -809,7 +811,6 @@ CCSB,Carbon Collective Short Duration Green Bond ETF,etf
 CCSI,"Consensus Cloud Solutions, Inc.",stock
 CCSO,Carbon Collective Climate Solutions U.S. Equity ETF,etf
 CCTG,CCSC Technology International Holdings Limited,stock
-CCXI,Churchill Capital Corp XI,stock
 CD,Chaince Digital Holdings Inc.,stock
 CDC,VictoryShares US EQ Income Enhanced Volatility Wtd ETF,etf
 CDIG,City Different Investments Global Equity ETF,etf
@@ -1934,6 +1935,7 @@ HLIT,Harmonic Inc.,stock
 HLMN,Hillman Solutions Corp.,stock
 HLNE,Hamilton Lane Incorporated,stock
 HLP,Hongli Group Inc.,stock
+HLT,Hilton Worldwide Holdings Inc.,stock
 HLTH,Tema Healthcare AI ETF,etf
 HLXC,Helix Acquisition Corp. III,stock
 HMH,HMH Holding Inc.,stock
@@ -2141,6 +2143,7 @@ INEO,INNEOVA Holdings Limited,stock
 INGN,"Inogen, Inc",stock
 INHD,Inno Holdings Inc.,stock
 INIO,INNIO N.V.,stock
+INJC,Canary Staked INJ ETF,etf
 INK,AB Equity Premium Income ETF,etf
 INKT,"MiNK Therapeutics, Inc.",stock
 INLF,INLIF LIMITED,stock
@@ -4639,7 +4642,7 @@ XSLL,Xsolla SPAC 1,stock
 XSPC,VegaShares Space & AI ETF,etf
 XSPI,NEOS Boosted S&P 500 High Income ETF,etf
 XT,iShares Future Exponential Technologies ETF,etf
-XTER,Karman Line Acquisition Corp.,stock
+XTER,Xterax Corporation II,stock
 XTIA,"XTI Aerospace, Inc.",stock
 XTLB,XTL Biopharmaceuticals Ltd.,stock
 XUSM,MarketDesk International Momentum ETF,etf
@@ -5265,6 +5268,7 @@ BBJP,JPMorgan BetaBuilders Japan ETF,etf
 BBLB,JPMorgan BetaBuilders U.S. Treasury Bond 20+ Year ETF,etf
 BBLS,Munificent Seven ETF,etf
 BBLU,EA Bridgeway Blue Chip ETF,etf
+BBLX,BondBloxx Core Plus ETF,etf
 BBMC,JPMorgan BetaBuilders U.S. Mid Cap Equity ETF,etf
 BBN,BlackRock Taxable Municipal Bond Trust,stock
 BBP,Virtus Biotech ETF,etf
@@ -5733,7 +5737,7 @@ CCU,"Compania Cervecerias Unidas, S.A.",stock
 CCUP,T-REX 2X Long CRCL Daily Target ETF,etf
 CCZ,Comcast Holdings ZONES,stock
 CDE,"Coeur Mining, Inc.",stock
-CDLR,Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares),stock
+CDLR,Cadeler plc,stock
 CDNG,Leverage Shares 2X Long CDNS Daily ETF,etf
 CDP,COPT Defense Properties,stock
 CDPI,Columbia High Dividend Premium Income ETF,etf
@@ -6233,6 +6237,7 @@ DFII,FT Vest Bitcoin Strategy & Target Income ETF,etf
 DFIN,"Donnelley Financial Solutions, Inc.",stock
 DFIP,Dimensional Inflation-Protected Securities ETF,etf
 DFIS,Dimensional International Small Cap ETF,etf
+DFIT,Davidson Intermediate Taxable ETF,etf
 DFIV,Dimensional International Value ETF,etf
 DFJ,WisdomTree Japan SmallCap Fund,etf
 DFLV,Dimensional US Large Cap Value ETF,etf
@@ -6312,6 +6317,7 @@ DJUN,FT Vest U.S. Equity Deep Buffer ETF,etf
 DK,"Delek US Holdings, Inc.",stock
 DKS,Dick's Sporting Goods Inc,stock
 DLAG,FT Vest U.S. Equity Dual Directional Buffer ETF,etf
+DLAY,Tuttle Capital AI Bottleneck ETF,etf
 DLB,Dolby Laboratories,stock
 DLFE,FT Vest U.S. Equity Dual Directional Buffer ETF,etf
 DLMY,FT Vest U.S. Equity Dual Directional Buffer ETF,etf
@@ -7015,6 +7021,7 @@ FMCE,FM Compounders Equity ETF,etf
 FMCX,FM Focus Equity ETF,etf
 FMDE,Fidelity Enhanced Mid Cap Core ETF,etf
 FMF,First Trust Managed Futures Strategy Fund,etf
+FMIG,FMI Global Equity ETF,etf
 FMKT,The Free Markets ETF,etf
 FMN,Federated Hermes Premier Municipal Income Fund,stock
 FMNY,First Trust New York Municipal High Income ETF,etf
@@ -7570,7 +7577,6 @@ HLIO,"Helios Technologies, Inc.",stock
 HLLY,Holley Inc.,stock
 HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),stock
 HLSQ,Tessera Defense and Homeland Security Inc.,stock
-HLT,Hilton Worldwide Holdings Inc.,stock
 HMAY,Corgi U.S. Equities 100% Structured Buffer ETF,etf
 HMC,"Honda Motor Company, Ltd.",stock
 HMN,Horace Mann Educators Corporation,stock
