@@ -183,7 +183,6 @@ AKTX,Akari Therapeutics Plc,stock
 ALAB,"Astera Labs, Inc.",stock
 ALAR,Alarum Technologies Ltd.,stock
 ALCO,"Alico, Inc.",stock
-ALDF,Aldel Financial II Inc.,stock
 ALDX,"Aldeyra Therapeutics, Inc.",stock
 ALEC,"Alector, Inc.",stock
 ALF,Centurion Acquisition Corp.,stock
@@ -2418,6 +2417,7 @@ LDRX,SGI Enhanced Market Leaders ETF,etf
 LDSF,First Trust Low Duration Strategic Focus ETF,etf
 LE,"Lands' End, Inc.",stock
 LECO,"Lincoln Electric Holdings, Inc.",stock
+LEDR,Leader's Advantage Acquisition Corp.,stock
 LEDS,SemiLEDS Corporation,stock
 LEE,"Lee Enterprises, Incorporated",stock
 LEGH,Legacy Housing Corporation,stock
@@ -10228,9 +10228,7 @@ SJT,San Juan Basin Royalty Trust,stock
 SK,Corgi SK hynix 2x Daily ETF,etf
 SKE,Skeena Resources Limited,stock
 SKF,ProShares UltraShort Financials,etf
-SKHA,Tradr 2X Long SK hynix Daily ETF,etf
 SKHL,Direxion Daily SK Hynix Bull 2X ETF,etf
-SKHN,Tradr 2X Short SK hynix Daily ETF,etf
 SKHQ,Leverage Shares 2X Short Sk Hynix Daily ETF,etf
 SKHU,ProShares Ultra SK hynix,etf
 SKHX,Leverage Shares 2X Long SK Hynix Daily ETF,etf
@@ -11030,7 +11028,6 @@ USCA,Xtrackers MSCI USA Climate Action Equity ETF,etf
 USCI,United States Commodity Index Fund ETV,etf
 USD,ProShares Ultra Semiconductors,etf
 USDU,WisdomTree Bloomberg U.S. Dollar Bullish Fund,etf
-USE,USCF Energy Commodity Strategy Absolute Return Fund,etf
 USEP,Innovator U.S. Equity Ultra Buffer ETF,etf
 USEW,Cambria US EW ETF,etf
 USFD,US Foods Holding Corp.,stock
@@ -11375,7 +11372,6 @@ WT,"WisdomTree, Inc.",stock
 WTAI,WisdomTree Artificial Intelligence and Innovation Fund,etf
 WTAL,WisdomTree Global Alpha Fund,etf
 WTI,"W&T Offshore, Inc.",stock
-WTIB,USCF Oil Plus Bitcoin Strategy Fund,etf
 WTID,MicroSectors Energy 3X Inverse Leveraged ETNs,etf
 WTIU,MicroSectors Energy 3X Leveraged ETNs,etf
 WTLS,WisdomTree Efficient Long/Short U.S. Equity Fund,etf
