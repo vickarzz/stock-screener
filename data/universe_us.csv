@@ -725,7 +725,6 @@ BWB,"Bridgewater Bancshares, Inc.",stock
 BWEN,"Broadwind, Inc.",stock
 BWFG,"Bankwell Financial Group, Inc.",stock
 BWIN,"The Baldwin Insurance Group, Inc.",stock
-BWMN,Bowman Consulting Group Ltd.,stock
 BXBL,"BOXABL, Inc.",stock
 BYAH,"Park Ha Biological Technology Co., Ltd.",stock
 BYFC,Broadway Financial Corporation,stock
@@ -2146,7 +2145,6 @@ INJC,Canary Staked INJ ETF,etf
 INK,AB Equity Premium Income ETF,etf
 INKT,"MiNK Therapeutics, Inc.",stock
 INLF,INLIF LIMITED,stock
-INM,InMed Pharmaceuticals Inc.,stock
 INMB,INmune Bio Inc.,stock
 INMD,InMode Ltd.,stock
 INNV,InnovAge Holding Corp.,stock
@@ -2593,7 +2591,6 @@ MCHS,Matthews China Innovators Active ETF,etf
 MCHX,"Marchex, Inc.",stock
 MCRB,"Seres Therapeutics, Inc.",stock
 MCRI,"Monarch Casino & Resort, Inc.",stock
-MCTA,Charming Medical Limited,stock
 MDAI,"Spectral AI, Inc.",stock
 MDB,"MongoDB, Inc.",stock
 MDBH,"MDB Capital Holdings, LLC",stock
@@ -2748,6 +2745,7 @@ MTEN,Mingteng International Corporation Inc.,stock
 MTEX,"Mannatech, Incorporated",stock
 MTGG,MayTech Global Growth ETF,etf
 MTLS,Materialise NV,stock
+MTRI,"Mentari Therapeutics, Inc.",stock
 MTRX,Matrix Service Company,stock
 MTSI,"MACOM Technology Solutions Holdings, Inc.",stock
 MTVA,MetaVia Inc.,stock
@@ -3619,7 +3617,6 @@ ROCQ,JPMorgan Nasdaq Equity Premium Yield ETF,etf
 ROCY,JPMorgan Equity Premium Yield ETF,etf
 ROE,Astoria US Equal Weight Quality Kings ETF,etf
 ROIV,Roivant Sciences Ltd.,stock
-ROKU,"Roku, Inc.",stock
 ROMA,Roma Green Finance Limited,stock
 ROOT,"Root, Inc.",stock
 ROP,"Roper Technologies, Inc.",stock
@@ -4298,7 +4295,6 @@ ULBI,Ultralife Corporation,stock
 ULCC,"Frontier Group Holdings, Inc.",stock
 ULH,"Universal Logistics Holdings, Inc.",stock
 ULTA,"Ulta Beauty, Inc.",stock
-ULTI,REX IncomeMax Option Strategy ETF,etf
 ULVM,VictoryShares US Value Momentum ETF,etf
 UMBF,UMB Financial Corporation,stock
 UMMA,Wahed Dow Jones Islamic World ETF,etf
@@ -5045,7 +5041,6 @@ ARDT,"Ardent Health, Inc.",stock
 ARE,"Alexandria Real Estate Equities, Inc.",stock
 ARES,Ares Management Corporation,stock
 ARGT,Global X MSCI Argentina ETF,etf
-ARI,"Apollo Commercial Real Estate Finance, Inc",stock
 ARIA,ARIA Opportunities ETF,etf
 ARIS,Aris Mining Corporation,stock
 ARKB,ARK 21Shares Bitcoin ETF,etf
@@ -7648,6 +7643,8 @@ HXE,Mast HedgeIndex Adaptive Equities ETF,etf
 HXF,Mast HedgeIndex Managed Futures Strategy ETF,etf
 HXL,Hexcel Corporation,stock
 HY,"Hyster-Yale, Inc.",stock
+HYAC,Haymaker Acquisition Corp V,stock
+HYB,Lazard US High Yield ETF,etf
 HYBB,iShares BB Rated Corporate Bond ETF,etf
 HYBL,State Street Blackstone High Income ETF,etf
 HYBX,TCW High Yield Bond ETF,etf
@@ -7656,6 +7653,7 @@ HYDB,iShares High Yield Systematic Bond ETF,etf
 HYDW,Xtrackers Low Beta High Yield Bond ETF,etf
 HYEM,VanEck Emerging Markets High Yield Bond ETF,etf
 HYFI,AB High Yield ETF,etf
+HYFY,Lazard Hybrid Financial Income ETF,etf
 HYG,iShares iBoxx $ High Yield Corporate Bond ETF,etf
 HYGD,MicroSectors -3x Short High Yield Corporate Bond (HYG) ETNs,etf
 HYGH,iShares Interest Rate Hedged High Yield Bond ETF,etf
@@ -8517,6 +8515,8 @@ LYB,LyondellBasell Industries NV Ordinary Shares Class A (Netherlands),stock
 LYG,Lloyds Banking Group Plc American Depositary Shares,stock
 LYLD,Cambria Large Cap Shareholder Yield ETF,etf
 LYNX,Lyntris Inc.,stock
+LYR,Lyrical U.S. Value Equity ETF,etf
+LYRI,Lyrical International Value Equity ETF,etf
 LYTE,Roundhill Photonics & Optics ETF,etf
 LYV,"Live Nation Entertainment, Inc.",stock
 LZB,La-Z-Boy Incorporated,stock
@@ -8626,6 +8626,7 @@ MFDX,PIMCO RAFI Dynamic Multi-Factor International Equity ETF,etf
 MFEB,Pacer Swan SOS Moderate (February) ETF,etf
 MFEM,PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF,etf
 MFG,"Mizuho Financial Group, Inc. Sponosred ADR (Japan)",stock
+MFIX,Nomura Strategic Income ETF,etf
 MFM,Aberdeen Municipal Income Fund,stock
 MFSB,MFS Active Core Plus Bond ETF,etf
 MFSD,MFS Active Short Duration Income ETF,etf
@@ -10273,6 +10274,7 @@ SMC,Summit Midstream Corporation,stock
 SMCC,Corgi SMCI 2x Daily ETF,etf
 SMCP,SMART Mid Cap ETF,etf
 SMCY,YieldMax SMCI Option Income Strategy ETF,etf
+SMDC,Nomura Small and Mid Cap ETF,etf
 SMDD,UltraPro Short MidCap400,etf
 SMDV,ProShares Russell 2000 Dividend Growers ETF,etf
 SMDX,Intech S&P Small-Mid Cap Diversified Alpha ETF,etf
@@ -10602,7 +10604,6 @@ TBXU,Direxion Daily Biotech Top 5 Bull 2X ETF,etf
 TCAF,T. Rowe Price Capital Appreciation Equity ETF,etf
 TCAI,Tortoise AI Infrastructure ETF,etf
 TCAL,T. Rowe Price Capital Appreciation Premium Income ETF,etf
-TCBI,"Texas Capital Bancshares, Inc.",stock
 TCBX,"Third Coast Bancshares, Inc.",stock
 TCHP,T. Rowe Price Blue Chip Growth ETF,etf
 TCI,"Transcontinental Realty Investors, Inc.",stock
@@ -10729,7 +10730,6 @@ TKNZ,T. Rowe Price Active Crypto ETF,etf
 TKO,"TKO Group Holdings, Inc.",stock
 TKR,Timken Company (The),stock
 TLCI,Touchstone International Equity ETF,etf
-TLDR,The Laddered T-Bill ETF,etf
 TLH,iShares 10-20 Year Treasury Bond ETF,etf
 TLIE,American Beacon The London Company Income Equity ETF,etf
 TLK,"PT Telekomunikasi Indonesia, Tbk",stock
@@ -10902,6 +10902,7 @@ TWOX,iShares Large Cap Accelerated Outcome ETF,etf
 TWSC,Corgi TSM 2x Daily ETF,etf
 TX,"Ternium S.A. Ternium S.A. American Depositary Shares (each representing ten shares, USD1.00 par value)",stock
 TXBC,21Shares FTSE Crypto 10 ex-BTC Index ETF,etf
+TXCP,"Texas Capital Bancshares, Inc.",stock
 TXNM,"TXNM Energy, Inc.",stock
 TXNU,Direxion Daily TXN Bull 2X ETF,etf
 TXS,Texas Capital Texas Equity Index ETF,etf
@@ -11421,6 +11422,7 @@ XCOR,FundX ETF,etf
 XDAT,Franklin Exponential Data ETF,etf
 XDEC,FT Vest U.S. Equity Enhance & Moderate Buffer ETF,etf
 XDIV,Roundhill S&P 500 No Dividend Target ETF,etf
+XDLR,Lazard Non-Dollar Active Income ETF,etf
 XDQQ,Innovator Growth Accelerated ETF,etf
 XDSQ,Innovator U.S. Equity Accelerated ETF,etf
 XDTE,Roundhill S&P 500 0DTE Covered Call Strategy ETF,etf
