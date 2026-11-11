@@ -52,7 +52,6 @@ ACGC,ACP Holdings Acquisition Corp.,stock
 ACGL,Arch Capital Group Ltd.,stock
 ACHC,"Acadia Healthcare Company, Inc.",stock
 ACHP,Global X Asia Semiconductor ETF,etf
-ACHV,"Achieve Life Sciences, Inc.",stock
 ACIC,American Coastal Insurance Corporation,stock
 ACIU,AC Immune SA,stock
 ACIW,"ACI Worldwide, Inc.",stock
@@ -1430,7 +1429,6 @@ EYPT,"EyePoint, Inc.",stock
 EZGO,EZGO Technologies Ltd.,stock
 EZMO,AlphaDroid Broad Markets Momentum ETF,etf
 EZPW,"EZCORP, Inc.",stock
-EZRA,"Reliance Global Group, Inc.",stock
 EZRO,AlphaDroid Defensive Sector Rotation ETF,etf
 FA,First Advantage Corporation,stock
 FAAA,Fidelity AAA CLO ETF,etf
@@ -1702,7 +1700,7 @@ GBDC,"Golub Capital BDC, Inc.",stock
 GBFH,GBank Financial Holdings Inc.,stock
 GBLI,"Global Indemnity Group, LLC",stock
 GBUG,Sprott Active Gold & Silver Miners ETF,etf
-GCBC,"Greene County Bancorp, Inc.",stock
+GCBC,"Greene Bancorp, Inc.",stock
 GCGR,General Catalyst Global Resilience Merger Corp.,stock
 GCL,GCL Global Holdings Ltd,stock
 GCMG,GCM Grosvenor Inc.,stock
@@ -3476,6 +3474,7 @@ QTUM,Defiance Quantum ETF,etf
 QUBT,Quantum Computing Inc.,stock
 QUCY,Quantum Cyber N.V.,stock
 QUIK,QuickLogic Corporation,stock
+QUIT,"Achieve Life Sciences, Inc.",stock
 QUMS,Quantumsphere Acquisition Corp.,stock
 QURE,uniQure N.V.,stock
 QVAL,Alpha Architect U.S. Quantitative Value ETF,etf
@@ -3531,7 +3530,6 @@ RDVT,"Red Violet, Inc.",stock
 RDVY,First Trust Rising Dividend Achievers ETF,etf
 RDWR,Radware Ltd.,stock
 RDZN,"Roadzen, Inc.",stock
-REAI,Intelligent Real Estate ETF,etf
 REAL,"The RealReal, Inc.",stock
 REAX,Real REMAX Group Inc.,stock
 REBN,"Reborn Coffee, Inc.",stock
@@ -3704,6 +3702,7 @@ SCNI,Scinai Immunotherapeutics Ltd.,stock
 SCNX,"Scienture Holdings, Inc.",stock
 SCOR,"comScore, Inc.",stock
 SCPQ,Social Commerce Partners Corporation,stock
+SCQC,SPACCircle Acquisition Corp.,stock
 SCSC,"ScanSource, Inc.",stock
 SCTX,Scribe Therapeutics Inc.,stock
 SCWO,374Water Inc.,stock
@@ -4608,6 +4607,7 @@ XERS,"Xeris Biopharma Holdings, Inc.",stock
 XEY,GraniteShares YieldBOOST Ether ETF,etf
 XFOR,"X4 Pharmaceuticals, Inc.",stock
 XGN,Exagen Inc.,stock
+XGPU,"Reliance Global Group, Inc.",stock
 XHG,XChange TEC.INC,stock
 XHLD,"TEN Holdings, Inc.",stock
 XIII,Churchill Capital Corp XIII,stock
@@ -5361,6 +5361,7 @@ BGH,Barings Global Short Duration High Yield Fund,stock
 BGIG,Bahl & Gaynor Income Growth ETF,etf
 BGLD,FT Vest Gold Strategy Quarterly Buffer ETF,etf
 BGR,BlackRock Energy and Resources Trust,stock
+BGRD,BNY Mellon Power Ecosystem ETF,etf
 BGS,"B&G Foods, Inc.",stock
 BGSF,"BGSF, Inc.",stock
 BGSI,Boyd Group Services Inc.,stock
@@ -6568,6 +6569,7 @@ EMC,Global X Emerging Markets Great Consumer ETF,etf
 EMCR,Xtrackers Emerging Markets Carbon Reduction and Climate Improvers ETF,etf
 EMCS,Xtrackers MSCI Emerging Markets Select ETF,etf
 EMD,Western Asset Emerging Markets Debt Fund Inc,stock
+EMDI,Principal Finisterre Emerging Markets Diversified Income ETF,etf
 EMDM,First Trust Bloomberg Emerging Market Democracies ETF,etf
 EMDV,ProShares MSCI Emerging Markets Dividend Growers ETF,etf
 EME,"EMCOR Group, Inc.",stock
@@ -7482,7 +7484,6 @@ HAPS,Harbor Human Capital Factor US Small Cap ETF,etf
 HARD,Simplify Commodities Strategy No K-1 ETF,etf
 HASI,"HA Sustainable Infrastructure Capital, Inc.",stock
 HAUG,Corgi U.S. Equities 100% Structured Buffer ETF,etf
-HAUS,Residential REIT ETF,etf
 HAUZ,Xtrackers International Real Estate ETF,etf
 HAWG,HCM Hedged Equity ETF,etf
 HAWK,"HawkEye 360, Inc.",stock
@@ -8490,6 +8491,7 @@ LSVD,LSV Disciplined Value ETF,etf
 LTAX,Nomura Tax-Free USA ETF,etf
 LTB,Corgi FTSE 20 Year U.S. Treasury Bond ETF,etf
 LTC,"LTC Properties, Inc.",stock
+LTEQ,Equity Partners ETF,etf
 LTH,"Life Time Group Holdings, Inc.",stock
 LTL,ProShares Ultra Communication Services,etf
 LTM,"LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",stock
@@ -9424,6 +9426,7 @@ PGP,Pimco Global StocksPlus & Income Fund,stock
 PGR,Progressive Corporation (The),stock
 PGRI,Putnam International Stock ETF,etf
 PGRO,Putnam Focused Large Cap Growth ETF,etf
+PGRW,Principal Growth ETF,etf
 PGX,Invesco Preferred ETF,etf
 PGZ,Principal Real Estate Income Fund,stock
 PH,Parker-Hannifin Corporation,stock
@@ -9600,7 +9603,6 @@ PSOX,Tema MLCC & PowerSemi ETF,etf
 PSP,Invesco Global Listed Private Equity ETF,etf
 PSQ,ProShares Short QQQ,etf
 PSQA,Palmer Square CLO Senior Debt ETF,etf
-PSQH,"PSQ Holdings, Inc.",stock
 PSQO,Palmer Square Credit Opportunities ETF,etf
 PSR,Invesco Active U.S. Real Estate Fund,etf
 PST,ProShares UltraShort Lehman 7-10 Year Treasury,etf
