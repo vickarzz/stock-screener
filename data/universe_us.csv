@@ -2353,7 +2353,6 @@ KOSS,Koss Corporation,stock
 KOYN,CSLM Digital Asset Acquisition Corp III,stock
 KPLT,"Katapult Holdings, Inc.",stock
 KPRX,"Kiora Pharmaceuticals, Inc.",stock
-KPTI,Karyopharm Therapeutics Inc.,stock
 KQQQ,Kurv Technology Titans Select ETF,etf
 KRAQ,KRAKacquisition Corp,stock
 KRKR,36Kr Holdings Inc.,stock
@@ -5104,7 +5103,6 @@ ASTX,Tradr 2X Long ASTS Daily ETF,etf
 ASTY,Defiance Daily Target 2X Long ASTS ETF,etf
 ASX,"ASE Technology Holding Co., Ltd. American Depositary Shares (each representing Two",stock
 AT,Defiance Robotics Actuators ETF,etf
-ATCH,"AtlasClear Holdings, Inc.",stock
 ATCL,REX Autocallable Income ETF,etf
 ATEN,"A10 Networks, Inc.",stock
 ATFV,Alger 35 ETF,etf
@@ -7572,7 +7570,6 @@ HLI,"Houlihan Lokey, Inc.",stock
 HLIO,"Helios Technologies, Inc.",stock
 HLLY,Holley Inc.,stock
 HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),stock
-HLSQ,Tessera Defense and Homeland Security Inc.,stock
 HMAY,Corgi U.S. Equities 100% Structured Buffer ETF,etf
 HMC,"Honda Motor Company, Ltd.",stock
 HMN,Horace Mann Educators Corporation,stock
@@ -7722,6 +7719,7 @@ IBIK,iShares iBonds Oct 2034 Term TIPS ETF,etf
 IBIL,iShares iBonds Oct 2035 Term TIPS ETF,etf
 IBIM,iShares iBonds Oct 2036 Term TIPS ETF,etf
 IBLC,iShares Blockchain and Tech ETF,etf
+IBLY,FT Vest Equity Target Income Plus 0-3 Month Treasury ETF,etf
 IBM,International Business Machines Corporation,stock
 IBMO,iShares iBonds Dec 2026 Term Muni Bond ETF,etf
 IBMP,iShares iBonds Dec 2027 Term Muni Bond ETF,etf
@@ -7919,6 +7917,10 @@ IPOS,Renaissance Capital Greenwich Fund,etf
 IQDF,Northern Trust International Quality Dividend ETF,etf
 IQDG,WisdomTree International Quality Dividend Growth Fund,etf
 IQDY,Northern Trust International Quality Dividend Dynamic ETF,etf
+IQEE,Invesco Emerging Markets Enhanced ETF,etf
+IQEI,Invesco International Developed Enhanced ETF,etf
+IQEL,Invesco U.S. Large Cap Enhanced ETF,etf
+IQES,Invesco U.S. Small Cap Enhanced ETF,etf
 IQHI,NYLIM MacKay High Income ETF,etf
 IQI,Invesco Quality Municipal Income Trust,stock
 IQLT,iShares MSCI Intl Quality Factor ETF,etf
@@ -8615,7 +8617,6 @@ MEIB,Direxion META Defined Income Boost ETF,etf
 MEM,Matthews Emerging Markets Equity Active ETF,etf
 MEME,Roundhill Meme Stock ETF,etf
 MEMX,Matthews Emerging Markets ex China Active ETF,etf
-MEMY,Tuttle Capital Meme Stock Income Blast ETF,etf
 MET,"MetLife, Inc.",stock
 METG,Leverage Shares 2X Long META Daily ETF,etf
 METQ,Tradr 2X Short META Daily ETF,etf
