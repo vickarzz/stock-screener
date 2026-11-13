@@ -1029,6 +1029,7 @@ CRIS,"Curis, Inc.",stock
 CRMD,CorMedix Inc.,stock
 CRMG,Leverage Shares 2X Long CRM Daily ETF,etf
 CRML,Critical Metals Corp.,stock
+CRMN,Skyline Builders Group Holding Limited,stock
 CRMT,"America's Car-Mart, Inc.",stock
 CRNC,Cerence Inc.,stock
 CRNT,Ceragon Networks Ltd.,stock
@@ -2305,7 +2306,6 @@ KALU,Kaiser Aluminum Corporation,stock
 KARD,"Kardigan, Inc.",stock
 KARO,Karooooo Ltd.,stock
 KAT,Scharf ETF,etf
-KAZR,Skyline Builders Group Holding Limited,stock
 KBON,Karbon Capital Partners Corp.,stock
 KBSX,FST Corp.,stock
 KBWB,Invesco KBW Bank ETF,etf
@@ -2986,7 +2986,6 @@ NXTC,"NextCure, Inc.",stock
 NXTG,First Trust Indxx NextG ETF,etf
 NXTS,Nexentis Technologies Inc.,stock
 NXTT,Next Technology Holding Inc.,stock
-NXXT,"NextNRG, Inc.",stock
 NYAX,Nayax Ltd.,stock
 NYXH,Nyxoah SA,stock
 NZAC,State Street SPDR MSCI ACWI Climate Paris Aligned ETF,etf
@@ -7304,6 +7303,7 @@ GLED,GalaxyEdge Acquisition Corporation,stock
 GLIN,VanEck India Growth Leaders ETF,etf
 GLIX,Lazard Listed Infrastructure ETF,etf
 GLL,ProShares UltraShort Gold,etf
+GLLD,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",etf
 GLNK,Grayscale Chainlink Trust ETF,etf
 GLO,Clough Global Opportunities Fund,stock
 GLOB,Globant S.A.,stock
@@ -8218,6 +8218,7 @@ KBE,State Street SPDR S&P Bank ETF,etf
 KBFR,Innovator U.S. Small Cap Managed 10 Buffer ETF,etf
 KBH,KB Home,stock
 KBR,"KBR, Inc.",stock
+KBTY,Guinness Atkinson K-Beauty ETF,etf
 KBUF,KraneShares 90% KWEB Defined Outcome January 2027 ETF,etf
 KCCA,KraneShares California Carbon Allowance Strategy ETF,etf
 KCE,State Street SPDR S&P Capital Markets ETF,etf
@@ -8280,7 +8281,6 @@ KNO,AXS Knowledge Leaders ETF,etf
 KNOV,Innovator U.S. Small Cap Power Buffer ETF,etf
 KNOW,Fundamentals First ETF,etf
 KNRG,Simplify Kayne Anderson Energy and Infrastructure Credit ETF,etf
-KNRX,KNOREX LTD.,stock
 KNSL,"Kinsale Capital Group, Inc.",stock
 KNTK,Kinetik Holdings Inc.,stock
 KNX,Knight-Swift Transportation Holdings Inc.,stock
@@ -8534,6 +8534,7 @@ MAGA,Truth Social America First ETF,etf
 MAGC,Roundhill China Magnificent Seven ETF,etf
 MAGG,Madison Aggregate Bond ETF,etf
 MAGN,Magnera Corporation,stock
+MAGP,Roundhill Magnificent Seven Plus ETF,etf
 MAGS,Roundhill Magnificent Seven ETF,etf
 MAGX,Roundhill Daily 2X Long Magnificent Seven ETF,etf
 MAGY,Roundhill Magnificent Seven Covered Call ETF,etf
@@ -8992,6 +8993,7 @@ NISM,NYLIM International Small-Mid Cap Equity ETF,etf
 NITE,The Nightview Fund NITE,etf
 NJAN,Innovator Growth-100 Power Buffer ETF,etf
 NJNK,Columbia U.S. High Yield ETF,etf
+NJPN,Nomura Japan Equity ETF,etf
 NJR,NewJersey Resources Corporation,stock
 NJUL,Innovator Growth-100 Power Buffer ETF,etf
 NJUN,Innovator Growth-100 Power Buffer ETF,etf
@@ -10180,7 +10182,6 @@ SHEL,Shell PLC American Depositary Shares (each representing two (2) Ordinary Sh
 SHG,Shinhan Financial Group Co Ltd American Depositary Shares,stock
 SHLD,Global X Defense Tech ETF,etf
 SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,etf
-SHNY,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",etf
 SHO,"Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc.",stock
 SHOC,Strive U.S. Semiconductor ETF,etf
 SHPP,Pacer Industrials and Logistics ETF,etf
@@ -11126,6 +11127,7 @@ VEGX,International Vegan Climate ETF,etf
 VEL,"Velocity Financial, Inc.",stock
 VELL,Defiance Daily Target 2X Long VELO ETF,etf
 VEM,Virtus Emerging Markets Dividend ETF,etf
+VEMB,Vanguard Emerging Markets Bond Active ETF,etf
 VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,etf
 VENU,Venu Holding Corporation,stock
 VET,Vermilion Energy Inc. Common (Canada),stock
