@@ -911,7 +911,6 @@ CLBK,"Columbia Financial, Inc.",stock
 CLBT,Cellebrite DI Ltd.,stock
 CLDX,"Celldex Therapeutics, Inc.",stock
 CLFD,"Clearfield, Inc.",stock
-CLGN,CollPlant Biotechnologies Ltd.,stock
 CLIK,Click Holdings Limited,stock
 CLIR,ClearSign Technologies Corporation,stock
 CLLS,Cellectis S.A.,stock
@@ -1474,8 +1473,6 @@ FCUV,Focus Universal Inc.,stock
 FCVT,First Trust SSI Strategic Convertible Securities ETF,etf
 FDBC,"Fidelity D & D Bancorp, Inc.",stock
 FDCF,Fidelity Disruptive Communications ETF,etf
-FDFF,Fidelity Disruptive Finance ETF,etf
-FDIF,Fidelity Disruptors ETF,etf
 FDIG,Fidelity Crypto Industry and Digital Payments ETF,etf
 FDIQ,Invesco Bloomberg Financial Data Providers ETF,etf
 FDIV,MarketDesk Focused U.S. Dividend ETF,etf
@@ -1566,8 +1563,6 @@ FMAC,Future Money Acquisition Corporation,stock
 FMAO,"Farmers & Merchants Bancorp, Inc.",stock
 FMB,First Trust Managed Municipal ETF,etf
 FMBH,"First Mid Bancshares, Inc.",stock
-FMED,Fidelity Disruptive Medicine ETF,etf
-FMET,Fidelity Metaverse ETF,etf
 FMFC,Kandal M Venture Limited,stock
 FMHI,First Trust Municipal High Income ETF,etf
 FMNB,Farmers National Banc Corp.,stock
@@ -2493,6 +2488,7 @@ LOPE,"Grand Canyon Education, Inc.",stock
 LOT,Lotus Technology Inc.,stock
 LOTI,Liberty One Tactical Income ETF,etf
 LOVE,The Lovesac Company,stock
+LOVI,Live Oak Acquisition Corp. VI,stock
 LPAA,Launch One Acquisition Corp.,stock
 LPBB,Launch Two Acquisition Corp.,stock
 LPCN,Lipocine Inc.,stock
@@ -3032,7 +3028,7 @@ OKYO,OKYO Pharma Limited,stock
 OLB,"The OLB Group, Inc.",stock
 OLED,Universal Display Corporation,stock
 OLLI,"Ollie's Bargain Outlet Holdings, Inc.",stock
-OLMA,"Olema Pharmaceuticals, Inc.",stock
+OLMA,"Olema Oncology, Inc.",stock
 OLOX,Olenox Industries Inc.,stock
 OM,"Outset Medical, Inc.",stock
 OMAB,Grupo Aeroportuario del Centro Norte S.A.B. de C.V.,stock
@@ -3061,6 +3057,7 @@ OPAL,OPAL Fuels Inc.,stock
 OPBK,OP Bancorp,stock
 OPCH,"Option Care Health, Inc.",stock
 OPEN,Opendoor Technologies Inc,stock
+OPHI,CollPlant Biotechnologies Ltd.,stock
 OPI,Office Properties Income Trust,stock
 OPK,"Opko Health, Inc.",stock
 OPNW,"OpenWorld, Inc.",stock
@@ -3360,7 +3357,6 @@ PTF,Invesco Dorsey Wright Technology Momentum ETF,etf
 PTGX,"Protagonist Therapeutics, Inc.",stock
 PTH,Invesco Dorsey Wright Healthcare Momentum ETF,etf
 PTIR,GraniteShares 2x Long PLTR Daily ETF,etf
-PTLE,PTL LTD,stock
 PTLO,Portillo's Inc.,stock
 PTN,"Palatin Technologies, Inc.",stock
 PTNQ,Pacer Trendpilot 100 ETF,etf
@@ -4520,7 +4516,7 @@ WETO,Wetour Robotics Limited,stock
 WEYS,"Weyco Group, Inc.",stock
 WFCF,"Where Food Comes From, Inc.",stock
 WFF,WF Holding Limited,stock
-WFRD,Weatherford International plc,stock
+WFRD,Weatherford International Corp,stock
 WGMI,CoinShares Bitcoin Mining and Digital Power ETF,etf
 WGS,GeneDx Holdings Corp.,stock
 WHF,"WhiteHorse Finance, Inc.",stock
@@ -4578,6 +4574,7 @@ WULF,TeraWulf Inc.,stock
 WVE,"Wave Life Sciences, Inc.",stock
 WVVI,"Willamette Valley Vineyards, Inc.",stock
 WW,"WW International, Inc.",stock
+WWB,Windward Bio Group AG,stock
 WWD,"Woodward, Inc.",stock
 WXM,WF International Limited,stock
 WYFI,"WhiteFiber, Inc.",stock
@@ -4714,6 +4711,7 @@ ZURA,Zura Bio Limited,stock
 ZVRA,"Zevra Therapeutics, Inc.",stock
 ZYBT,Zhengye Biotechnology Holding Limited,stock
 ZYME,Zymeworks Inc.,stock
+ZYN,PTL LTD,stock
 A,"Agilent Technologies, Inc.",stock
 AA,Alcoa Corporation,stock
 AAA,Alternative Access First Priority CLO Bond ETF,etf
@@ -5620,6 +5618,7 @@ BWA,BorgWarner Inc.,stock
 BWET,Breakwave Tanker Shipping ETF,etf
 BWG,BrandywineGLOBAL Global Income Opportunities Fund Inc.,stock
 BWIV,Blue Water Acquisition Corp. IV,stock
+BWLB,Brandywine Large Cap ETF,etf
 BWLP,BW LPG Limited,stock
 BWMX,"Betterware de Mexico, S.A.P.I. de C.V.",stock
 BWQG,BWM Quality Growth ETF,etf
@@ -7063,7 +7062,6 @@ FPEI,First Trust Institutional Preferred Securities and Income ETF,etf
 FPFD,Fidelity Preferred Securities & Income ETF,etf
 FPH,"Five Point Holdings, LLC",stock
 FPI,Farmland Partners Inc.,stock
-FPRO,Fidelity Real Estate Investment ETF,etf
 FPS,"Forgent Power Solutions, Inc.",stock
 FPSX,Leverage Shares 2X Long FPS Daily ETF,etf
 FPWR,First Trust EIP Power Solutions ETF,etf
@@ -8601,6 +8599,7 @@ MDCR,Pacer Swan SOS Moderate December ETF,etf
 MDEV,First Trust Indxx Medical Devices ETF,etf
 MDLV,Morgan Dempsey Large Cap Value ETF,etf
 MDPL,Monarch Dividend Plus Index ETF,etf
+MDRN,Modern Mining Technology Corp.,stock
 MDST,Westwood Salient Enhanced Midstream Income ETF,etf
 MDT,Medtronic plc.,stock
 MDU,"MDU Resources Group, Inc. Common Stock (Holding Company)",stock
@@ -11038,7 +11037,6 @@ USEW,Cambria US EW ETF,etf
 USFD,US Foods Holding Corp.,stock
 USFE,First Eagle US Equity ETF,etf
 USFR,WisdomTree Floating Rate Treasury Fund,etf
-USG,USCF Gold Strategy Plus Income Fund,etf
 USGX,Corgi U.S. Growth 2x Daily ETF,etf
 USHY,iShares Broad USD High Yield Corporate Bond ETF,etf
 USL,United States 12 Month Oil,etf
@@ -11259,6 +11257,7 @@ VUSV,Vanguard Wellington U.S. Value Active ETF,etf
 VV,Vanguard Morningstar Large-Cap ETF,etf
 VVR,Invesco Senior Income Trust Common Stock (DE),stock
 VVV,Valvoline Inc.,stock
+VVVV,vVARDIS Holding AG,stock
 VVX,"V2X, Inc.",stock
 VWO,Vanguard FTSE Emerging Markets ETF,etf
 VXF,Vanguard Extended Market ETF,etf
