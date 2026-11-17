@@ -641,6 +641,7 @@ BRLS,Borealis Foods Inc.,stock
 BRLT,"Brilliant Earth Group, Inc.",stock
 BRNX,BrenX Ltd.,stock
 BRNY,Burney U.S. Factor Rotation ETF,etf
+BRRK,Bluerock Acquisition Corp. II,stock
 BRRR,Coinshares Bitcoin ETF,etf
 BRTM,B&R Technology Merger Corp.,stock
 BRTR,iShares Total Return Active ETF,etf
@@ -1886,6 +1887,7 @@ HCIC,Hennessy Capital Investment Corp. VIII,stock
 HCKT,"The Hackett Group, Inc.",stock
 HCM,HUTCHMED (China) Limited,stock
 HCMA,HCM III Acquisition Corp.,stock
+HCOP,Hartford Hybrid and Credit Opportunities ETF,etf
 HCOW,Amplify COWS Covered Call ETF,etf
 HCSG,"Healthcare Services Group, Inc.",stock
 HCTI,"Healthcare Triangle, Inc.",stock
@@ -2961,7 +2963,6 @@ NVX,NOVONIX Limited,stock
 NVYY,GraniteShares YieldBOOST NVDA ETF,etf
 NWBI,"Northwest Bancshares, Inc.",stock
 NWCL,newcleo plc,stock
-NWE,"NorthWestern Energy Group, Inc.",stock
 NWFL,Norwood Financial Corp.,stock
 NWGL,CL Workshop Group Limited,stock
 NWL,Newell Brands Inc.,stock
@@ -3236,7 +3237,6 @@ PLAY,"Dave & Buster's Entertainment, Inc.",stock
 PLBC,Plumas Bancorp,stock
 PLBL,Polibeli Group Ltd,stock
 PLBY,"Playboy, Inc.",stock
-PLCE,"Children's Place, Inc. (The)",stock
 PLCI,Pelican Acquisition II Corporation,stock
 PLMK,Plum Acquisition Corp. IV,stock
 PLMR,"Palomar Holdings, Inc.",stock
@@ -5419,7 +5419,6 @@ BKEM,BNY Mellon Emerging Markets Equity ETF,etf
 BKF,iShares MSCI BIC ETF,etf
 BKFI,BNY Mellon Active Core Bond ETF,etf
 BKGI,BNY Mellon Global Infrastructure Income ETF,etf
-BKH,Black Hills Corporation,stock
 BKHY,BNY Mellon High Yield ETF,etf
 BKIE,BNY Mellon International Equity ETF,etf
 BKKT,"Bakkt, Inc.",stock
@@ -7671,6 +7670,7 @@ HYT,"Blackrock Corporate High Yield Fund, Inc.",stock
 HYTI,FT Vest High Yield & Target Income ETF,etf
 HYTR,Counterpoint High Yield Trend ETF,etf
 HYUP,Xtrackers High Beta High Yield Bond ETF,etf
+HZN,Bright Horizon Energy Corporation,stock
 HZO,"MarineMax, Inc.  (FL)",stock
 IACL,GraniteShares US 100 Autocallable Income ETF,etf
 IAF,"abrdn Australia Equity Fund, Inc.",stock
@@ -7968,7 +7968,6 @@ ITDH,iShares LifePath Target Date 2060 ETF,etf
 ITDI,iShares LifePath Target Date 2065 ETF,etf
 ITDJ,iShares LifePath Target Date 2070 ETF,etf
 ITEQ,Amplify BlueStar Israel Technology ETF,etf
-ITGR,Integer Holdings Corporation,stock
 ITM,VanEck Intermediate Muni ETF,etf
 ITOT,iShares Core S&P Total U.S. Stock Market ETF,etf
 ITP,"IT Tech Packaging, Inc.",stock
@@ -8318,7 +8317,6 @@ KSTR,KraneShares China Technology & Semiconductor STAR 50 Index ETF,etf
 KT,KT Corporation,stock
 KTB,"Kontoor Brands, Inc.",stock
 KTEC,KraneShares Hang Seng TECH Index ETF,etf
-KTF,DWS Municipal Income Trust,stock
 KTUP,T-REX 2X Long KTOS Daily Target ETF,etf
 KULR,"KULR Technology Group, Inc.",stock
 KURE,KraneShares MSCI All China Health Care Index ETF,etf
@@ -9528,6 +9526,7 @@ POCT,Innovator U.S. Equity Power Buffer ETF,etf
 POEL,Defiance Daily Target 2X Long POET ETF,etf
 POMG,PRIMECAP Odyssey Discovery ETF,etf
 POR,Portland General Electric Co,stock
+PORT,Southport Acquisition Corp. II,stock
 POST,"Post Holdings, Inc.",stock
 POW,VistaShares Electrification Supercycle ETF,etf
 POWA,Invesco Bloomberg Pricing Power ETF,etf
