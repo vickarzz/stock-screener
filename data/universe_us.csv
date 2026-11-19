@@ -44,6 +44,7 @@ ACBH,Pacer Metaurus High Income Autocallable ETF,etf
 ACCL,Acco Group Holdings Limited,stock
 ACCV,Accelevation Holdings Corp.,stock
 ACDC,ProFrac Holding Corp.,stock
+ACEM,American Century Emerging Markets Insights ETF,etf
 ACEP,ARS Core Equity Portfolio ETF,etf
 ACET,"Adicet Bio, Inc.",stock
 ACFN,"Acorn Energy, Inc.",stock
@@ -51,7 +52,6 @@ ACGC,ACP Holdings Acquisition Corp.,stock
 ACGL,Arch Capital Group Ltd.,stock
 ACHC,"Acadia Healthcare Company, Inc.",stock
 ACHP,Global X Asia Semiconductor ETF,etf
-ACHV,"Achieve Life Sciences, Inc.",stock
 ACIC,American Coastal Insurance Corporation,stock
 ACIU,AC Immune SA,stock
 ACIW,"ACI Worldwide, Inc.",stock
@@ -123,6 +123,7 @@ AGEN,Agenus Inc.,stock
 AGGA,EA Astoria Beacon Dynamic Core US Fixed Income ETF,etf
 AGIO,"Agios Pharmaceuticals, Inc.",stock
 AGIX,KraneShares Public-Private AI & Technology ETF,etf
+AGLT,"Agility Robotics, Inc.",stock
 AGMB,AgomAb Therapeutics NV,stock
 AGMH,AGM Group Holdings Inc.,stock
 AGMI,Themes Silver Miners ETF,etf
@@ -132,7 +133,7 @@ AGNT,"AGNT, Inc.",stock
 AGPU,Axe Compute Inc.,stock
 AGRZ,Agroz Inc.,stock
 AGYS,"Agilysys, Inc.",stock
-AGZD,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,stock
+AGZD,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,etf
 AHCO,AdaptHealth Corp.,stock
 AHD,GraniteShares Autocallable HOOD ETF,etf
 AHG,Akso Health Group,stock
@@ -181,7 +182,6 @@ AKTX,Akari Therapeutics Plc,stock
 ALAB,"Astera Labs, Inc.",stock
 ALAR,Alarum Technologies Ltd.,stock
 ALCO,"Alico, Inc.",stock
-ALDF,Aldel Financial II Inc.,stock
 ALDX,"Aldeyra Therapeutics, Inc.",stock
 ALEC,"Alector, Inc.",stock
 ALF,Centurion Acquisition Corp.,stock
@@ -641,6 +641,7 @@ BRLS,Borealis Foods Inc.,stock
 BRLT,"Brilliant Earth Group, Inc.",stock
 BRNX,BrenX Ltd.,stock
 BRNY,Burney U.S. Factor Rotation ETF,etf
+BRRK,Bluerock Acquisition Corp. II,stock
 BRRR,Coinshares Bitcoin ETF,etf
 BRTM,B&R Technology Merger Corp.,stock
 BRTR,iShares Total Return Active ETF,etf
@@ -724,7 +725,6 @@ BWB,"Bridgewater Bancshares, Inc.",stock
 BWEN,"Broadwind, Inc.",stock
 BWFG,"Bankwell Financial Group, Inc.",stock
 BWIN,"The Baldwin Insurance Group, Inc.",stock
-BWMN,Bowman Consulting Group Ltd.,stock
 BXBL,"BOXABL, Inc.",stock
 BYAH,"Park Ha Biological Technology Co., Ltd.",stock
 BYFC,Broadway Financial Corporation,stock
@@ -768,6 +768,7 @@ CART,Maplebear Inc.,stock
 CARY,Angel Oak Income ETF,etf
 CARZ,First Trust S-Network Future Vehicles & Technology ETF,etf
 CASH,"Pathward Financial, Inc.",stock
+CASK,"Sempreon, Inc.",stock
 CASS,"Cass Information Systems, Inc",stock
 CAST,"FreeCast, Inc.",stock
 CASY,"Caseys General Stores, Inc.",stock
@@ -798,6 +799,7 @@ CCEP,Coca-Cola Europacific Partners plc,stock
 CCFE,Concourse Capital Focused Equity ETF,etf
 CCG,Cheche Group Inc.,stock
 CCHH,CCH Holdings Ltd,stock
+CCHP,Global X China Semiconductor ETF,etf
 CCII,Cohen Circle Acquisition Corp. II,stock
 CCLD,"CareCloud, Inc.",stock
 CCML,Roundhill MLCC & Electronic Components ETF,etf
@@ -808,7 +810,6 @@ CCSB,Carbon Collective Short Duration Green Bond ETF,etf
 CCSI,"Consensus Cloud Solutions, Inc.",stock
 CCSO,Carbon Collective Climate Solutions U.S. Equity ETF,etf
 CCTG,CCSC Technology International Holdings Limited,stock
-CCXI,Churchill Capital Corp XI,stock
 CD,Chaince Digital Holdings Inc.,stock
 CDC,VictoryShares US EQ Income Enhanced Volatility Wtd ETF,etf
 CDIG,City Different Investments Global Equity ETF,etf
@@ -912,7 +913,6 @@ CLBK,"Columbia Financial, Inc.",stock
 CLBT,Cellebrite DI Ltd.,stock
 CLDX,"Celldex Therapeutics, Inc.",stock
 CLFD,"Clearfield, Inc.",stock
-CLGN,CollPlant Biotechnologies Ltd.,stock
 CLIK,Click Holdings Limited,stock
 CLIR,ClearSign Technologies Corporation,stock
 CLLS,Cellectis S.A.,stock
@@ -1030,6 +1030,7 @@ CRIS,"Curis, Inc.",stock
 CRMD,CorMedix Inc.,stock
 CRMG,Leverage Shares 2X Long CRM Daily ETF,etf
 CRML,Critical Metals Corp.,stock
+CRMN,Skyline Builders Group Holding Limited,stock
 CRMT,"America's Car-Mart, Inc.",stock
 CRNC,Cerence Inc.,stock
 CRNT,Ceragon Networks Ltd.,stock
@@ -1100,12 +1101,14 @@ CVV,CVD Equipment Corporation,stock
 CWBC,Community West Bancshares,stock
 CWCO,Consolidated Water Co. Ltd.,stock
 CWD,CaliberCos Inc.,stock
+CWPD,CWP Premium Dividend ETF,etf
+CWPG,CWP Premium Growth ETF,etf
 CWST,"Casella Waste Systems, Inc.",stock
 CWY,GraniteShares YieldBOOST CRWV ETF,etf
 CXAI,CXApp Inc.,stock
 CXDO,"Crexendo, Inc.",stock
 CXII,Churchill Capital Corp XII,stock
-CXSE,WisdomTree China ex-State-Owned Enterprises Fund,stock
+CXSE,WisdomTree China ex-State-Owned Enterprises Fund,etf
 CYAB,"Cyabra, Inc.",stock
 CYCU,"Cycurion, Inc.",stock
 CYN,Cyngn Inc.,stock
@@ -1126,6 +1129,7 @@ DALI,First Trust Dorsey Wright DALI Equity ETF,etf
 DAPP,VanEck Digital Transformation ETF,etf
 DARE,"Dare Bioscience, Inc.",stock
 DASH,"DoorDash, Inc.",stock
+DAU,GraniteShares Autocallable AMD ETF,etf
 DAVE,Dave Inc.,stock
 DAVI,Davion Healthcare Plc,stock
 DAX,Global X DAX Germany ETF,etf
@@ -1160,14 +1164,13 @@ DGICB,"Donegal Group, Inc.",stock
 DGII,Digi International Inc.,stock
 DGLO,First Trust RBA Deglobalization ETF,etf
 DGNX,Diginex Limited,stock
-DGRE,WisdomTree Emerging Markets Quality Dividend Growth Fund,stock
-DGRS,WisdomTree U.S. SmallCap Quality Dividend Growth Fund,stock
-DGRW,WisdomTree U.S. Quality Dividend Growth Fund,stock
+DGRE,WisdomTree Emerging Markets Quality Dividend Growth Fund,etf
+DGRS,WisdomTree U.S. SmallCap Quality Dividend Growth Fund,etf
+DGRW,WisdomTree U.S. Quality Dividend Growth Fund,etf
 DGXX,Digi Power X Inc.,stock
 DH,Definitive Healthcare Corp.,stock
 DHC,Diversified Healthcare Trust,stock
 DIBS,"1stdibs.com, Inc.",stock
-DINE,Simplify Tax Aware Diversified Income Strategy ETF,etf
 DIOD,Diodes Incorporated,stock
 DIVD,Altrius Global Dividend ETF,etf
 DJCO,Daily Journal Corp. (S.C.),stock
@@ -1202,6 +1205,7 @@ DOYU,DouYu International Holdings Limited,stock
 DPRO,Draganfly Inc.,stock
 DPU,Nexpu Ltd.,stock
 DPZ,Domino's Pizza Inc,stock
+DRAC,GraniteShares Autocallable DRAM ETF,etf
 DRDB,Roman DBDR Acquisition Corp. II,stock
 DRH,Diamondrock Hospitality Company,stock
 DRIO,DarioHealth Corp.,stock
@@ -1237,7 +1241,6 @@ DUOL,"Duolingo, Inc.",stock
 DUOT,"Duos Technologies Group, Inc.",stock
 DUSG,U.S. Small Cap Growth Portfolio: ETF Class Shares,etf
 DVGR,DAC 3D Dividend Growth ETF,etf
-DVLT,Datavault AI Inc.,stock
 DVLU,First Trust Dorsey Wright Momentum & Value ETF,etf
 DVOL,First Trust Dorsey Wright Momentum & Low Volatility ETF,etf
 DVQQ,WEBs QQQ Defined Volatility ETF,etf
@@ -1327,7 +1330,7 @@ EMAG,Emerging Markets AI Mag 3 ETF,etf
 EMAT,Evolution Metals & Technologies Corp.,stock
 EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,etf
 EMBC,Embecta Corp.,stock
-EMCB,WisdomTree Emerging Markets Corporate Bond Fund,stock
+EMCB,WisdomTree Emerging Markets Corporate Bond Fund,etf
 EMEQ,Nomura Focused Emerging Markets Equity ETF,etf
 EMIF,iShares Emerging Markets Infrastructure ETF,etf
 EMIS,Emmis Acquisition Corp.,stock
@@ -1431,16 +1434,15 @@ EYPT,"EyePoint, Inc.",stock
 EZGO,EZGO Technologies Ltd.,stock
 EZMO,AlphaDroid Broad Markets Momentum ETF,etf
 EZPW,"EZCORP, Inc.",stock
-EZRA,"Reliance Global Group, Inc.",stock
 EZRO,AlphaDroid Defensive Sector Rotation ETF,etf
 FA,First Advantage Corporation,stock
 FAAA,Fidelity AAA CLO ETF,etf
 FAAR,First Trust Alternative Absolute Return Strategy ETF,etf
-FAB,First Trust Multi Cap Value AlphaDEX Fund,stock
+FAB,First Trust Multi Cap Value AlphaDEX Fund,etf
 FABC,"Fabric.AI, Inc.",stock
 FAC,Factorial Energy Inc.,stock
 FACT,FACT II Acquisition Corp.,stock
-FAD,First Trust Multi Cap Growth AlphaDEX Fund,stock
+FAD,First Trust Multi Cap Growth AlphaDEX Fund,etf
 FALN,iShares Fallen Angels USD Bond ETF,etf
 FAMI,"Farmmi, Inc.",stock
 FANG,"Diamondback Energy, Inc.",stock
@@ -1459,7 +1461,7 @@ FBNC,First Bancorp,stock
 FBOT,Fidelity Disruptive Automation ETF,etf
 FBYD,"Falcon's Beyond Global, Inc.",stock
 FBYY,GraniteShares YieldBOOST META ETF,etf
-FCA,First Trust China AlphaDEX Fund,stock
+FCA,First Trust China AlphaDEX Fund,etf
 FCAL,First Trust California Municipal High income ETF,etf
 FCAP,"First Capital, Inc.",stock
 FCBC,"First Community Bankshares, Inc.",stock
@@ -1476,8 +1478,6 @@ FCUV,Focus Universal Inc.,stock
 FCVT,First Trust SSI Strategic Convertible Securities ETF,etf
 FDBC,"Fidelity D & D Bancorp, Inc.",stock
 FDCF,Fidelity Disruptive Communications ETF,etf
-FDFF,Fidelity Disruptive Finance ETF,etf
-FDIF,Fidelity Disruptors ETF,etf
 FDIG,Fidelity Crypto Industry and Digital Payments ETF,etf
 FDIQ,Invesco Bloomberg Financial Data Providers ETF,etf
 FDIV,MarketDesk Focused U.S. Dividend ETF,etf
@@ -1487,25 +1487,25 @@ FDNI,First Trust Dow Jones International Internet ETF,etf
 FDRS,Founder-Led ETF,etf
 FDRX,Founder-Led 2X Daily ETF,etf
 FDSB,"Fifth District Bancorp, Inc.",stock
-FDT,First Trust Developed Markets Ex-US AlphaDEX Fund,stock
-FDTS,First Trust Developed Markets ex-US Small Cap AlphaDEX Fund,stock
+FDT,First Trust Developed Markets Ex-US AlphaDEX Fund,etf
+FDTS,First Trust Developed Markets ex-US Small Cap AlphaDEX Fund,etf
 FDTX,Fidelity Disruptive Technology ETF,etf
 FDUS,Fidus Investment Corporation,stock
 FEAM,"5E Advanced Materials, Inc.",stock
 FEBO,Fenbo Holdings Limited,stock
 FEIM,"Frequency Electronics, Inc.",stock
 FELE,"Franklin Electric Co., Inc.",stock
-FEM,First Trust Emerging Markets AlphaDEX Fund,stock
+FEM,First Trust Emerging Markets AlphaDEX Fund,etf
 FEMB,First Trust Emerging Markets Local Currency Bond ETF,etf
-FEMS,First Trust Emerging Markets Small Cap AlphaDEX Fund,stock
+FEMS,First Trust Emerging Markets Small Cap AlphaDEX Fund,etf
 FEMY,Femasys Inc.,stock
 FENC,Fennec Pharmaceuticals Inc.,stock
-FEP,First Trust Europe AlphaDEX Fund,stock
+FEP,First Trust Europe AlphaDEX Fund,etf
 FEPI,REX FANG & Innovation Equity Premium Income ETF,etf
 FER,Ferrovial N.V.,stock
 FERA,Fifth Era Acquisition Corp I,stock
 FEUZ,First Trust Eurozone AlphaDEX ETF,etf
-FEX,First Trust Large Cap Core AlphaDEX Fund,stock
+FEX,First Trust Large Cap Core AlphaDEX Fund,etf
 FFAI,Faraday Future Intelligent Electric Inc.,stock
 FFBC,First Financial Bancorp.,stock
 FFIN,"First Financial Bankshares, Inc.",stock
@@ -1518,7 +1518,7 @@ FGC,FG Communities Holdings Inc.,stock
 FGI,FGI Industries Ltd.,stock
 FGII,FG Imperii Acquisition Corp.,stock
 FGL,Founder Group Limited,stock
-FGM,First Trust Germany AlphaDEX Fund,stock
+FGM,First Trust Germany AlphaDEX Fund,etf
 FGSI,FT Vest Growth Strength & Target Income ETF,etf
 FHB,"First Hawaiian, Inc.",stock
 FHTX,Foghorn Therapeutics Inc.,stock
@@ -1544,15 +1544,15 @@ FIXD,First Trust Smith Opportunistic Fixed Income ETF,etf
 FIYY,GraniteShares YieldBOOST 20Y Treasuries ETF,etf
 FIZZ,National Beverage Corp.,stock
 FJDI,ARC Group Securities Acquisition I,stock
-FJP,First Trust Japan AlphaDEX Fund,stock
-FKU,First Trust United Kingdom AlphaDEX Fund,stock
+FJP,First Trust Japan AlphaDEX Fund,etf
+FKU,First Trust United Kingdom AlphaDEX Fund,etf
 FKWL,Franklin Wireless Corp.,stock
 FLD,"Fold Holdings, Inc.",stock
 FLDB,Fidelity Low Duration Bond ETF,etf
 FLEX,Flex Ltd.,stock
 FLGT,"Fulgent Genetics, Inc.",stock
 FLL,"Full House Resorts, Inc.",stock
-FLN,First Trust Latin America AlphaDEX Fund,stock
+FLN,First Trust Latin America AlphaDEX Fund,etf
 FLNA,"Filana Therapeutics, Inc.",stock
 FLNC,"Fluence Energy, Inc.",stock
 FLNT,"Fluent, Inc.",stock
@@ -1568,8 +1568,6 @@ FMAC,Future Money Acquisition Corporation,stock
 FMAO,"Farmers & Merchants Bancorp, Inc.",stock
 FMB,First Trust Managed Municipal ETF,etf
 FMBH,"First Mid Bancshares, Inc.",stock
-FMED,Fidelity Disruptive Medicine ETF,etf
-FMET,Fidelity Metaverse ETF,etf
 FMFC,Kandal M Venture Limited,stock
 FMHI,First Trust Municipal High Income ETF,etf
 FMNB,Farmers National Banc Corp.,stock
@@ -1578,15 +1576,15 @@ FMTM,MarketDesk Focused U.S. Momentum ETF,etf
 FMUB,Fidelity Municipal Bond Opportunities ETF,etf
 FMUN,Fidelity Systematic Municipal Bond Index ETF,etf
 FNGR,"FingerMotion, Inc.",stock
-FNK,First Trust Mid Cap Value AlphaDEX Fund,stock
+FNK,First Trust Mid Cap Value AlphaDEX Fund,etf
 FNKO,"Funko, Inc.",stock
 FNLC,"First Bancorp, Inc (ME)",stock
 FNRN,First Northern Community Bancorp,stock
 FNUC,Frontier Nuclear and Minerals Inc.,stock
 FNWB,First Northwest Bancorp,stock
 FNWD,Finward Bancorp,stock
-FNX,First Trust Mid Cap Core AlphaDEX Fund,stock
-FNY,First Trust Mid Cap Growth AlphaDEX Fund,stock
+FNX,First Trust Mid Cap Core AlphaDEX Fund,etf
+FNY,First Trust Mid Cap Growth AlphaDEX Fund,etf
 FOCL,EDAP TMS S.A.,stock
 FOFO,"Hang Feng Technology Innovation Co., Ltd.",stock
 FORM,"FormFactor, Inc.",stock
@@ -1597,7 +1595,7 @@ FOX,Fox Corporation,stock
 FOXA,Fox Corporation,stock
 FOXF,Fox Factory Holding Corp.,stock
 FOXX,Foxx Development Holdings Inc.,stock
-FPA,First Trust Asia Pacific Ex-Japan AlphaDEX Fund,stock
+FPA,First Trust Asia Pacific Ex-Japan AlphaDEX Fund,etf
 FPXE,First Trust IPOX Europe Equity Opportunities ETF,etf
 FPXI,First Trust International Equity Opportunities ETF,etf
 FRAF,Franklin Financial Services Corporation,stock
@@ -1631,11 +1629,11 @@ FSTB,Fidelity Short-Term Bond ETF,etf
 FSTR,L.B. Foster Company,stock
 FSUN,FirstSun Capital Bancorp,stock
 FSV,FirstService Corporation,stock
-FSZ,First Trust Switzerland AlphaDEX Fund,stock
-FTA,First Trust Large Cap Value AlphaDEX Fund,stock
+FSZ,First Trust Switzerland AlphaDEX Fund,etf
+FTA,First Trust Large Cap Value AlphaDEX Fund,etf
 FTAG,First Trust Indxx Global Agriculture ETF,etf
 FTAI,FTAI Aviation Ltd.,stock
-FTC,First Trust Large Cap Growth AlphaDEX Fund,stock
+FTC,First Trust Large Cap Growth AlphaDEX Fund,etf
 FTCI,"FTC Solar, Inc.",stock
 FTCS,First Trust Capital Strength ETF,etf
 FTDR,"Frontdoor, Inc.",stock
@@ -1643,7 +1641,7 @@ FTDS,First Trust Dividend Strength ETF,etf
 FTEK,"Fuel Tech, Inc.",stock
 FTFT,Future FinTech Group Inc.,stock
 FTG,FullerThaler Behavioral Growth ETF,etf
-FTGC,First Trust Global Tactical Commodity Strategy Fund,stock
+FTGC,First Trust Global Tactical Commodity Strategy Fund,etf
 FTGS,First Trust Growth Strength ETF,etf
 FTH,"Faeth Therapeutics, Inc.",stock
 FTHA,Forefront Tech Holdings Acquisition Corp,stock
@@ -1654,7 +1652,7 @@ FTNT,"Fortinet, Inc.",stock
 FTQI,First Trust Nasdaq BuyWrite Income ETF,etf
 FTRE,Fortrea Holdings Inc.,stock
 FTRI,First Trust Indxx Global Natural Resources Income ETF,etf
-FTSL,First Trust Senior Loan Fund,stock
+FTSL,First Trust Senior Loan Fund,etf
 FTSM,First Trust Enhanced Short Maturity ETF,etf
 FTXG,First Trust Nasdaq Food & Beverage ETF,etf
 FTXH,First Trust Nasdaq Pharmaceuticals ETF,etf
@@ -1685,9 +1683,9 @@ FWRG,"First Watch Restaurant Group, Inc.",stock
 FXAC,FortuneX Acquisition Corporation,stock
 FXHO,UTime Limited,stock
 FXNC,First National Corporation,stock
-FYC,First Trust Small Cap Growth AlphaDEX Fund,stock
-FYT,First Trust Small Cap Value AlphaDEX Fund,stock
-FYX,First Trust Small Cap Core AlphaDEX Fund,stock
+FYC,First Trust Small Cap Growth AlphaDEX Fund,etf
+FYT,First Trust Small Cap Value AlphaDEX Fund,etf
+FYX,First Trust Small Cap Core AlphaDEX Fund,etf
 GABC,"German American Bancorp, Inc.",stock
 GAIA,"Gaia, Inc.",stock
 GAIN,Gladstone Investment Corporation,stock
@@ -1703,7 +1701,7 @@ GBDC,"Golub Capital BDC, Inc.",stock
 GBFH,GBank Financial Holdings Inc.,stock
 GBLI,"Global Indemnity Group, LLC",stock
 GBUG,Sprott Active Gold & Silver Miners ETF,etf
-GCBC,"Greene County Bancorp, Inc.",stock
+GCBC,"Greene Bancorp, Inc.",stock
 GCGR,General Catalyst Global Resilience Merger Corp.,stock
 GCL,GCL Global Holdings Ltd,stock
 GCMG,GCM Grosvenor Inc.,stock
@@ -1763,7 +1761,7 @@ GLBE,Global-E Online Ltd.,stock
 GLBS,Globus Maritime Limited,stock
 GLCR,GlacierShares Nasdaq Iceland ETF,etf
 GLDB,IDX Alternative FIAT ETF,etf
-GLDI,"ETRACS Gold Shares Covered Call ETNs due February 2, 2033",stock
+GLDI,"ETRACS Gold Shares Covered Call ETNs due February 2, 2033",etf
 GLE,Global Engine Group Holding Limited,stock
 GLIBA,Liberty Capital Corporation,stock
 GLIBK,Liberty Capital Corporation,stock
@@ -1778,6 +1776,7 @@ GLUE,"Monte Rosa Therapeutics, Inc.",stock
 GLWG,Leverage Shares 2X Long GLW Daily ETF,etf
 GLXG,Galaxy Payroll Group Limited,stock
 GLXY,Galaxy Digital Inc.,stock
+GM,General Motors Company,stock
 GMAB,Genmab A/S,stock
 GMEX,GMEX ROBOTICS CORPORATION,stock
 GMHS,Gamehaus Holdings Inc.,stock
@@ -1788,7 +1787,6 @@ GNMA,iShares GNMA Bond ETF,etf
 GNOM,Global X Genomics & Biotechnology ETF,etf
 GNPX,"Genprex, Inc.",stock
 GNSS,Genasys Inc.,stock
-GNTA,Genenta Science S.p.A.,stock
 GNTX,Gentex Corporation,stock
 GO,Grocery Outlet Holding Corp.,stock
 GOAI,Eva Live Inc.,stock
@@ -1855,9 +1853,10 @@ GTM,ZoomInfo Technologies Inc.,stock
 GTOP,Goldman Sachs Technology Opportunities ETF,etf
 GTOQ,Invesco High Yield Systematic Bond ETF,etf
 GTPE,Goldman Sachs MSCI World Private Equity Return Tracker ETF,etf
-GTR,WisdomTree Target Range Fund,stock
+GTR,WisdomTree Target Range Fund,etf
 GTX,Garrett Motion Inc.,stock
 GUAC,Berto Acquisition Corp. II,stock
+GUER,"Guerrilla RF, Inc.",stock
 GURE,"Gulf Resources, Inc.",stock
 GUSE,Goldman Sachs Enhanced U.S. Equity ETF,etf
 GUTS,"Fractyl Health, Inc.",stock
@@ -1894,6 +1893,7 @@ HCIC,Hennessy Capital Investment Corp. VIII,stock
 HCKT,"The Hackett Group, Inc.",stock
 HCM,HUTCHMED (China) Limited,stock
 HCMA,HCM III Acquisition Corp.,stock
+HCOP,Hartford Hybrid and Credit Opportunities ETF,etf
 HCOW,Amplify COWS Covered Call ETF,etf
 HCSG,"Healthcare Services Group, Inc.",stock
 HCTI,"Healthcare Triangle, Inc.",stock
@@ -1935,6 +1935,7 @@ HLIT,Harmonic Inc.,stock
 HLMN,Hillman Solutions Corp.,stock
 HLNE,Hamilton Lane Incorporated,stock
 HLP,Hongli Group Inc.,stock
+HLT,Hilton Worldwide Holdings Inc.,stock
 HLTH,Tema Healthcare AI ETF,etf
 HLXC,Helix Acquisition Corp. III,stock
 HMH,HMH Holding Inc.,stock
@@ -1945,7 +1946,6 @@ HNNA,"Hennessy Advisors, Inc.",stock
 HNRG,Hallador Energy Company,stock
 HNST,"The Honest Company, Inc.",stock
 HNVR,"Hanover Bancorp, Inc.",stock
-HODO,House of Doge Inc.,stock
 HODU,Direxion Daily HOOD Bull 2X ETF,etf
 HOFT,Hooker Furnishings Corporation,stock
 HOLO,MicroCloud Hologram Inc.,stock
@@ -2001,12 +2001,12 @@ HUTG,Leverage Shares 2X Long HUT Daily ETF,etf
 HVMC,Highview Merger Corp.,stock
 HWBK,"Hawthorn Bancshares, Inc.",stock
 HWC,Hancock Whitney Corporation,stock
-HWGV,Hotchkis & Wiley Global Value Fund,stock
-HWIV,Hotchkis & Wiley International Value Fund,stock
+HWGV,Hotchkis & Wiley Global Value Fund,etf
+HWIV,Hotchkis & Wiley International Value Fund,etf
 HWKN,"Hawkins, Inc.",stock
-HWMV,Hotchkis & Wiley Mid-Cap Value Fund,stock
-HWO,Hotchkis & Wiley Opportunities Fund,stock
-HWSM,Hotchkis & Wiley SMID Cap Diversified Value Fund,stock
+HWMV,Hotchkis & Wiley Mid-Cap Value Fund,etf
+HWO,Hotchkis & Wiley Opportunities Fund,etf
+HWSM,Hotchkis & Wiley SMID Cap Diversified Value Fund,etf
 HXHX,Haoxin Holdings Limited,stock
 HYBI,NEOS Enhanced Income Credit Select ETF,etf
 HYDR,Global X Hydrogen ETF,etf
@@ -2020,7 +2020,7 @@ HYPD,"Hyperion DeFi, Inc.",stock
 HYPG,Grayscale Hyperliquid Staking ETF,etf
 HYPR,"Hyperfine, Inc.",stock
 HYXF,iShares ESG Advanced High Yield Corporate Bond ETF,etf
-HYZD,WisdomTree Interest Rate Hedged High Yield Bond Fund,stock
+HYZD,WisdomTree Interest Rate Hedged High Yield Bond Fund,etf
 IA,"Innovative Solutions and Support, Inc.",stock
 IACO,Idea Acquisition Corp.,stock
 IACQ,Irenic Acquisition Corp.,stock
@@ -2134,19 +2134,19 @@ INCR,Intercure Ltd.,stock
 INCY,Incyte Corporation,stock
 IND,Xtrackers Nifty 500 India ETF,etf
 INDB,Independent Bank Corp.,stock
-INDH,WisdomTree India Hedged Equity Fund,stock
+INDH,WisdomTree India Hedged Equity Fund,etf
 INDI,"indie Semiconductor, Inc.",stock
 INDP,"Indaptus Therapeutics, Inc.",stock
 INDQ,Pacer ActiveAlpha India Quality ETF,etf
-INDV,"Indivior Pharmaceuticals, Inc.",stock
 INDY,iShares India 50 ETF,etf
 INEO,INNEOVA Holdings Limited,stock
 INGN,"Inogen, Inc",stock
 INHD,Inno Holdings Inc.,stock
 INIO,INNIO N.V.,stock
+INJC,Canary Staked INJ ETF,etf
+INK,AB Equity Premium Income ETF,etf
 INKT,"MiNK Therapeutics, Inc.",stock
 INLF,INLIF LIMITED,stock
-INM,InMed Pharmaceuticals Inc.,stock
 INMB,INmune Bio Inc.,stock
 INMD,InMode Ltd.,stock
 INNV,InnovAge Holding Corp.,stock
@@ -2198,6 +2198,7 @@ IQ,"iQIYI, Inc.",stock
 IQGR,Astoria International Quality Growth Kings ETF,etf
 IQMX,IQM Quantum Computers Oyj,stock
 IQQ,iShares Nasdaq 100 ETF,etf
+IQQI,IncomeQ Nasdaq-100 Premium Income ETF,etf
 IQQQ,ProShares Nasdaq-100 High Income ETF,etf
 IQST,iQSTEL Inc.,stock
 IRD,"Opus Genetics, Inc.",stock
@@ -2309,7 +2310,6 @@ KALU,Kaiser Aluminum Corporation,stock
 KARD,"Kardigan, Inc.",stock
 KARO,Karooooo Ltd.,stock
 KAT,Scharf ETF,etf
-KAZR,Skyline Builders Group Holding Limited,stock
 KBON,Karbon Capital Partners Corp.,stock
 KBSX,FST Corp.,stock
 KBWB,Invesco KBW Bank ETF,etf
@@ -2357,7 +2357,6 @@ KOSS,Koss Corporation,stock
 KOYN,CSLM Digital Asset Acquisition Corp III,stock
 KPLT,"Katapult Holdings, Inc.",stock
 KPRX,"Kiora Pharmaceuticals, Inc.",stock
-KPTI,Karyopharm Therapeutics Inc.,stock
 KQQQ,Kurv Technology Titans Select ETF,etf
 KRAQ,KRAKacquisition Corp,stock
 KRKR,36Kr Holdings Inc.,stock
@@ -2372,7 +2371,7 @@ KRT,Karat Packaging Inc.,stock
 KRUS,"Kura Sushi USA, Inc.",stock
 KRYS,"Krystal Biotech, Inc.",stock
 KSCP,"Knightscope, Inc.",stock
-KSMH,xETFs Korea AI Semiconductor,stock
+KSMH,xETFs Korea AI Semiconductor,etf
 KSPI,Joint Stock Company Kaspi.kz,stock
 KTCC,Key Tronic Corporation,stock
 KTOS,"Kratos Defense & Security Solutions, Inc.",stock
@@ -2395,7 +2394,7 @@ LAKE,"Lakeland Industries, Inc.",stock
 LAMR,Lamar Advertising Company,stock
 LAND,Gladstone Land Corporation,stock
 LARK,Landmark Bancorp Inc.,stock
-LASE,Laser Photonics Corporation,stock
+LASE,LASE Corp.,stock
 LASR,"nLIGHT, Inc.",stock
 LATA,Galata Acquisition Corp. II,stock
 LAUR,"Laureate Education, Inc.",stock
@@ -2417,6 +2416,7 @@ LDRX,SGI Enhanced Market Leaders ETF,etf
 LDSF,First Trust Low Duration Strategic Focus ETF,etf
 LE,"Lands' End, Inc.",stock
 LECO,"Lincoln Electric Holdings, Inc.",stock
+LEDR,Leader's Advantage Acquisition Corp.,stock
 LEDS,SemiLEDS Corporation,stock
 LEE,"Lee Enterprises, Incorporated",stock
 LEGH,Legacy Housing Corporation,stock
@@ -2497,13 +2497,13 @@ LOPE,"Grand Canyon Education, Inc.",stock
 LOT,Lotus Technology Inc.,stock
 LOTI,Liberty One Tactical Income ETF,etf
 LOVE,The Lovesac Company,stock
+LOVI,Live Oak Acquisition Corp. VI,stock
 LPAA,Launch One Acquisition Corp.,stock
 LPBB,Launch Two Acquisition Corp.,stock
 LPCN,Lipocine Inc.,stock
 LPCV,Launchpad Cadenza Acquisition Corp I,stock
 LPLA,LPL Financial Holdings Inc.,stock
 LPTH,"LightPath Technologies, Inc.",stock
-LQ,Simplify Tax Aware Alternatives ETF,etf
 LQDA,Liquidia Corporation,stock
 LQDT,"Liquidity Services, Inc.",stock
 LRCX,Lam Research Corporation,stock
@@ -2593,7 +2593,6 @@ MCHS,Matthews China Innovators Active ETF,etf
 MCHX,"Marchex, Inc.",stock
 MCRB,"Seres Therapeutics, Inc.",stock
 MCRI,"Monarch Casino & Resort, Inc.",stock
-MCTA,Charming Medical Limited,stock
 MDAI,"Spectral AI, Inc.",stock
 MDB,"MongoDB, Inc.",stock
 MDBH,"MDB Capital Holdings, LLC",stock
@@ -2607,6 +2606,7 @@ MDRR,"Medalist Diversified, Inc.",stock
 MDWD,MediWound Ltd.,stock
 MDXG,"MiMedx Group, Inc",stock
 MDXH,MDxHealth SA,stock
+MEA,GraniteShares Autocallable META ETF,etf
 MEDP,"Medpace Holdings, Inc.",stock
 MEDS,"DataMeds AI, Inc.",stock
 MEDX,Horizon Kinetics Medical ETF,etf
@@ -2641,7 +2641,6 @@ MGN,Megan Holdings Limited,stock
 MGNI,"Magnite, Inc.",stock
 MGNX,"MacroGenics, Inc.",stock
 MGOL,Leverage Shares MANGOS ETF,etf
-MGPI,"MGP Ingredients, Inc.",stock
 MGRC,McGrath RentCorp,stock
 MGRT,Mega Fortune Company Limited,stock
 MGRX,"Mangoceuticals, Inc.",stock
@@ -2667,7 +2666,6 @@ MLAA,Mountain Lake Acquisition Corp. II,stock
 MLAB,"Mesa Laboratories, Inc.",stock
 MLCI,Mount Logan Capital Inc.,stock
 MLCO,Melco Resorts & Entertainment Limited,stock
-MLEC,Moolec Science SA,stock
 MLGO,"MicroAlgo, Inc.",stock
 MLKN,"MillerKnoll, Inc.",stock
 MLTX,MoonLake Immunotherapeutics,stock
@@ -2750,6 +2748,7 @@ MTEN,Mingteng International Corporation Inc.,stock
 MTEX,"Mannatech, Incorporated",stock
 MTGG,MayTech Global Growth ETF,etf
 MTLS,Materialise NV,stock
+MTRI,"Mentari Therapeutics, Inc.",stock
 MTRX,Matrix Service Company,stock
 MTSI,"MACOM Technology Solutions Holdings, Inc.",stock
 MTVA,MetaVia Inc.,stock
@@ -2811,6 +2810,7 @@ NAMI,Jinxin Technology Holding Company,stock
 NAMM,Namib Minerals,stock
 NAMS,NewAmsterdam Pharma Company N.V.,stock
 NANO,Forge Nano Holdings Inc.,stock
+NARA,"Narragansett Bancorp, Inc.",stock
 NATO,Themes Transatlantic Defense ETF,etf
 NATR,"Nature's Sunshine Products, Inc.",stock
 NAUT,"Nautilus Biotechnology, Inc.",stock
@@ -2929,6 +2929,7 @@ NSYS,Nortech Systems Incorporated,stock
 NTAL,GraniteShares 2x Long NTAP Daily ETF,etf
 NTAP,"NetApp, Inc.",stock
 NTCL,NETCLASS TECHNOLOGY INC,stock
+NTCR,Nuveen Technology & Infrastructure Credit ETF,etf
 NTCT,"NetScout Systems, Inc.",stock
 NTES,"NetEase, Inc.",stock
 NTGR,"NETGEAR, Inc.",stock
@@ -2971,7 +2972,6 @@ NVX,NOVONIX Limited,stock
 NVYY,GraniteShares YieldBOOST NVDA ETF,etf
 NWBI,"Northwest Bancshares, Inc.",stock
 NWCL,newcleo plc,stock
-NWE,"NorthWestern Energy Group, Inc.",stock
 NWFL,Norwood Financial Corp.,stock
 NWGL,CL Workshop Group Limited,stock
 NWL,Newell Brands Inc.,stock
@@ -2992,7 +2992,6 @@ NXTC,"NextCure, Inc.",stock
 NXTG,First Trust Indxx NextG ETF,etf
 NXTS,Nexentis Technologies Inc.,stock
 NXTT,Next Technology Holding Inc.,stock
-NXXT,"NextNRG, Inc.",stock
 NYAX,Nayax Ltd.,stock
 NYXH,Nyxoah SA,stock
 NZAC,State Street SPDR MSCI ACWI Climate Paris Aligned ETF,etf
@@ -3003,7 +3002,7 @@ OBAI,"Our Bond, Inc.",stock
 OBIL,US Treasury 12 Month Bill ETF,etf
 OBIO,"Orchestra BioMed Holdings, Inc.",stock
 OBT,"Orange County Bancorp, Inc.",stock
-OBTC,Osprey Bitcoin Trust,stock
+OBTC,Osprey Bitcoin Trust,etf
 OBX,"Obsidian Therapeutics, Inc.",stock
 OCC,Optical Cable Corporation,stock
 OCCI,"OFS Credit Company, Inc.",stock
@@ -3039,7 +3038,7 @@ OKYO,OKYO Pharma Limited,stock
 OLB,"The OLB Group, Inc.",stock
 OLED,Universal Display Corporation,stock
 OLLI,"Ollie's Bargain Outlet Holdings, Inc.",stock
-OLMA,"Olema Pharmaceuticals, Inc.",stock
+OLMA,"Olema Oncology, Inc.",stock
 OLOX,Olenox Industries Inc.,stock
 OM,"Outset Medical, Inc.",stock
 OMAB,Grupo Aeroportuario del Centro Norte S.A.B. de C.V.,stock
@@ -3068,10 +3067,11 @@ OPAL,OPAL Fuels Inc.,stock
 OPBK,OP Bancorp,stock
 OPCH,"Option Care Health, Inc.",stock
 OPEN,Opendoor Technologies Inc,stock
+OPHI,CollPlant Biotechnologies Ltd.,stock
 OPI,Office Properties Income Trust,stock
 OPK,"Opko Health, Inc.",stock
 OPNW,"OpenWorld, Inc.",stock
-OPPJ,WisdomTree Japan Opportunities Fund,stock
+OPPJ,WisdomTree Japan Opportunities Fund,etf
 OPRA,Opera Limited,stock
 OPRT,Oportun Financial Corporation,stock
 OPRX,OptimizeRx Corporation,stock
@@ -3169,10 +3169,10 @@ PC,Premium Catering (Holdings) Limited,stock
 PCAP,ProCap Acquisition Corp,stock
 PCAR,PACCAR Inc.,stock
 PCB,PCB Bancorp,stock
+PCHX,State Street SPDR Nasdaq MyPaycheck ETF,etf
 PCLA,PicoCELA Inc.,stock
 PCMM,BondBloxx Private Credit CLO ETF,etf
 PCPI,PIMCO Inflation PLUS Active Exchange-Traded Fund,etf
-PCRX,"Pacira BioSciences, Inc.",stock
 PCSA,"Processa Pharmaceuticals, Inc.",stock
 PCT,"PureCycle Technologies, Inc.",stock
 PCTY,Paylocity Holding Corporation,stock
@@ -3236,6 +3236,7 @@ PID,Invesco International Dividend Achievers ETF,etf
 PIE,Invesco Dorsey Wright Emerging Markets Momentum ETF,etf
 PIII,P3 Health Partners Inc.,stock
 PIO,Invesco Global Water ETF,etf
+PIVT,VanEck Pivotal Trends ETF,etf
 PIZ,Invesco Dorsey Wright Developed Markets Momentum ETF,etf
 PKBK,"Parke Bancorp, Inc.",stock
 PKOH,Park-Ohio Holdings Corp.,stock
@@ -3246,7 +3247,6 @@ PLAY,"Dave & Buster's Entertainment, Inc.",stock
 PLBC,Plumas Bancorp,stock
 PLBL,Polibeli Group Ltd,stock
 PLBY,"Playboy, Inc.",stock
-PLCE,"Children's Place, Inc. (The)",stock
 PLCI,Pelican Acquisition II Corporation,stock
 PLMK,Plum Acquisition Corp. IV,stock
 PLMR,"Palomar Holdings, Inc.",stock
@@ -3367,7 +3367,6 @@ PTF,Invesco Dorsey Wright Technology Momentum ETF,etf
 PTGX,"Protagonist Therapeutics, Inc.",stock
 PTH,Invesco Dorsey Wright Healthcare Momentum ETF,etf
 PTIR,GraniteShares 2x Long PLTR Daily ETF,etf
-PTLE,PTL LTD,stock
 PTLO,Portillo's Inc.,stock
 PTN,"Palatin Technologies, Inc.",stock
 PTNQ,Pacer Trendpilot 100 ETF,etf
@@ -3423,7 +3422,7 @@ QH,Quhuo Limited,stock
 QLDY,Defiance Nasdaq 100 LightningSpread Income ETF,etf
 QLYS,"Qualys, Inc.",stock
 QMCO,Quantum Corporation,stock
-QMID,WisdomTree U.S. MidCap Quality Growth Fund,stock
+QMID,WisdomTree U.S. MidCap Quality Growth Fund,etf
 QMLS,"QumulusAI, Inc.",stock
 QMOM,Alpha Architect U.S. Quantitative Momentum ETF,etf
 QNBC,QNB Corp.,stock
@@ -3467,8 +3466,8 @@ QS,QuantumScape Corporation,stock
 QSEA,Quartzsea Acquisition Corporation,stock
 QSI,Quantum-Si Incorporated,stock
 QSIX,Pacer Metaurus Nasdaq 100 Dividend Multiplier 600 ETF,etf
-QSML,WisdomTree U.S. SmallCap Quality Growth Fund,stock
-QTEC,First Trust NASDAQ-100-Technology Sector Index Fund,etf
+QSML,WisdomTree U.S. SmallCap Quality Growth Fund,etf
+QTEC,First Trust NASDAQ-100- Technology Index Fund,etf
 QTEX,QTREX Quantum Ltd.,stock
 QTI,"QT Imaging Holdings, Inc.",stock
 QTOP,iShares Nasdaq Top 30 Stocks ETF,etf
@@ -3479,6 +3478,7 @@ QTUM,Defiance Quantum ETF,etf
 QUBT,Quantum Computing Inc.,stock
 QUCY,Quantum Cyber N.V.,stock
 QUIK,QuickLogic Corporation,stock
+QUIT,"Achieve Life Sciences, Inc.",stock
 QUMS,Quantumsphere Acquisition Corp.,stock
 QURE,uniQure N.V.,stock
 QVAL,Alpha Architect U.S. Quantitative Value ETF,etf
@@ -3534,7 +3534,6 @@ RDVT,"Red Violet, Inc.",stock
 RDVY,First Trust Rising Dividend Achievers ETF,etf
 RDWR,Radware Ltd.,stock
 RDZN,"Roadzen, Inc.",stock
-REAI,Intelligent Real Estate ETF,etf
 REAL,"The RealReal, Inc.",stock
 REAX,Real REMAX Group Inc.,stock
 REBN,"Reborn Coffee, Inc.",stock
@@ -3584,7 +3583,6 @@ RJET,Republic Airways Holdings Inc.,stock
 RKDA,"Arcadia Biosciences, Inc.",stock
 RKLB,Rocket Lab Corporation,stock
 RKLX,Defiance Daily Target 2X Long RKLB ETF,etf
-RKLZ,Defiance Daily Target 2x Short RKLB ETF,etf
 RKNG,Defiance Retail Kings ETF,etf
 RKTO,Rocket One Inc.,stock
 RLAY,"Relay Therapeutics, Inc.",stock
@@ -3620,7 +3618,6 @@ ROCQ,JPMorgan Nasdaq Equity Premium Yield ETF,etf
 ROCY,JPMorgan Equity Premium Yield ETF,etf
 ROE,Astoria US Equal Weight Quality Kings ETF,etf
 ROIV,Roivant Sciences Ltd.,stock
-ROKU,"Roku, Inc.",stock
 ROMA,Roma Green Finance Limited,stock
 ROOT,"Root, Inc.",stock
 ROP,"Roper Technologies, Inc.",stock
@@ -3671,6 +3668,7 @@ RZLV,Rezolve AI PLC,stock
 SAAQ,Space Asset Acquisition Corp.,stock
 SABR,Sabre Corporation,stock
 SABS,"SAB Biotherapeutics, Inc.",stock
+SAEN,Genenta Science S.p.A.,stock
 SAFT,"Safety Insurance Group, Inc.",stock
 SAFX,"XCF Global, Inc.",stock
 SAGT,SAGTEC GLOBAL LIMITED,stock
@@ -3707,6 +3705,7 @@ SCNI,Scinai Immunotherapeutics Ltd.,stock
 SCNX,"Scienture Holdings, Inc.",stock
 SCOR,"comScore, Inc.",stock
 SCPQ,Social Commerce Partners Corporation,stock
+SCQC,SPACCircle Acquisition Corp.,stock
 SCSC,"ScanSource, Inc.",stock
 SCTX,Scribe Therapeutics Inc.,stock
 SCWO,374Water Inc.,stock
@@ -3714,6 +3713,7 @@ SCYX,"SCYNEXIS, Inc.",stock
 SCZ,iShares MSCI EAFE Small-Cap ETF,etf
 SCZM,Santacruz Silver Mining Ltd.,stock
 SDA,SunCar Technology Group Inc.,stock
+SDC,KICK Space Data Center & Infrastructure Index ETF,etf
 SDG,iShares MSCI Global Sustainable Development Goals ETF,etf
 SDGR,"Schrodinger, Inc.",stock
 SDHI,Siddhi Acquisition Corp,stock
@@ -3763,12 +3763,11 @@ SGMT,Sagimet Biosciences Inc.,stock
 SGP,"SpyGlass Pharma, Inc.",stock
 SGRX,SANGRIX INC.,stock
 SGRY,"Surgery Partners, Inc.",stock
-SGVA,F/m Accumulator Ultrashort Treasury Fund,stock
+SGVA,F/m Accumulator Ultrashort Treasury Fund,etf
 SHAZ,"SharonAI Holdings, Inc.",stock
 SHBI,"Shore Bancshares, Inc.",stock
 SHC,Sotera Health Company,stock
 SHEN,Shenandoah Telecommunications Co,stock
-SHFS,"SHF Holdings, Inc.",stock
 SHIM,Shimmick Corporation,stock
 SHIP,Seanergy Maritime Holdings Corp.,stock
 SHLS,"Shoals Technologies Group, Inc.",stock
@@ -3829,7 +3828,7 @@ SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,etf
 SLRC,SLR Investment Corp.,stock
 SLS,"SELLAS Life Sciences Group, Inc.",stock
 SLSN,"Solesence, Inc.",stock
-SLVO,"ETRACS Silver Shares Covered Call ETNs due April 21, 2033",stock
+SLVO,"ETRACS Silver Shares Covered Call ETNs due April 21, 2033",etf
 SLVR,Sprott Silver Miners & Physical Silver ETF,etf
 SLXN,Silexion Therapeutics Corp,stock
 SMBC,"Southern Missouri Bancorp, Inc.",stock
@@ -3980,7 +3979,7 @@ SUJA,"Suja Life, Inc.",stock
 SUMA,SUMA Acquisition Corporation,stock
 SUNE,"SUNation Energy, Inc.",stock
 SUNS,"Sunrise Realty Trust, Inc.",stock
-SUPN,"Supernus Pharmaceuticals, Inc.",stock
+SUPN,"Supernus, Inc.",stock
 SUPP,TCW Transform Supply Chain ETF,etf
 SUPX,SuperX AI Technology Limited,stock
 SURG,"SurgePays, Inc.",stock
@@ -4021,7 +4020,7 @@ TACT,TransAct Technologies Incorporated,stock
 TANH,Tantech Holdings Ltd.,stock
 TAOP,Taoping Inc.,stock
 TAOX,Tao Synergies Inc.,stock
-TAOZ,Thornburg American Opportunities Fund,stock
+TAOZ,Thornburg American Opportunities Fund,etf
 TARA,"Protara Therapeutics, Inc.",stock
 TARK,Tradr 2X Long Innovation ETF,etf
 TARS,"Tarsus Pharmaceuticals, Inc.",stock
@@ -4037,7 +4036,7 @@ TAYD,"Taylor Devices, Inc.",stock
 TBBK,"The Bancorp, Inc.",stock
 TBCH,Turtle Beach Corporation,stock
 TBCV,"Thunder Bridge Capital Partners V, Ltd.",stock
-TBIL,F/m US Treasury 3 Month Bill Fund,stock
+TBIL,F/m US Treasury 3 Month Bill Fund,etf
 TBLA,Taboola.com Ltd.,stock
 TBLD,Thornburg Income Builder Opportunities Trust,stock
 TC,Token Cat Limited,stock
@@ -4083,7 +4082,7 @@ TER,"Teradyne, Inc.",stock
 TERG,Leverage Shares 2X Long TER Daily ETF,etf
 TEXN,iShares Texas Equity ETF,etf
 TEXX,Horizon Kinetics Texas ETF,etf
-TFGZ,Thornburg Focus Growth Fund,stock
+TFGZ,Thornburg Focus Growth Fund,etf
 TFNS,T. Rowe Price Financials ETF,etf
 TFSL,TFS Financial Corporation,stock
 TGHL,The GrowHub Limited,stock
@@ -4298,7 +4297,6 @@ ULBI,Ultralife Corporation,stock
 ULCC,"Frontier Group Holdings, Inc.",stock
 ULH,"Universal Logistics Holdings, Inc.",stock
 ULTA,"Ulta Beauty, Inc.",stock
-ULTI,REX IncomeMax Option Strategy ETF,etf
 ULVM,VictoryShares US Value Momentum ETF,etf
 UMBF,UMB Financial Corporation,stock
 UMMA,Wahed Dow Jones Islamic World ETF,etf
@@ -4306,7 +4304,7 @@ UNB,"Union Bankshares, Inc.",stock
 UNCY,"Unicycive Therapeutics, Inc.",stock
 UNHG,Leverage Shares 2X Long UNH Daily ETF,etf
 UNIT,Uniti Group Inc.,stock
-UNIY,WisdomTree Voya Yield Enhanced USD Universal Bond Fund,stock
+UNIY,WisdomTree Voya Yield Enhanced USD Universal Bond Fund,etf
 UNTY,"Unity Bancorp, Inc.",stock
 UONE,"Urban One, Inc.",stock
 UONEK,"Urban One, Inc.",stock
@@ -4322,7 +4320,7 @@ URBN,"Urban Outfitters, Inc.",stock
 URGN,UroGen Pharma Ltd.,stock
 URNJ,Sprott Junior Uranium Miners ETF,etf
 UROY,Uranium Royalty Corp.,stock
-USAF,Atlas America Fund,stock
+USAF,Atlas America Fund,etf
 USAR,"USA Rare Earth, Inc.",stock
 USAU,U.S. Gold Corp.,stock
 USCB,"USCB Financial Holdings, Inc.",stock
@@ -4333,13 +4331,13 @@ USEA,United Maritime Corporation,stock
 USGG,Leverage Shares 2X Long USAR Daily ETF,etf
 USGO,U.S. GoldMining Inc.,stock
 USIG,iShares Broad USD Investment Grade Corporate Bond ETF,etf
-USIN,WisdomTree 7-10 Year Laddered Treasury Fund,stock
+USIN,WisdomTree 7-10 Year Laddered Treasury Fund,etf
 USIO,"Usio, Inc.",stock
 USLM,"United States Lime & Minerals, Inc.",stock
 USMC,Principal U.S. Mega-Cap ETF,etf
-USOI,"ETRACS Crude Oil Shares Covered Call ETNs due April 24, 2037",stock
+USOI,"ETRACS Crude Oil Shares Covered Call ETNs due April 24, 2037",etf
 USOY,Defiance Oil Enhanced Options Income ETF,etf
-USSH,WisdomTree 1-3 Year Laddered Treasury Fund,stock
+USSH,WisdomTree 1-3 Year Laddered Treasury Fund,etf
 USTB,VictoryShares Short-Term Bond ETF,etf
 USVM,VictoryShares US Small Mid Cap Value Momentum ETF,etf
 USVN,US Treasury 7 Year Note ETF,etf
@@ -4377,7 +4375,6 @@ VBCJ,Vanguard Target Maturity 2036 Corporate Bond ETF,etf
 VBIL,Vanguard 0-3 Month Treasury Bill ETF,etf
 VBIO,"Valion Bio, Inc.",stock
 VBNB,VanEck BNB ETF,etf
-VBNK,VersaBank,stock
 VC,Visteon Corporation,stock
 VCEL,Vericel Corporation,stock
 VCIG,VCI Global Limited,stock
@@ -4460,6 +4457,7 @@ VRIG,Invesco Variable Rate Investment Grade ETF,etf
 VRM,"Vroom, Inc.",stock
 VRNS,"Varonis Systems, Inc.",stock
 VRRM,Verra Mobility Corporation,stock
+VRSA,Versa Bancorp,stock
 VRSK,"Verisk Analytics, Inc.",stock
 VRSN,"VeriSign, Inc.",stock
 VRTL,GraniteShares 2x Long VRT Daily ETF,etf
@@ -4498,7 +4496,7 @@ WABF,Western Asset Bond ETF,etf
 WAFD,"WaFd, Inc.",stock
 WAFDP,"WaFd, Inc.",stock
 WAFU,Wah Fu Education & Technology Group Ltd.,stock
-WAMA,WisdomTree US Adaptive Moving Average Fund,stock
+WAMA,WisdomTree US Adaptive Moving Average Fund,etf
 WARP,VanEck Space ETF,etf
 WASH,"Washington Trust Bancorp, Inc.",stock
 WATR,Air Water Ventures Limited,stock
@@ -4508,15 +4506,15 @@ WAY,Waystar Holding Corp.,stock
 WB,Weibo Corporation,stock
 WBTN,WEBTOON Entertainment Inc.,stock
 WBUY,WEBUY GLOBAL LTD.,stock
-WCBR,WisdomTree Cybersecurity Fund,stock
+WCBR,WisdomTree Cybersecurity Fund,etf
 WCCB,West Coast Community Bancorp,stock
-WCLD,WisdomTree Cloud Computing Fund,stock
+WCLD,WisdomTree Cloud Computing Fund,etf
 WCT,Wellchange Holdings Company Limited,stock
-WDAF,WisdomTree Asia Defense Fund,stock
+WDAF,WisdomTree Asia Defense Fund,etf
 WDAY,"Workday, Inc.",stock
 WDC,Western Digital Corporation,stock
 WDFC,WD-40 Company,stock
-WDGF,WisdomTree Global Defense Fund,stock
+WDGF,WisdomTree Global Defense Fund,etf
 WEEI,Westwood Salient Enhanced Energy Income ETF,etf
 WEN,Wendy's Company (The),stock
 WENN,Wen Acquisition Corp,stock
@@ -4527,13 +4525,13 @@ WETO,Wetour Robotics Limited,stock
 WEYS,"Weyco Group, Inc.",stock
 WFCF,"Where Food Comes From, Inc.",stock
 WFF,WF Holding Limited,stock
-WFRD,Weatherford International plc,stock
+WFRD,Weatherford International Corp,stock
 WGMI,CoinShares Bitcoin Mining and Digital Power ETF,etf
 WGS,GeneDx Holdings Corp.,stock
 WHF,"WhiteHorse Finance, Inc.",stock
 WHLR,"Wheeler Real Estate Investment Trust, Inc.",stock
 WHWK,"Whitehawk Therapeutics, Inc.",stock
-WIMA,WisdomTree International Adaptive Moving Average Fund,stock
+WIMA,WisdomTree International Adaptive Moving Average Fund,etf
 WIMI,WiMi Hologram Cloud Inc.,stock
 WINA,Winmark Corporation,stock
 WING,Wingstop Inc.,stock
@@ -4570,21 +4568,22 @@ WSFS,WSFS Financial Corporation,stock
 WSGE,Warren Street Global Equity ETF,etf
 WSHP,WeShop Holdings Limited,stock
 WSML,iShares MSCI World Small-Cap ETF,etf
-WSPC,WisdomTree Space Economy Fund,stock
+WSPC,WisdomTree Space Economy Fund,etf
 WSTN,Westin Acquisition Corp,stock
 WTBA,West Bancorporation,stock
-WTBN,WisdomTree Bianco Total Return Fund,stock
+WTBN,WisdomTree Bianco Total Return Fund,etf
 WTF,Waton Financial Limited,stock
 WTFC,Wintrust Financial Corporation,stock
 WTG,Wintergreen Acquisition Corp.,stock
-WTIP,WisdomTree Inflation Plus Fund,stock
-WTMU,WisdomTree Core Laddered Municipal Fund,stock
-WTMY,WisdomTree High Income Laddered Municipal Fund,stock
+WTIP,WisdomTree Inflation Plus Fund,etf
+WTMU,WisdomTree Core Laddered Municipal Fund,etf
+WTMY,WisdomTree High Income Laddered Municipal Fund,etf
 WTW,Willis Towers Watson Public Limited Company,stock
 WULF,TeraWulf Inc.,stock
 WVE,"Wave Life Sciences, Inc.",stock
 WVVI,"Willamette Valley Vineyards, Inc.",stock
 WW,"WW International, Inc.",stock
+WWB,Windward Bio Group AG,stock
 WWD,"Woodward, Inc.",stock
 WXM,WF International Limited,stock
 WYFI,"WhiteFiber, Inc.",stock
@@ -4612,6 +4611,7 @@ XERS,"Xeris Biopharma Holdings, Inc.",stock
 XEY,GraniteShares YieldBOOST Ether ETF,etf
 XFOR,"X4 Pharmaceuticals, Inc.",stock
 XGN,Exagen Inc.,stock
+XGPU,"Reliance Global Group, Inc.",stock
 XHG,XChange TEC.INC,stock
 XHLD,"TEN Holdings, Inc.",stock
 XIII,Churchill Capital Corp XIII,stock
@@ -4642,7 +4642,7 @@ XSLL,Xsolla SPAC 1,stock
 XSPC,VegaShares Space & AI ETF,etf
 XSPI,NEOS Boosted S&P 500 High Income ETF,etf
 XT,iShares Future Exponential Technologies ETF,etf
-XTER,Karman Line Acquisition Corp.,stock
+XTER,Xterax Corporation II,stock
 XTIA,"XTI Aerospace, Inc.",stock
 XTLB,XTL Biopharmaceuticals Ltd.,stock
 XUSM,MarketDesk International Momentum ETF,etf
@@ -4686,13 +4686,10 @@ YXT,YXT.COM GROUP HOLDING LIMITED,stock
 YYAI,AiRWA Inc.,stock
 Z,"Zillow Group, Inc.",stock
 ZAP,Global X U.S. Electrification ETF,etf
-ZAZZT,Tick Pilot Test Stock,stock
 ZBAO,Zhibao Technology Inc.,stock
 ZBIO,"Zenas BioPharma, Inc.",stock
 ZBRA,Zebra Technologies Corporation,stock
-ZBZZT,Test Pilot Test Stock,stock
 ZCMD,Zhongchao Inc.,stock
-ZCZZT,Tick Pilot Test Stock Class C,stock
 ZD,"Ziff Davis, Inc.",stock
 ZDAI,"DirectBooking Technology Co., Ltd.",stock
 ZENA,"ZenaTech, Inc.",stock
@@ -4702,7 +4699,6 @@ ZHOG,F/m Opportunistic Income ETF,etf
 ZION,Zions Bancorporation N.A.,stock
 ZJK,"ZJK Industrial Co., Ltd.",stock
 ZJYL,JIN MEDICAL INTERNATIONAL LTD.,stock
-ZJZZT,NASDAQ TEST STOCK,stock
 ZKIN,"ZK International Group Co., Ltd",stock
 ZKP,Lafayette Digital Acquisition Corp. I,stock
 ZLAB,Zai Lab Limited,stock
@@ -4722,12 +4718,9 @@ ZTWO,F/m 2-Year Investment Grade Corporate Bond ETF,etf
 ZUMZ,Zumiez Inc.,stock
 ZURA,Zura Bio Limited,stock
 ZVRA,"Zevra Therapeutics, Inc.",stock
-ZVZZT,NASDAQ TEST STOCK,stock
-ZWZZT,NASDAQ TEST STOCK,stock
-ZXYZ-A,Nasdaq Symbology Test,stock
-ZXZZT,NASDAQ TEST STOCK,stock
 ZYBT,Zhengye Biotechnology Holding Limited,stock
 ZYME,Zymeworks Inc.,stock
+ZYN,PTL LTD,stock
 A,"Agilent Technologies, Inc.",stock
 AA,Alcoa Corporation,stock
 AAA,Alternative Access First Priority CLO Bond ETF,etf
@@ -4775,7 +4768,6 @@ ACEL,"Accel Entertainment, Inc.",stock
 ACES,ALPS Clean Energy ETF,etf
 ACGO,Hartford Alpha Capture Growth ETF,etf
 ACGR,American Century Large Cap Growth ETF,etf
-ACH,"Accendra Health, Inc.",stock
 ACHR,Archer Aviation Inc.,stock
 ACHX,Corgi ACHR 2x Daily ETF,etf
 ACI,"Albertsons Companies, Inc.",stock
@@ -5012,6 +5004,7 @@ APAM,Artisan Partners Asset Management Inc.,stock
 APCB,ActivePassive Core Bond ETF,etf
 APD,"Air Products and Chemicals, Inc.",stock
 APDB,Aptus April Deep Buffer ETF,etf
+APFS,Artisan Focus Fund: ETF Class Shares,etf
 APG,APi Group Corporation,stock
 APH,Amphenol Corporation,stock
 APHG,Leverage Shares 2X Long APH Daily ETF,etf
@@ -5024,6 +5017,7 @@ APLY,YieldMax AAPL Option Income Strategy ETF,etf
 APLZ,Tradr 2X Short APLD Daily ETF,etf
 APMI,Corgi AMAT 2x Daily ETF,etf
 APMU,ActivePassive Intermediate Municipal Bond ETF,etf
+APNX,Artisan Select Equity Fund: ETF Class Shares,etf
 APO,"Apollo Global Management, Inc. (New)",stock
 APOC,Innovator Equity Defined Protection ETF,etf
 APPC,Corgi APP 2x Daily ETF,etf
@@ -5110,7 +5104,6 @@ ASPN,"Aspen Aerogels, Inc.",stock
 ASR,"Grupo Aeroportuario del Sureste, S.A. de C.V.",stock
 ASSX,T-REX 2X Long ASST Daily Target ETF,etf
 ASTG,Leverage Shares 2X Long ASTS Daily ETF,etf
-ASTN,Defiance Daily Target 2X Short ASTS ETF,etf
 ASTT,Corgi ASTS 2x Daily ETF,etf
 ASTX,Tradr 2X Long ASTS Daily ETF,etf
 ASTY,Defiance Daily Target 2X Long ASTS ETF,etf
@@ -7329,7 +7322,6 @@ GLV,Clough Global Dividend and Income Fund,stock
 GLW,Corning Incorporated,stock
 GLX,Corgi GLXY 2x Daily ETF,etf
 GLXU,T-REX 2X Long GLXY Daily Target ETF,etf
-GM,General Motors Company,stock
 GMAC,Simplify Brookwood Global Macro ETF,etf
 GMAR,FT Vest U.S. Equity Moderate Buffer ETF,etf
 GMAY,FT Vest U.S. Equity Moderate Buffer ETF,etf
@@ -7340,6 +7332,7 @@ GMEU,T-REX 2X Long GME Daily Target ETF,etf
 GMEY,YieldMax GME Option Income Strategy ETF,etf
 GMF,State Street SPDR S&P Emerging Asia Pacific ETF,etf
 GMIE,"GMO International Equity Fund, ETF Class",etf
+GMIX,iShares Macro AlphaBeta Active ETF,etf
 GMMA,GammaRoad Market Navigation ETF,etf
 GMMF,iShares Government Money Market ETF,etf
 GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,etf
@@ -7747,7 +7740,6 @@ IBMW,iShares iBonds Dec 2034 Term Muni Bond ETF,etf
 IBMX,iShares iBonds Dec 2035 Term Muni Bond ETF,etf
 IBN,ICICI Bank Limited,stock
 IBND,State Street SPDR Bloomberg International Corporate Bond ETF,etf
-IBO,"Impact BioMedical, Inc.",stock
 IBOC,International Bancshares Corporation,stock
 IBP,"Installed Building Products, Inc.",stock
 IBRN,iShares Neuroscience and Healthcare ETF,etf
@@ -8757,7 +8749,7 @@ MNTN,"MNTN, Inc.",stock
 MNVR,Pacer Swan SOS Moderate (November) ETF,etf
 MO,"Altria Group, Inc.",stock
 MOAT,VanEck Morningstar Wide Moat ETF,etf
-MOD,Modine Manufacturing Company,stock
+MOD,"Modexus Solutions, Inc.",stock
 MOG-A,Moog Inc.,stock
 MOG-B,Moog Inc.,stock
 MOGU,MOGU Inc. American Depositary Shares (each  representing 25,stock
@@ -10194,6 +10186,7 @@ SHE,State Street SPDR MSCI USA Gender Diversity ETF,etf
 SHEH,Shell plc ADRhedged,etf
 SHEL,Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares),stock
 SHG,Shinhan Financial Group Co Ltd American Depositary Shares,stock
+SHLA,Global X Asia Defense Tech ETF,etf
 SHLD,Global X Defense Tech ETF,etf
 SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,etf
 SHO,"Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc.",stock
@@ -10219,6 +10212,7 @@ SIJ,ProShares UltraShort Industrials,etf
 SIL,Global X Silver Miners ETF,etf
 SILJ,Amplify Junior Silver Miners ETF,etf
 SIM,"Grupo Simec, S.A.B. de C.V. American Depositary Shares",stock
+SIMI,American Beacon SiM High Income ETF,etf
 SIMS,State Street SPDR S&P Kensho Intelligent Structures ETF,etf
 SIMX,Corgi SIMO 2x Daily ETF,etf
 SIND,Sinda Ltd.,stock
@@ -10528,7 +10522,6 @@ STOX,Horizon Core Equity ETF,etf
 STPZ,PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund,etf
 STRN,SMART Trend 25 ETF,etf
 STRW,"Strawberry Fields REIT, Inc.",stock
-STSM,Defiance Daily Target 2X Short TSM ETF,etf
 STT,State Street Corporation,stock
 STUB,"StubHub Holdings, Inc.",stock
 STVN,Stevanato Group S.p.A.,stock
@@ -10844,6 +10837,7 @@ TRGP,"Targa Resources, Inc.",stock
 TRIL,VegaShares Trillions ETF,etf
 TRIN,Trinity Capital Inc.,stock
 TRIO,MC Trio Equity Buffered ETF,etf
+TRLL,Direxion Trillions ETF,etf
 TRLV,Trulieve Cannabis Corp. Subordinate Voting Shares,stock
 TRN,"Trinity Industries, Inc.",stock
 TRND,Pacer Trendpilot Fund of Funds ETF,etf
@@ -10923,6 +10917,7 @@ TXBC,21Shares FTSE Crypto 10 ex-BTC Index ETF,etf
 TXCP,"Texas Capital Bancshares, Inc.",stock
 TXNM,"TXNM Energy, Inc.",stock
 TXNU,Direxion Daily TXN Bull 2X ETF,etf
+TXR,Torex Resources Inc.,stock
 TXS,Texas Capital Texas Equity Index ETF,etf
 TXT,Textron Inc.,stock
 TXXI,BondBloxx IR+M Tax-Aware Intermediate Duration ETF,etf
@@ -10934,7 +10929,6 @@ TYL,"Tyler Technologies, Inc.",stock
 TYLD,Cambria Tactical Yield ETF,etf
 TYLG,Global X Information Technology Covered Call & Growth ETF,etf
 TYO,Direxion Daily 10-Yr Treasury Bear 3x Shrs,etf
-TYYY,xETFs TSLA Daily Income ETF,etf
 TZA,Direxion Small Cap Bear 3X ETF,etf
 U,Unity Software Inc.,stock
 UA,"Under Armour, Inc.",stock
@@ -11142,6 +11136,7 @@ VELL,Defiance Daily Target 2X Long VELO ETF,etf
 VEM,Virtus Emerging Markets Dividend ETF,etf
 VEMB,Vanguard Emerging Markets Bond Active ETF,etf
 VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,etf
+VEN,Teucrium Venezuela Future Opportunities ETF,etf
 VENU,Venu Holding Corporation,stock
 VET,Vermilion Energy Inc. Common (Canada),stock
 VETZ,Academy Veteran Bond ETF,etf
@@ -11270,6 +11265,7 @@ VUSG,Vanguard Wellington U.S. Growth Active ETF,etf
 VUSI,Voya Ultra Short Income ETF,etf
 VUSV,Vanguard Wellington U.S. Value Active ETF,etf
 VV,Vanguard Morningstar Large-Cap ETF,etf
+VVPL,Vulcan Value Partners ETF,etf
 VVR,Invesco Senior Income Trust Common Stock (DE),stock
 VVV,Valvoline Inc.,stock
 VVVV,vVARDIS Holding AG,stock
@@ -11414,7 +11410,6 @@ WXET,Teucrium 2x Daily Wheat ETF,etf
 WY,Weyerhaeuser Company,stock
 WYFL,Defiance Daily Target 2X Long WYFI ETF,etf
 WYY,WidePoint Corporation,stock
-WZRD,Opportunistic Trader ETF,etf
 XA,Corgi AI Cybersecurity ETF,etf
 XAGG,Eaton Vance Income Opportunities ETF,etf
 XAGI,Corgi AGIX 2x Daily ETF,etf
@@ -11614,6 +11609,7 @@ XZO,"Exzeo Group, Inc.",stock
 YALA,"Yalla Group Limited American Depositary Shares, each representing one",stock
 YALL,Truth Social God Bless America ETF,etf
 YANG,Direxion Daily FTSE China Bear 3X ETF,etf
+YASX,Yorkville America Space Index ETF,etf
 YBIT,YieldMax Bitcoin Option Income Strategy ETF,etf
 YBTC,Roundhill Bitcoin Covered Call Strategy ETF,etf
 YCBD,"cbdMD, Inc.",stock
@@ -11639,6 +11635,7 @@ YMAG,YieldMax Magnificent 7 Fund of Option Income ETFs,etf
 YMAR,FT Vest International Equity Moderate Buffer ETF,etf
 YMAX,YieldMax Universe Fund of Option Income ETFs,etf
 YMM,Full Truck Alliance Co. Ltd. American Depositary Shares (each representing 20,stock
+YO,Amplify S&P 500 Buffered Autocallable Yield Opportunity ETF,etf
 YOLO,AdvisorShares Pure Cannabis ETF,etf
 YOU,"Clear Secure, Inc.",stock
 YPF,YPF Sociedad Anonima American Depositary Shares,stock
@@ -11664,6 +11661,7 @@ ZCBE,Global X Zero Coupon Bond 2033 ETF,etf
 ZCBF,Global X Zero Coupon Bond 2034 ETF,etf
 ZCBG,Global X Zero Coupon Bond 2035 ETF,etf
 ZCSH,The Zcash ETF Shares,etf
+ZDAY,Bitwise AI Cyber Defense ETF,etf
 ZDEK,Innovator Equity Defined Protection ETF,etf
 ZDGE,"Zedge, Inc.",stock
 ZDIS,Virtus Zevenbergen Discovery Growth ETF,etf
@@ -11686,6 +11684,7 @@ ZKH,"ZKH Group Limited American Depositary Shares, each representing thirty-five
 ZMAR,Innovator Equity Defined Protection ETF,etf
 ZMAY,Innovator Equity Defined Protection ETF,etf
 ZNOV,Innovator Equity Defined Protection ETF,etf
+ZOAR,Zoar Limited,stock
 ZOCT,Innovator Equity Defined Protection ETF,etf
 ZONE,Zone Frontier Inc.,stock
 ZROZ,PIMCO 25  Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund,etf
