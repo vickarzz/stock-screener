@@ -273,6 +273,7 @@ ANL,Adlai Nortye Group Ltd.,stock
 ANNA,"AleAnna, Inc.",stock
 ANNX,"Annexon, Inc.",stock
 ANPA,Rich Sparkle Holdings Limited,stock
+ANT,"Anthropic, PBC",stock
 ANTA,Antalpha Platform Holding Company,stock
 ANTX,"AN2 Therapeutics, Inc.",stock
 ANV,GraniteShares Autocallable NVDA ETF,etf
@@ -1478,6 +1479,7 @@ FCUV,Focus Universal Inc.,stock
 FCVT,First Trust SSI Strategic Convertible Securities ETF,etf
 FDBC,"Fidelity D & D Bancorp, Inc.",stock
 FDCF,Fidelity Disruptive Communications ETF,etf
+FDGX,First Digital Acquisition Corp Ltd.,stock
 FDIG,Fidelity Crypto Industry and Digital Payments ETF,etf
 FDIQ,Invesco Bloomberg Financial Data Providers ETF,etf
 FDIV,MarketDesk Focused U.S. Dividend ETF,etf
@@ -2354,7 +2356,6 @@ KOD,Kodiak Sciences Inc,stock
 KOID,KraneShares Global Humanoid Robotics and Physical AI Index ETF,etf
 KOPN,Kopin Corporation,stock
 KOSS,Koss Corporation,stock
-KOYN,CSLM Digital Asset Acquisition Corp III,stock
 KPLT,"Katapult Holdings, Inc.",stock
 KPRX,"Kiora Pharmaceuticals, Inc.",stock
 KQQQ,Kurv Technology Titans Select ETF,etf
@@ -3699,7 +3700,6 @@ SCAT,Southern Cross Acquisition II Corp.,stock
 SCDS,JPMorgan Fundamental Data Science Small Core ETF,etf
 SCHL,Scholastic Corporation,stock
 SCII,SC II Acquisition Corp.,stock
-SCKT,"Socket Mobile, Inc.",stock
 SCLX,Scilex Holding Company,stock
 SCNI,Scinai Immunotherapeutics Ltd.,stock
 SCNX,"Scienture Holdings, Inc.",stock
@@ -3944,7 +3944,6 @@ SSNC,"SS&C Technologies Holdings, Inc.",stock
 SSP,E.W. Scripps Company (The),stock
 SSRM,SSR Mining Inc.,stock
 SSS,CYBER HORNET S&P 500 and Solana 75/25 Strategy ETF,etf
-SSTI,"SoundThinking, Inc.",stock
 SSYS,"Stratasys, Ltd.",stock
 STAA,STAAR Surgical Company,stock
 STAK,STAK Inc.,stock
@@ -5763,6 +5762,7 @@ CFIT,Cambria Fixed Income Trend ETF,etf
 CFND,C1 Fund Inc.,stock
 CFR,"Cullen/Frost Bankers, Inc.",stock
 CGAU,Centerra Gold Inc.,stock
+CGBI,Capital Group Multi-Asset Income Builder ETF,etf
 CGBL,Capital Group Core Balanced ETF,etf
 CGCB,Capital Group Core Bond ETF,etf
 CGCP,Capital Group Core Plus Income ETF,etf
@@ -5779,6 +5779,7 @@ CGHY,Capital Group High Yield Bond ETF,etf
 CGIB,Capital Group International Bond ETF (USD-Hedged),etf
 CGIC,Capital Group International Core Equity ETF,etf
 CGIE,Capital Group International Equity ETF,etf
+CGMI,Capital Group Multi-Asset Income ETF,etf
 CGMM,Capital Group U.S. Small and Mid Cap ETF,etf
 CGMS,Capital Group U.S. Multi-Sector Income ETF,etf
 CGMU,Capital Group Municipal Income ETF,etf
@@ -7017,6 +7018,7 @@ FMAG,Fidelity Magellan ETF,etf
 FMAR,FT Vest U.S. Equity Buffer ETF,etf
 FMAT,Fidelity MSCI Materials Index ETF,etf
 FMAY,FT Vest U.S. Equity Buffer ETF,etf
+FMBM,F&M Bank Corp.,stock
 FMC,FMC Corporation,stock
 FMCE,FM Compounders Equity ETF,etf
 FMCX,FM Focus Equity ETF,etf
@@ -7333,7 +7335,6 @@ GMEY,YieldMax GME Option Income Strategy ETF,etf
 GMF,State Street SPDR S&P Emerging Asia Pacific ETF,etf
 GMIE,"GMO International Equity Fund, ETF Class",etf
 GMIX,iShares Macro AlphaBeta Active ETF,etf
-GMMA,GammaRoad Market Navigation ETF,etf
 GMMF,iShares Government Money Market ETF,etf
 GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,etf
 GMOC,GMO Ultra-Short Income ETF,etf
@@ -7387,6 +7388,7 @@ GPRK,Geopark Ltd,stock
 GPTY,YieldMax AI & Tech Portfolio Option Income ETF,etf
 GPUS,"Hyperscale Data, Inc.",stock
 GPZ,VanEck Alternative Asset Manager ETF,etf
+GQGG,GQG Global Equity ETF,etf
 GQGU,GQG US Equity ETF,etf
 GQI,Natixis Gateway Quality Income ETF,etf
 GQRE,Northern Trust Global Quality Real Estate ETF,etf
@@ -7413,6 +7415,7 @@ GRX,The Gabelli Healthcare & Wellness Trust,stock
 GS,"Goldman Sachs Group, Inc. (The)",stock
 GSBD,"Goldman Sachs BDC, Inc.",stock
 GSC,Goldman Sachs Small Cap Equity ETF,etf
+GSCZ,Goldman Sachs Securitized Income ETF,etf
 GSEE,Goldman Sachs MarketBeta Emerging Markets Equity ETF,etf
 GSEP,FT Vest U.S. Equity Moderate Buffer ETF,etf
 GSEU,Goldman Sachs ActiveBeta Europe Equity ETF,etf
@@ -8050,6 +8053,7 @@ JADB,Aptus January Deep Buffer ETF,etf
 JADE,JPMorgan Active Developing Markets Equity ETF,etf
 JAGU,Jaguar Uranium Corp.,stock
 JAJL,Innovator Equity Defined Protection ETF,etf
+JALL,JPMorgan All Country Research Enhanced Equity ETF,etf
 JAN,"Janus Living, Inc. Class A-1",stock
 JANB,Aptus January Buffer ETF,etf
 JANH,Innovator Premium Income 20 Barrier ETF,etf
@@ -8517,7 +8521,6 @@ LVS,Las Vegas Sands Corp.,stock
 LVWR,"LiveWire Group, Inc.",stock
 LW,"Lamb Weston Holdings, Inc.",stock
 LWLX,Tradr 2X Long LWLG Daily ETF,etf
-LXFR,Luxfer Holdings PLC,stock
 LXU,"LSB Industries, Inc.",stock
 LYB,LyondellBasell Industries NV Ordinary Shares Class A (Netherlands),stock
 LYG,Lloyds Banking Group Plc American Depositary Shares,stock
@@ -10670,6 +10673,7 @@ TFFI,Chesapeake Trend-Following Fixed Income ETF,etf
 TFI,State Street SPDR Nuveen ICE Municipal Bond ETF,etf
 TFII,TFI International Inc.,stock
 TFIN,"Triumph Financial, Inc.",stock
+TFIX,T. Rowe Price Capital Appreciation Fixed Income ETF,etf
 TFJL,Innovator 20  Year Treasury Bond 5 Floor ETF,etf
 TFLO,iShares Treasury Floating Rate Bond ETF,etf
 TFLR,T. Rowe Price Floating Rate ETF,etf
@@ -10945,7 +10949,7 @@ UBIQ,AAM Ubiquitous ETF,etf
 UBOT,"Direxion Daily Robotics, Artificial Intelligence & Automation Index Bull 2X ETF",etf
 UBR,ProShares Ultra MSCI Brazil Capped,etf
 UBS,UBS Group AG Registered,stock
-UBT,ProShares Ultra 20+ Year Treasury,etf
+UBT,ProShares Ultra 20 Year Treasury,etf
 UCB,"United Community Banks, Inc.",stock
 UCBG,State Street SPDR UC Investments 90/10 Endowment Strategy Index ETF,etf
 UCC,ProShares Ultra Consumer Discretionary,etf
