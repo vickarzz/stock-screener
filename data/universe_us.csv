@@ -18,6 +18,7 @@ AAPL,Apple Inc.,stock
 AAPU,Direxion Daily AAPL Bull 2X ETF,etf
 AARD,"Aardvark Therapeutics, Inc.",stock
 AAUB,Alpha Architect US Equity 4 ETF,etf
+AAUD,Alpha Architect US Equity 5 ETF,etf
 AAUS,Alpha Architect US Equity ETF,etf
 AAVM,Alpha Architect Global Factor Equity ETF,etf
 AAXJ,iShares MSCI All Country Asia ex Japan ETF,etf
@@ -1120,6 +1121,7 @@ CZFS,"Citizens Financial Services, Inc.",stock
 CZNC,Citizens & Northern Corp,stock
 CZR,"Caesars Entertainment, Inc.",stock
 CZWI,"Citizens Community Bancorp, Inc.",stock
+CZZL,Cizzle Brands Corporation,stock
 DAAQ,Digital Asset Acquisition Corp.,stock
 DADS,Digital Asset Debt Strategy ETF,etf
 DAIC,"CID HoldCo, Inc.",stock
@@ -2217,6 +2219,7 @@ IRWD,"Ironwood Pharmaceuticals, Inc.",stock
 ISBA,Isabella Bank Corporation,stock
 ISHG,iShares 1-3 Year International Treasury Bond ETF,etf
 ISHP,First Trust S-Network E-Commerce ETF,etf
+ISMH,xETFs International Semiconductor ETF,etf
 ISNR,Snow Rothschild Acquisition Corp.,stock
 ISPC,iSpecimen Inc.,stock
 ISPR,Ispire Technology Inc.,stock
@@ -2617,7 +2620,6 @@ MEMA,Man Active Emerging Markets Alternative ETF,etf
 MEMS,Matthews Emerging Markets Discovery Active ETF,etf
 MENS,Jyong Biotech Ltd.,stock
 MEOH,Methanex Corporation,stock
-MERC,Mercer International Inc.,stock
 MESH,Meshflow Acquisition Corp.,stock
 MESO,Mesoblast Limited,stock
 META,"Meta Platforms, Inc.",stock
@@ -8152,7 +8154,7 @@ JOBC,Corgi JOBY 2x Daily ETF,etf
 JOBX,Tradr 2X Long JOBY Daily ETF,etf
 JOBY,"Joby Aviation, Inc.",stock
 JOE,St. Joe Company (The),stock
-JOET,Virtus Terranova U.S. Quality Momentum ETF,etf
+JOET,Virtus NYSE Terranova U.S. Quality Momentum ETF,etf
 JOF,Japan Smaller Capitalization Fund Inc,stock
 JOJO,ATAC Credit Rotation ETF,etf
 JOUL,Corgi High Voltage Grid Equipment ETF,etf
@@ -9253,7 +9255,6 @@ ONTX,Corgi ONTO 2x Daily ETF,etf
 ONX,Tradr 2X Long ON Daily ETF,etf
 OOMA,"Ooma, Inc.",stock
 OOSP,Obra Opportunistic Structured Products ETF,etf
-OPAY,"OPay Limited American Depositary Shares, each representing ten",stock
 OPER,ETF ClearShares Ultra-Short Maturity ETF,etf
 OPEX,Tradr 2X Long OPEN Daily ETF,etf
 OPFI,OppFi Inc.,stock
@@ -11078,7 +11079,6 @@ UTG,Reaves Utility Income Fund,stock
 UTI,Universal Technical Institute Inc,stock
 UTL,UNITIL Corporation,stock
 UTSL,Direxion Daily Utilities Bull 3X ETF,etf
-UTZ,Utz Brands Inc,stock
 UUP,Invesco DB USD Index Bullish Fund ETF,etf
 UUPP,Principal CLO ETF,etf
 UUUC,Corgi UUUU 2x Daily ETF,etf
@@ -11633,6 +11633,7 @@ YGLD,Simplify Gold Strategy ETF,etf
 YINN,Direxion Daily FTSE China Bull 3X ETF,etf
 YJUN,FT Vest International Equity Moderate Buffer ETF,etf
 YLD,Principal Active High Yield ETF,etf
+YLDS,Harbor Arena Structured Income ETF,etf
 YLDW,Westwood Enhanced Income Opportunity ETF,etf
 YLDY,Horizon High Income ETF,etf
 YMAG,YieldMax Magnificent 7 Fund of Option Income ETFs,etf
