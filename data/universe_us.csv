@@ -154,6 +154,7 @@ AIFR,Defiance Global Foundries ETF,etf
 AIFU,AIFU Inc.,stock
 AIIO,Robo.ai Inc.,stock
 AIIR,Air Global PLC,stock
+AIL,GraniteShares 2x Long Anthropic Daily ETF,etf
 AIMD,"Ainos, Inc.",stock
 AIMG,Defiance AI Magnificent 10 ETF,etf
 AIMS,Acuitas Small Cap Active ETF,etf
@@ -274,9 +275,16 @@ ANL,Adlai Nortye Group Ltd.,stock
 ANNA,"AleAnna, Inc.",stock
 ANNX,"Annexon, Inc.",stock
 ANPA,Rich Sparkle Holdings Limited,stock
+ANS,GraniteShares 2x Short Anthropic Daily ETF,etf
 ANT,"Anthropic, PBC",stock
 ANTA,Antalpha Platform Holding Company,stock
+ANTC,Defiance 2X ANT Long Daily ETF,etf
+ANTD,Direxion Daily Anthropic Bear 2X ETF,etf
+ANTO,Direxion Daily Anthropic Bull 2X ETF,etf
+ANTQ,Defiance 2X ANT Short Daily ETF,etf
+ANTU,ProShares Ultra Anthropic,etf
 ANTX,"AN2 Therapeutics, Inc.",stock
+ANTY,ProShares UltraShort Anthropic,etf
 ANV,GraniteShares Autocallable NVDA ETF,etf
 AOHY,Angel Oak High Yield Opportunities ETF,etf
 AOSL,Alpha and Omega Semiconductor Limited,stock
@@ -430,6 +438,7 @@ AVX,Avax One Technology Ltd.,stock
 AVXC,Avantis Emerging Markets ex-China Equity ETF,etf
 AVXL,Anavex Life Sciences Corp.,stock
 AVXX,Defiance Daily Target 2x Long AVAV ETF,etf
+AVZO,"Avenzo Therapeutics, Inc.",stock
 AWRE,"Aware, Inc.",stock
 AXG,Solowin Holdings,stock
 AXGN,"Axogen, Inc.",stock
@@ -561,7 +570,6 @@ BIYA,Baiya International Group Inc.,stock
 BJDX,"Bluejay Diagnostics, Inc.",stock
 BJRI,"BJ's Restaurants, Inc.",stock
 BKCH,Global X Blockchain ETF,etf
-BKHA,Black Hawk Acquisition Corporation,stock
 BKMI,BNY Mellon Municipal Intermediate ETF,etf
 BKMS,BNY Mellon Municipal Short Duration ETF,etf
 BKNG,Booking Holdings Inc.,stock
@@ -934,6 +942,7 @@ CLSK,"CleanSpark, Inc.",stock
 CLSM,ETC Cabana Target Leading Sector Moderate ETF,etf
 CLST,"Catalyst Bancorp, Inc.",stock
 CLWT,Euro Tech Holdings Company Limited,stock
+CLYD,"Clywedog Therapeutics Holdings, Inc.",stock
 CLYM,"Climb Bio, Inc.",stock
 CMBO,Wayfinder Dynamic U.S. Interest Rate ETF,etf
 CMCO,Columbus McKinnon Corporation,stock
@@ -1347,6 +1356,7 @@ ENGS,Energys Group Limited,stock
 ENHE,iShares Enhanced Emerging Markets Active ETF,etf
 ENHI,iShares Enhanced International Active ETF,etf
 ENHU,iShares Enhanced Large Cap Core Active ETF,etf
+ENHV,iShares Enhanced Large Cap Value Active ETF,etf
 ENLT,Enlight Renewable Energy Ltd.,stock
 ENLV,Enlivex Ltd.,stock
 ENPH,"Enphase Energy, Inc.",stock
@@ -1413,6 +1423,7 @@ EVO,Evotec SE,stock
 EVOX,Evolution Global Acquisition Corp,stock
 EVPF,Eaton Vance Preferred Securities and Income ETF,etf
 EVRG,"Evergy, Inc.",stock
+EVRL,Everli Global Holdings,stock
 EVSD,Eaton Vance Short Duration Income ETF,etf
 EVYM,Eaton Vance High Income Municipal ETF,etf
 EWAV,East West Ave Acquisition Corp.,stock
@@ -2554,7 +2565,6 @@ LZ,"LegalZoom.com, Inc.",stock
 LZMH,LZ Technology Holdings Limited,stock
 MAAS,Maase Inc.,stock
 MAAY,GraniteShares YieldBOOST MARA ETF,etf
-MACI,Melar Acquisition Corp. I,stock
 MAGH,Magnitude International Ltd,stock
 MAKO,Mako Mining Corp,stock
 MAMA,"Mama's Creations, Inc.",stock
@@ -3586,11 +3596,9 @@ RJET,Republic Airways Holdings Inc.,stock
 RKDA,"Arcadia Biosciences, Inc.",stock
 RKLB,Rocket Lab Corporation,stock
 RKLX,Defiance Daily Target 2X Long RKLB ETF,etf
-RKNG,Defiance Retail Kings ETF,etf
 RKTO,Rocket One Inc.,stock
 RLAY,"Relay Therapeutics, Inc.",stock
 RLMD,"Relmada Therapeutics, Inc.",stock
-RLYB,Rallybio Corporation,stock
 RMBI,"Richmond Mutual Bancorporation, Inc.",stock
 RMBS,"Rambus, Inc.",stock
 RMCF,"Rocky Mountain Chocolate Factory, Inc.",stock
@@ -4397,6 +4405,7 @@ VERA,"Vera Therapeutics, Inc.",stock
 VERI,"Veritone, Inc.",stock
 VERU,Veru Inc.,stock
 VERX,"Vertex, Inc.",stock
+VESI,"Vesicor Therapeutics Holdings, Inc.",stock
 VFF,"Village Farms International, Inc.",stock
 VFLO,VictoryShares Free Cash Flow ETF,etf
 VFS,VinFast Auto Ltd.,stock
@@ -4932,6 +4941,7 @@ ALK,"Alaska Air Group, Inc.",stock
 ALL,Allstate Corporation (The),stock
 ALLE,Allegion plc,stock
 ALLY,Ally Financial Inc.,stock
+ALLZ,Zacks All-Cap Core ETF,etf
 ALRG,Allspring LT Large Core ETF,etf
 ALSN,"Allison Transmission Holdings, Inc.",stock
 ALTG,Alta Equipment Group Inc.,stock
@@ -4982,13 +4992,18 @@ AMZP,Kurv Yield Premium Strategy Amazon (AMZN) ETF,etf
 AMZW,Roundhill AMZN WeeklyPay ETF,etf
 AMZY,YieldMax AMZN Option Income Strategy ETF,etf
 AN,"AutoNation, Inc.",stock
+ANDD,Leverage Shares 2X Short Anthropic Daily ETF,etf
 ANDG,Andersen Group Inc.,stock
 ANET,"Arista Networks, Inc.",stock
 ANF,Abercrombie & Fitch Company,stock
 ANG,Corgi FTSE Fallen Angels Bond ETF,etf
 ANGX,"Angel Studios, Inc.",stock
 ANRO,"Alto Neuroscience, Inc.",stock
+ANSS,Leverage Shares 1X Short Anthropic Daily ETF,etf
+ANTT,Tradr 2X Long Anthropic Daily ETF,etf
 ANTW,Anthropic AI Lab Ecosystem ETF,etf
+ANTZ,Tradr 2X Short Anthropic Daily ETF,etf
+ANUU,Leverage Shares 2X Long Anthropic Daily ETF,etf
 ANVS,"Annovis Bio, Inc.",stock
 AOA,iShares Core 80/20 Aggressive Allocation ETF,etf
 AOCT,Innovator Equity Defined Protection ETF,etf
@@ -5114,6 +5129,7 @@ ATCL,REX Autocallable Income ETF,etf
 ATEN,"A10 Networks, Inc.",stock
 ATFV,Alger 35 ETF,etf
 ATHM,"Autohome Inc. American Depositary Shares, each representing four",stock
+ATHX,2x Anthropic ETF,etf
 ATI,ATI Inc.,stock
 ATMP,iPath Select MLP ETN,stock
 ATMU,Atmus Filtration Technologies Inc.,stock
@@ -5401,7 +5417,7 @@ BINT,Bluemonte Global Equity ETF,etf
 BINV,Brandes International ETF,etf
 BIO,"Bio-Rad Laboratories, Inc.",stock
 BIO-B,"Bio-Rad Laboratories, Inc. Class B",stock
-BIPC,Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation,stock
+BIP,Brookfield Infrastructure Partners Inc. Class A Subordinate Voting Shares,stock
 BIRK,Birkenstock Holding plc,stock
 BIT,BlackRock Multi-Sector Income Trust,stock
 BITB,Bitwise Bitcoin ETF,etf
@@ -5837,6 +5853,7 @@ CJUL,Corgi U.S. Equities 15% Structured Buffer ETF,etf
 CJUN,Corgi U.S. Equities 15% Structured Buffer ETF,etf
 CKX,"CKX Lands, Inc.",stock
 CL,Colgate-Palmolive Company,stock
+CLAU,T-REX 2X Long Anthropic Daily Target ETF,etf
 CLB,Core Laboratories Inc.,stock
 CLBR,Colombier Acquisition Corp. III,stock
 CLCG,Crossmark Large Cap Growth ETF,etf
@@ -6298,6 +6315,7 @@ DISK,Tema Memory ETF,etf
 DISV,Dimensional International Small Cap Value ETF,etf
 DIT,AMCON Distributing Company,stock
 DIV,Global X Super Dividend ETF,etf
+DIVA,AB Equity Income ETF,etf
 DIVB,iShares Core Dividend ETF,etf
 DIVE,Dana Concentrated Dividend ETF,etf
 DIVG,Invesco S&P 500 High Dividend Growers ETF,etf
@@ -10475,7 +10493,6 @@ SRHR,SRH REIT Covered Call ETF,etf
 SRI,"Stoneridge, Inc.",stock
 SRL,Scully Royalty Ltd.,stock
 SRLN,State Street Blackstone Senior Loan ETF,etf
-SROI,Calamos Antetokounmpo Global Sustainable Equities ETF,etf
 SRS,ProShares UltraShort Real Estate,etf
 SRTY,ProShares UltraPro Short Russell2000,etf
 SRV,NXG Cushing Midstream Energy Fund,stock
@@ -11659,6 +11676,7 @@ ZALT,Innovator U.S. Equity 10 Buffer ETF,etf
 ZAPR,Innovator Equity Defined Protection ETF,etf
 ZAUG,Innovator Equity Defined Protection ETF,etf
 ZBH,"Zimmer Biomet Holdings, Inc.",stock
+ZCAP,Zacks Small-Cap Core ETF,etf
 ZCBA,Global X Zero Coupon Bond 2030 ETF,etf
 ZCBB,Global X Zero Coupon Bond 2031 ETF,etf
 ZCBC,Global X Zero Coupon Bond 2032 ETF,etf
@@ -11671,6 +11689,7 @@ ZDEK,Innovator Equity Defined Protection ETF,etf
 ZDGE,"Zedge, Inc.",stock
 ZDIS,Virtus Zevenbergen Discovery Growth ETF,etf
 ZECP,Zacks Earnings Consistent Portfolio ETF,etf
+ZECX,2x ZCSH ETF,etf
 ZEPP,"Zepp Health Corporation American depositary shares, each representing sixteen",stock
 ZETA,Zeta Global Holdings Corp.,stock
 ZFEB,Innovator Equity Defined Protection ETF,etf
