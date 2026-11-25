@@ -1012,7 +1012,6 @@ CPAG,F/m Compoundr U.S. Aggregate Bond ETF,etf
 CPB,The Campbell's Company,stock
 CPBI,"Central Plains Bancshares, Inc.",stock
 CPHC,Canterbury Park Holding Corporation,stock
-CPHY,F/m Compoundr High Yield Bond ETF,etf
 CPIX,Cumberland Pharmaceuticals Inc.,stock
 CPLS,AB Core Plus Bond ETF,etf
 CPOP,"Pop Culture Group Co., Ltd",stock
@@ -1281,7 +1280,6 @@ EBAY,eBay Inc.,stock
 EBC,"Eastern Bankshares, Inc.",stock
 EBI,Longview Advantage ETF,etf
 EBIZ,Global X E-commerce ETF,etf
-EBMT,"Eagle Bancorp Montana, Inc.",stock
 EBON,Ebang International Holdings Inc.,stock
 ECBK,"ECB Bancorp, Inc.",stock
 ECHO,EchoStar Corporation,stock
@@ -2196,7 +2194,6 @@ IOVA,"Iovance Biotherapeutics, Inc.",stock
 IOYY,GraniteShares YieldBOOST IONQ ETF,etf
 IPAR,"Interparfums, Inc.",stock
 IPDN,"Professional Diversity Network, Inc.",stock
-IPFX,Inflection Point Acquisition Corp. VI,stock
 IPGP,IPG Photonics Corporation,stock
 IPHA,Innate Pharma S.A.,stock
 IPHX,Inflection Point Acquisition Corp. VIII,stock
@@ -3014,6 +3011,7 @@ OBA,Oxley Bridge Acquisition Limited,stock
 OBAI,"Our Bond, Inc.",stock
 OBIL,US Treasury 12 Month Bill ETF,etf
 OBIO,"Orchestra BioMed Holdings, Inc.",stock
+OBMT,"Opportunity Bancorp, Inc.",stock
 OBT,"Orange County Bancorp, Inc.",stock
 OBTC,Osprey Bitcoin Trust,etf
 OBX,"Obsidian Therapeutics, Inc.",stock
@@ -3523,7 +3521,6 @@ RBIL,F/m Ultrashort Treasury Inflation-Protected Security (TIPS) ETF,etf
 RBKB,"Rhinebeck Bancorp, Inc.",stock
 RBNE,Robin Energy Ltd.,stock
 RCAT,"Red Cat Holdings, Inc.",stock
-RCAX,Defiance Daily Target 2x Long RCAT ETF,etf
 RCBC,River City Bank,stock
 RCEL,"Avita Medical, Inc.",stock
 RCGE,RockCreek Global Equality ETF,etf
@@ -5949,7 +5946,6 @@ COPL,Copley Acquisition Corp,stock
 COPR,Idaho Copper Corporation,stock
 COPX,Global X Copper Miners ETF,etf
 COPY,"Tweedy, Browne Insider + Value ETF",etf
-COPZ,Defiance Daily Target 2X Long Copper Miners ETF,etf
 COR,"Cencora, Inc.",stock
 CORB,AB Core Bond ETF,etf
 CORD,T-REX 2X Inverse CRWV Daily Target ETF,etf
@@ -8008,6 +8004,7 @@ ITW,Illinois Tool Works Inc.,stock
 ITWO,ProShares Russell 2000 High Income ETF,etf
 IVAI,Ives Ultra AI Opportunities Inc.,stock
 IVE,iShares S&P 500 Value ETF,etf
+IVEA,Dan IVES Wedbush AI Autocallable Income ETF,etf
 IVEP,Dan IVES Wedbush AI Power & Infrastructure ETF,etf
 IVES,Dan IVES Wedbush AI Revolution ETF,etf
 IVLU,iShares MSCI Intl Value Factor ETF,etf
@@ -8259,7 +8256,6 @@ KDEC,Innovator U.S. Small Cap Power Buffer ETF,etf
 KDEF,PLUS Korea Defense Industry Index ETF,etf
 KDRN,Kingsbarn Tactical Bond ETF,etf
 KDVD,Keeley Dividend ETF,etf
-KEEX,Defiance Daily Target 2x Long KEEL ETF,etf
 KEMQ,KraneShares Public-Private Emerging Markets Internet and Technology ETF,etf
 KEMX,KraneShares MSCI Emerging Markets ex China Index ETF,etf
 KEN,Kenon Holdings Ltd.,stock
@@ -9760,6 +9756,7 @@ QRED,QuasarEdge Acquisition Corporation,stock
 QSE,Corgi Growth & Technology 10% Structured Buffer ETF,etf
 QSIG,WisdomTree U.S. Short Term Corporate Bond Fund,etf
 QSOL,Invesco Galaxy Solana ETF,etf
+QSPC,"Quantum Space, Inc. Class A-1",stock
 QSPT,FT Vest Nasdaq-100 Buffer ETF,etf
 QSR,Restaurant Brands International Inc.,stock
 QSU,Defiance Daily Target 2X Long QS ETF,etf
@@ -11630,6 +11627,7 @@ XZO,"Exzeo Group, Inc.",stock
 YALA,"Yalla Group Limited American Depositary Shares, each representing one",stock
 YALL,Truth Social God Bless America ETF,etf
 YANG,Direxion Daily FTSE China Bear 3X ETF,etf
+YANT,YieldMax ANT Option Income Strategy ETF,etf
 YASX,Yorkville America Space Index ETF,etf
 YBIT,YieldMax Bitcoin Option Income Strategy ETF,etf
 YBTC,Roundhill Bitcoin Covered Call Strategy ETF,etf
