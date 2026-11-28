@@ -1830,7 +1830,7 @@ GRAG,Leverage Shares 2X Long GRAB Daily ETF,etf
 GRAL,"GRAIL, Inc.",stock
 GRAN,Grande Group Limited,stock
 GRCE,"Grace Therapeutics, Inc.",stock
-GRDX,GridAI Technologies Corp.,stock
+GRDX,GridAI Power Corp.,stock
 GRFS,"Grifols, S.A.",stock
 GRI,"GRI Bio, Inc.",stock
 GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund,etf
@@ -1910,7 +1910,6 @@ HCMA,HCM III Acquisition Corp.,stock
 HCOP,Hartford Hybrid and Credit Opportunities ETF,etf
 HCOW,Amplify COWS Covered Call ETF,etf
 HCSG,"Healthcare Services Group, Inc.",stock
-HCTI,"Healthcare Triangle, Inc.",stock
 HCWB,HCW Biologics Inc.,stock
 HDL,SUPER HI INTERNATIONAL HOLDING LTD.,stock
 HDRN,"Hadron Energy, Inc.",stock
@@ -3764,7 +3763,7 @@ SGA,"Saga Communications, Inc.",stock
 SGC,"Superior Group of Companies, Inc.",stock
 SGHT,"Sight Sciences, Inc.",stock
 SGLD,Scorpio Gold Corporation,stock
-SGLY,Singularity Future Technology Ltd.,stock
+SGLY,Compower Ltd.,stock
 SGML,Sigma Lithium Corporation,stock
 SGMT,Sagimet Biosciences Inc.,stock
 SGP,"SpyGlass Pharma, Inc.",stock
@@ -4492,7 +4491,6 @@ VTWG,Vanguard Russell 2000 Growth ETF,etf
 VTWO,Vanguard Russell 2000 ETF,etf
 VTWV,Vanguard Russell 2000 Value ETF,etf
 VUZI,Vuzix Corporation,stock
-VVOS,"Vivos Therapeutics, Inc.",stock
 VWAV,"VisionWave Holdings, Inc.",stock
 VWOB,Vanguard Emerging Markets Government Bond ETF,etf
 VXUS,Vanguard Total International Stock ETF,etf
@@ -4852,6 +4850,7 @@ AFIX,Allspring Broad Market Core Bond ETF,etf
 AFK,VanEck Africa Index ETF,etf
 AFL,AFLAC Incorporated,stock
 AFLG,First Trust Active Factor Large Cap ETF,etf
+AFLR,Aligned Pathway Flourishing ETF,etf
 AFMC,First Trust Active Factor Mid Cap ETF,etf
 AFSM,First Trust Active Factor Small Cap ETF,etf
 AG,First Majestic Silver Corp. Ordinary Shares (Canada),stock
@@ -5522,7 +5521,6 @@ BOND,PIMCO Active Bond Exchange-Traded Fund Exchange-Traded Fund,etf
 BOOT,"Boot Barn Holdings, Inc.",stock
 BORR,Borr Drilling Limited,stock
 BOUT,CapForce IBD Breakout Opportunities ETF,etf
-BOW,Bowhead Specialty Holdings Inc.,stock
 BOX,"Box, Inc.",stock
 BOXA,Alpha Architect Aggregate Bond ETF,etf
 BOXX,Alpha Architect 1-3 Month Box ETF,etf
@@ -6111,7 +6109,7 @@ CWH,"Camping World Holdings, Inc.",stock
 CWI,State Street SPDR MSCI ACWI ex-US ETF,etf
 CWK,Cushman & Wakefield Ltd.,stock
 CWS,AdvisorShares Focused Equity ETF,etf
-CWT,California Water Service Group,stock
+CWT,Watermark Utilities,stock
 CWVX,Tradr 2X Long CRWV Daily ETF,etf
 CX,"Cemex, S.A.B. de C.V. Sponsored ADR",stock
 CXM,"Sprinklr, Inc.",stock
@@ -6436,7 +6434,6 @@ DUSB,Dimensional Ultrashort Fixed Income ETF,etf
 DUSL,Direxion Daily Industrials Bull 3X ETF,etf
 DUST,Direxion Daily Gold Miners Index Bear 2X ETF,etf
 DUTY,U.S. Defense ETF,etf
-DV,"DoubleVerify Holdings, Inc.",stock
 DVA,DaVita Inc.,stock
 DVDN,Kingsbarn Dividend Opportunity ETF,etf
 DVN,Devon Energy Corporation,stock
@@ -8955,7 +8952,7 @@ NBSM,Neuberger Small-Mid Cap ETF,etf
 NBTR,Neuberger Total Return Bond ETF,etf
 NBXG,Neuberger Next Generation Connectivity Fund Inc.,stock
 NC,"NACCO Industries, Inc.",stock
-NCA,Nuveen California Municipal Value Fund,stock
+NCA,Nuveen California Municipal Income Fund,stock
 NCDL,Nuveen Churchill Direct Lending Corp.,stock
 NCLH,Norwegian Cruise Line Holdings Ltd.,stock
 NCLO,Nuveen AA-BBB CLO ETF,etf
@@ -9046,7 +9043,7 @@ NNI,"Nelnet, Inc.",stock
 NNN,"NNN REIT, Inc.",stock
 NNOV,Innovator Growth-100 Power Buffer ETF,etf
 NNVC,"NanoViricides, Inc.",stock
-NNY,Nuveen New York Municipal Value Fund,stock
+NNY,Nuveen New York Municipal Income Fund,stock
 NOA,North American Construction Group Ltd.,stock
 NOAH,Noah Holdings Limited American Depositary Shares,stock
 NOBL,ProShares S&P 500 Dividend Aristocrats ETF,etf
@@ -10379,7 +10376,6 @@ SONY,Sony Group Corporation American Depositary Shares,stock
 SOR,"Source Capital, Inc. Cmn Shs of BI",stock
 SOS,SOS Limited,stock
 SOUL,Soulpower Acquisition Corporation,stock
-SOVF,Sovereign's Capital Flourish Fund,etf
 SOXL,Direxion Daily Semiconductor Bull 3X ETF,etf
 SOXS,Direxion Daily Semiconductor Bear 3X ETF,etf
 SOXY,YieldMax Target 12 Semiconductor Option Income ETF,etf
